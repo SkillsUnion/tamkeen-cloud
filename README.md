@@ -59,7 +59,7 @@ What makes a good cloud engineer? These are both hard and soft skills one needs 
 ## Curriculum Outline
 Cloud Engineering Bootcamp contains few modules and courses days each, each of which culminates in a project. It requires students to complete module projects to continue in the Cloud Engineering Bootcamp.
 
-### Cloud Technology Fundamentals
+**1. Cloud Technology Fundamentals**
 
 Understand and configure basic cloud environments:
 - Introduction to Cloud Computing, setting up development environment, Git basics
@@ -69,17 +69,20 @@ Understand and configure basic cloud environments:
 - Serverless functions, databases with RDS and DynamoDB
 - VPC, networking, Route 53, CloudFront
 
-### Cloud Native Applications
+**2. Cloud Native Applications**
+
 Deploy and manage cloud-native applications using containers and serverless technologies (group project)
 - Docker, Kubernetes, AWS ECS and EKS
 - Serverless computing, microservices, BDD, TDD, DDD
 
-### DevOps and Infrastructure as Code
+**3. DevOps and Infrastructure as Code**
+
 Implement DevOps practices and infrastructure as code (individual or group project)
 - Infrastructure as Code with Terraform and CloudFormation
 - Capstone Project (I) - Design and deploy cloud infrastructure
 
-### DevSecOps, Logging & Monitoring
+**4. DevSecOps, Logging & Monitoring**
+
 Develop and deploy secure, efficient cloud-native applications with integrated monitoring and DevSecOps practices (individual or group project)
 - CI/CD pipelines with Jenkins, GitHub Actions, AWS CodePipeline
 - Logging and monitoring with AWS CloudWatch, security best practices
