@@ -1,6 +1,6 @@
 # Naming, Casing, and Commenting Conventions
 
-Naming, casing, and commenting are critical to software engineering because they help us communicate what our code does, preventing miscommunication and bugs. The following are Rocket Academy's naming, casing, and commenting conventions.
+Naming, casing, and commenting are critical to software engineering because they help us communicate what our code does, preventing miscommunication and bugs. The following are this bootcamp's naming, casing, and commenting conventions.
 
 ## Naming
 
@@ -40,7 +40,7 @@ SCREAMING_SNAKE_CASE. `MY_ENV_VAR`.
 
 ### File Names
 
-There is no definitive file naming case convention for JS. Rocket Academy prefers <a href="https://en.wikipedia.org/wiki/Naming_convention_%28programming%29#Examples_of_multiple-word_identifier_formats" target="_blank">kebab-case</a> because it's easier to navigate between words than <a href="https://en.wikipedia.org/wiki/Naming_convention_%28programming%29#Examples_of_multiple-word_identifier_formats" target="_blank">snake_case</a>, where word processors do not consider underscores to be word separators. Some teams use CamelCase for React component file names; this is subjective so long as we are consistent.
+There is no definitive file naming case convention for JS. This bootcamp prefers <a href="https://en.wikipedia.org/wiki/Naming_convention_%28programming%29#Examples_of_multiple-word_identifier_formats" target="_blank">kebab-case</a> because it's easier to navigate between words than <a href="https://en.wikipedia.org/wiki/Naming_convention_%28programming%29#Examples_of_multiple-word_identifier_formats" target="_blank">snake_case</a>, where word processors do not consider underscores to be word separators. Some teams use CamelCase for React component file names; this is subjective so long as we are consistent.
 
 ### HTML Tags
 
@@ -94,4 +94,4 @@ var add = function (a, b) {
 };
 ```
 
-The `@` symbol in JSDocs signifies a "tag"- some structure of the code to document. In Rocket Academy JavaScript documentation we will be almost exclusively using only the `param` and `return` tags in JSDoc formatted comments. See the full list of tags <a href="https://jsdoc.app/index.html#block-tags" target="_blank">here</a>.
+The `@` symbol in JSDocs signifies a "tag"- some structure of the code to document. In this bootcampt, JavaScript documentation we will be almost exclusively using only the `param` and `return` tags in JSDoc formatted comments. See the full list of tags <a href="https://jsdoc.app/index.html#block-tags" target="_blank">here</a>.
