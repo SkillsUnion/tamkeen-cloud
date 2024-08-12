@@ -89,10 +89,4 @@ Develop and deploy secure, efficient cloud-native applications with integrated m
 - Capstone Project (II) - Develop and deploy cloud-native applications with DevSecOps practices
 
 
-The following is a diagram of Rocket's curriculum. Module 1 introduces the relationship between client and server and how a frontend server can serve a client-side application. Module 2 introduces a 3rd-party backend service (Firebase) that our frontend apps can use to store data. Module 3 introduces how to build a backend service of our own. Throughout the course we will learn algorithms to bolster our foundations and prepare for coding interviews.
-
-![Coding Bootcamp Curriculum Outline](<.gitbook/assets/Coding Bootcamp Curriculum Outline.png>)
-
-You may notice Rocket's docs often reference official docs, guides and tutorials for the content we teach, for example with React, Firebase and Sequelize. We do this because the official docs are often the best explanations, and Rocket supplements those explanations with our own expertise of what students at our levels are likely to understand. All Rocket exercises are intentionally and meticulously designed to suit our students' experience levels.
-
 We hope this teaching style suits you and we are excited to teach you the best!
