@@ -12,7 +12,7 @@ This bootcamp recommends the following 3 steps to unblock ourselves when blocked
 
 1. Trace the error message. What could be causing this error message? If we address that and there is another error message, keep addressing until there are no more error messages. If you do not see an error message, find where it is and/or find a way to give yourself more clues, e.g. with `console.log` statements.
 2. Google the error message and context, e.g. "PropTypes not defined React". Skim through Google results and dig deeper in results that seem more promising.
-3. Ask your peers and section leader in your section Slack channel, sharing context about the problem and what you've learnt from Steps 1 and 2 above. Context will allow them to help you. We mostly uses mainstream technologies and our problems will not be overly difficult.
+3. Ask your peers and section leader in your section Discord channel, sharing context about the problem and what you've learnt from Steps 1 and 2 above. Context will allow them to help you. We mostly uses mainstream technologies and our problems will not be overly difficult.
 
 ### How to use Google
 
@@ -173,11 +173,11 @@ Deepest exercises that this bootcamp offers for each concept. For students that 
 
 ### Ideation Phase 1
 
-Brainstorm app ideas and solicit feedback from your section in Slack. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use our project planning template to guide you.
+Brainstorm app ideas and solicit feedback from your section in Discord. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use our project planning template to guide you.
 
 ### Ideation Phase 2
 
-Create the following planning docs, save them in the project GitHub repo and share them with your section in Slack for feedback. Your SL will review your planning docs with you before you begin implementation.
+Create the following planning docs, save them in the project GitHub repo and share them with your section in Discord for feedback. Your SL will review your planning docs with you before you begin implementation.
 
 #### All Projects
 
