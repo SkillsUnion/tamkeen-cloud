@@ -2,21 +2,21 @@
 
 ## Flipped Classroom
 
-Rocket adopts a flipped-classroom model where Rocket expects students to review lectures and course materials before class, and spend class time clarifying concepts and completing exercises with the guidance of a section leader.
+This bootcamp adopts a flipped-classroom model where we expects students to review lectures and course materials before class, and spend class time clarifying concepts and completing exercises with the guidance of a section leader.
 
 ## How to unblock yourself
 
 ### General tips
 
-Rocket recommends the following 3 steps to unblock ourselves when blocked on a problem.
+This bootcamp recommends the following 3 steps to unblock ourselves when blocked on a problem.
 
 1. Trace the error message. What could be causing this error message? If we address that and there is another error message, keep addressing until there are no more error messages. If you do not see an error message, find where it is and/or find a way to give yourself more clues, e.g. with `console.log` statements.
 2. Google the error message and context, e.g. "PropTypes not defined React". Skim through Google results and dig deeper in results that seem more promising.
-3. Ask your peers and section leader in your section Slack channel, sharing context about the problem and what you've learnt from Steps 1 and 2 above. Context will allow them to help you. Rocket mostly uses mainstream technologies and our problems will not be overly difficult.
+3. Ask your peers and section leader in your section Slack channel, sharing context about the problem and what you've learnt from Steps 1 and 2 above. Context will allow them to help you. We mostly uses mainstream technologies and our problems will not be overly difficult.
 
 ### How to use Google
 
-Students will need to use Google as a resource to solve problems not explained in Rocket's curriculum. Rocket will do our best to document the most common mistakes, but it would be impossible to document all. Professional SWEs spend most time finding answers on Google, and googling effectively may be your most important takeaway from Bootcamp.
+Students will need to use Google as a resource to solve problems not explained in our curriculum. We will do our best to document the most common mistakes, but it would be impossible to document all. Professional SWEs spend most time finding answers on Google, and googling effectively may be your most important takeaway from Bootcamp.
 
 When searching on Google, generally search for a combination of your error message and relevant technology name. For example, "Uncaught TypeError: Cannot read properties of null JavaScript" (JavaScript is the technology in this example). This will allow Google to share results for the specific error we are seeing for the specific technology.
 
@@ -73,7 +73,7 @@ This means that something that we are importing within the App.js cannot be foun
 
 
 
-<figure><img src="../.gitbook/assets/Greetings Rocket Student called Sam (1).png" alt=""><figcaption><p>Browser error</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Greetings Student Called Sam.jpg" alt=""><figcaption><p>Browser error</p></figcaption></figure>
 
 The error that we would see in the browser mirrors what we have looked at previously, this is because React is showcasing the errors that occurred during runtime. This means we probably need to take a look into the App.js as React’s error reporting is telling us where the issue originates.&#x20;
 
@@ -155,7 +155,7 @@ This indicates that there is an issue with the findAll command, in this case, we
 
 ## Difficulty Levels
 
-Rocket provides multiple levels of difficulty to accommodate different learning speeds and prior experience. Students can complete Bootcamp without attempting Comfortable, but students that complete Comfortable may have a firmer grasp of concepts. Rocket recommends completing Base for all of each day's post-class and pre-class exercises before attempting Comfortable.
+We provides multiple levels of difficulty to accommodate different learning speeds and prior experience. Students can complete Bootcamp without attempting Comfortable, but students that complete Comfortable may have a firmer grasp of concepts. We recommends completing Base for all of each day's post-class and pre-class exercises before attempting Comfortable.
 
 ### Base
 
@@ -167,13 +167,13 @@ Reinforce with further exercises around same concepts. For students that wish to
 
 ### More Comfortable
 
-Deepest exercises that Rocket offers for each concept. For students that wish to push the limits of their understanding of the current concepts.
+Deepest exercises that this bootcamp offers for each concept. For students that wish to push the limits of their understanding of the current concepts.
 
 ## Project Methodology
 
 ### Ideation Phase 1
 
-Brainstorm app ideas and solicit feedback from your section in Slack. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use Rocket's project planning template to guide you.
+Brainstorm app ideas and solicit feedback from your section in Slack. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use our project planning template to guide you.
 
 ### Ideation Phase 2
 
@@ -191,7 +191,7 @@ Create the following planning docs, save them in the project GitHub repo and sha
 
 ### Scrum
 
-Professional tech teams typically run using <a href="https://www.atlassian.com/agile/scrum" target="_blank">Agile Scrum Methodology</a>. Rocket simulates this during Bootcamp project weeks. Each course day students will share the following with their section to keep each other on track.
+Professional tech teams typically run using <a href="https://www.atlassian.com/agile/scrum" target="_blank">Agile Scrum Methodology</a>. We simulates this during Bootcamp project weeks. Each course day students will share the following with their section to keep each other on track.
 
 1. What did you do between the previous course day and today?
 2. What do you plan to do between today and the next course day?
@@ -239,8 +239,6 @@ These batches did not have a time limit; please keep yours under 2 minutes if po
 
 In software engineering, there are so many different ways to solve the same problem. One great way to maximise learning to have a look at how your friends completed the same exercises!
 
-### Part 1: Sharing your solution
-
 1. To start off any project, you will have to go to the starter repo and fork the repo.
 2. Next, you will go to this new forked repo and `git clone` it down to your filesystem.
 3. You are now ready to go work on your project and make all the required changes.
@@ -256,14 +254,6 @@ In software engineering, there are so many different ways to solve the same prob
 7. Go on to make a Pull Request (from your forked repo to the original starter repo)
    1. Please name the PR "\<Your name> \<Bootcamp batch>" eg. "Jiachen FTBC6"
 
-### Part 2: Checking out your classmates' solutions
-
-1. To view your classmates' solutions, you can go to the starter repo and click the Pull Request (PR) tab.
-2. Next, you search for your bootcamp batch (eg. FTBC6) and all your classmates PRs should be listed there.
-   1. For example, see <a href="https://github.com/rocketacademy/html-noodles-bootcamp/pulls?q=is%3Apr+is%3Aopen+FTBC6" target="_blank">https://github.com/rocketacademy/html-noodles-bootcamp/pulls?q=is%3Apr+is%3Aopen+FTBC6</a>
-3. You can then view their code under the File Changes tab in the PR to view all the changes they have made.
-4. To run and build their project locally, you can click on their forked repo in the PR and `git clone` it down as usual to run the project.
-5. Once cloned, you can follow the README to setup and run the app!
 
 ## Peer Code Review
 
@@ -283,4 +273,4 @@ Occasionally we will review each others' code to learn from each other. Start by
 ### Part 2: In Pairs
 
 1. Review learnings from individual code reviews
-2. Pair program on 1 person's code to get a working version. The person with the weaker understanding of the current concepts should be the driver. For more info on pair programming, read <a href="https://fundamentals.rocketacademy.co/course-logistics/course-methodology/course-components#pair-programming" target="_blank">Rocket's primer on pair programming in Coding Basics</a>.
+2. Pair program on 1 person's code to get a working version. The person with the weaker understanding of the current concepts should be the driver. For more info on pair programming, read <a href="https://github.com/SkillsUnion/tamkeen-cloud/blob/main/logistics/course-component.md#pair-programming" target="_blank">Our's primer on pair programming in Coding Basics</a>.
