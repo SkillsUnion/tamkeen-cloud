@@ -1,3 +1,53 @@
+# 💻 Required Hardware and Software
+
+To participate in this courses, the following hardware and software are necessary:
+
+## Required Hardware
+
+- **Computer:** A desktop or laptop running the latest version of Windows or macOS.
+- **Webcam and Microphone:** A webcam and microphone capable of supporting video conferencing. Most laptops come with these built-in.
+- **Internet Connection:** A stable internet connection that can handle Zoom calls without interruptions in audio or video. If you're uncertain about your connection, let us know, and we can schedule a chat to help you assess it!
+
+
+# ☝️ Required Software
+
+## Required GUI-Application Software
+
+GUI-application software is software that operates with a graphical user interface (GUI) on your operating system.
+
+### Discord
+
+Discord is a chat software and the primary mode of communication at this bootcampt. It enables communication across the school, within sections, and between individuals. Discord is widely used by tech communities globally for internal communication.
+
+- **Installation:**
+  - Download the Discord mobile app from the [Android Play Store](https://play.google.com/store) or [iOS App Store](https://www.apple.com/app-store/).
+  - Download the Discord desktop app for your operating system [here](https://discord.com/download).
+
+Discord is a cornerstone of this course. If you're new to Discord, check out the [quick-start guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord) and make sure to read through the Discord House Rules before the course begins.
+
+### Zoom
+
+Zoom is the video conferencing software used for this bootcamp classes. Each section has its own Zoom room, and the link to this room will be found at the top of each section's Discord channel.
+
+- **Installation:**
+  - Download the Zoom Client for Meetings [here](https://zoom.us/download).
+  - Start a new meeting to test your webcam and microphone.
+
+### Chrome
+
+Chrome is the most popular web browser among software engineers due to its robust developer tools, which will be introduced in the course. Chrome also has an extensive library of browser extensions that assist developers in building and maintaining software.
+
+- **Installation:**
+  - Download Chrome for your operating system [here](https://www.google.com/chrome/).
+
+### VSCode
+
+VSCode is the most popular code editor globally. All code for SWE Fundamentals will be written using VSCode.
+
+- **Installation:**
+  - Download VSCode for your operating system [here](https://code.visualstudio.com/Download).
+
+
 # Required Software
 
 ## Introduction
@@ -7,7 +57,7 @@ This document outlines required software for Coding Bootcamp. Please install thi
 ## Complete Fundamentals setup
 
 1. Please install the latest version of Windows or MacOS that your computer supports.
-2. If you haven't already, please obtain and install <a href="https://fundamentals.rocketacademy.co/course-logistics/required-hardware-and-software" target="_blank">Fundamentals required hardware, software and accounts</a>.
+2. If you haven't already, please obtain and install <a href="https://github.com/SkillsUnion/tamkeen-cloud/blob/main/logistics/required-hardware.md" target="_blank">Fundamentals required hardware, software and accounts</a>.
 
 ## \[Windows Only] Install Windows-specific software
 
@@ -86,7 +136,7 @@ After you have created the personal access token be sure to save it in a safe sp
 
 #### Configure Git default branch
 
-Set the default Git branch to `main` as per GitHub's (and Rocket's) latest convention. Some older versions of Git may still use `master` as the default branch name.
+Set the default Git branch to `main` as per GitHub's (and this bootcamp's) latest convention. Some older versions of Git may still use `master` as the default branch name.
 
 ```bash
 git config --global init.defaultBranch main
@@ -191,7 +241,7 @@ ESLint is a JavaScript code linter that helps us detect functional errors in our
 
 ## Setup folder structure for Coding Bootcamp
 
-Rocket recommends the following folder structure to keep ourselves organised during Bootcamp.
+We recommends the following folder structure to keep ourselves organised during Bootcamp.
 
 
 >Name files and folders in kebab-case, e.g. `new-file.txt`, lowercase and hyphenated for ease of use on the command line. We do not recommend naming files and folders with spaces in names because we will need to enter special characters in the terminal to escape the space character when referring to these files.
