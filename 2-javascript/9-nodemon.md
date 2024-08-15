@@ -1,4 +1,4 @@
-# 0.5.3: Nodemon
+# Nodemon
 
 ## Learning Objectives
 

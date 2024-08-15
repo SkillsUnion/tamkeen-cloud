@@ -1,4 +1,4 @@
-# 0.5.2: NPM
+# NPM
 
 ## Learning Objectives
 
@@ -32,7 +32,7 @@ If we created our NPM project as above, we should now see a single file in `my-f
 % mkdir my-first-npm-project
 % cd my-first-npm-project
 my-first-npm-project % npm init -y
-Wrote to /Users/kai/rocket-code/my-first-npm-project/package.json:
+Wrote to /Users/kai/bootcamp-code/my-first-npm-project/package.json:
 
 {
   "name": "my-first-npm-project",
@@ -171,4 +171,4 @@ Git allows for a special file called `.gitignore` anywhere in a Git repo that in
 
 ## How to Find NPM Packages
 
-NPM packages are typically discovered via Google Search and tutorials. During Rocket's Bootcamp we will direct you to all packages we need, although Rocket encourages you to independently find new packages to enhance your projects, especially for your capstone.
+NPM packages are typically discovered via Google Search and tutorials. During this bootcamp we will direct you to all packages we need, although we encourages you to independently find new packages to enhance your projects, especially for your capstone.
