@@ -62,7 +62,3 @@ The following exercises should help familiarise you with Git. We use text instea
 ## Additional Resources
 
 1. <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control" target="_blank">Intro to Version Control by Git</a>
-
-
-## Command Line Cheat Sheet
-![](<../.gitbook/assets/command-line-cheatsheet.jpg>)

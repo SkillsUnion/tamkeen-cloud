@@ -28,3 +28,7 @@ Below, we have listed some of the most commonly used terminal commands that soft
 The following paths are shortcuts to common locations and are often used in folder navigation.
 
 <table><thead><tr><th width="150">Path</th><th>Meaning</th><th>Sample Usage</th><th>Explanation</th></tr></thead><tbody><tr><td><code>/</code></td><td>Root, i.e. the highest-level folder on our computers</td><td><code>cd /Users/joe/bootcamp/project1</code></td><td>All absolute paths begin with the root folder <code>/</code></td></tr><tr><td><code>~</code></td><td>Home, i.e. the logged-in user's home folder</td><td><code>cd ~</code></td><td><code>~</code> is an alias for <code>/Users/username</code>, where <code>username</code> is the username of the logged-in user</td></tr><tr><td><code>..</code></td><td>Parent folder</td><td><code>cd ..</code></td><td>Every folder has a hidden link <code>..</code> that references the parent folder. <code>cd ..</code> changes directory to the parent folder without having to reference the name of the parent folder.</td></tr><tr><td>.</td><td>Current folder</td><td><code>mv components/App.js .</code></td><td><code>.</code> is most commonly used to move files or folders from elsewhere to the current folder</td></tr></tbody></table>
+
+
+## Command Line Cheat Sheet
+![](<../.gitbook/assets/command-line-cheatsheet.jpg>)
