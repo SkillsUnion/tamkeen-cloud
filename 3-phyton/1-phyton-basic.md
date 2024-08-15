@@ -1,33 +1,149 @@
-# Python
+# **Introduction to Python**
 
-## Learning Objectives
+### **1 What is Python?**
 
-1. Python is more commonly used than JavaScript for data and algorithm-related work due to its built-in data manipulation libraries and simpler syntax
-2. Learn basic Python syntax to be able to use Python for algorithm problems that are easier solved with Python's built-in libraries, such as algorithms involving queues and heaps
+**Overview:**
+- **Python** is a high-level, interpreted programming language that emphasizes code readability with its use of significant indentation. Python's syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java.
+- It was created by **Guido van Rossum** and first released in 1991. Python has a design philosophy that emphasizes code readability, notably using significant whitespace.
+- **Python is used for** a variety of purposes, including web development (with frameworks like Django and Flask), data analysis (with libraries like pandas and NumPy), artificial intelligence, machine learning, automation, and more.
 
-## Introduction
+**Why Python?**
+- **Simple and Easy to Learn:** Python's syntax is straightforward and resembles English, making it easier for beginners to learn.
+- **Versatile:** Python can be used for a wide range of applications, from web development to data science, automation, and beyond.
+- **Large Community and Ecosystem:** Python has a vast collection of libraries and frameworks, supported by a large community of developers.
 
-Python is commonly used in data and algorithm-related work due to its built-in data manipulation libraries and simpler syntax. Luckily, Python is conceptually very similar to JavaScript, and most translations from Python to JavaScript and vice versa are purely syntactical translations.
+### **2 Setting Up Python**
 
-This submodule aims to help us learn Python through exercises to solve algorithm problems that are easier solved with Python, such as algorithms involving queues and heaps.
+**Installing Python:**
+- **Windows:**
+  - Download the latest version of Python from the official website: [python.org](https://www.python.org/downloads/).
+  - Run the installer and ensure that the option to "Add Python to PATH" is checked.
+  
+- **macOS:**
+  - macOS comes with Python 2.x pre-installed. To install Python 3, you can use Homebrew:
+    ```bash
+    brew install python
+    ```
 
-## Python Quirks
+- **Linux:**
+  - On most distributions, Python is already installed. To install the latest version:
+    ```bash
+    sudo apt-get update
+    sudo apt-get install python3
+    ```
 
-1. Python variables adhere to [function scope](https://www.w3schools.com/python/python\_scope.asp), which means all local variables are accessible within the function in which they are declared. This is different from the [block scope](https://dev.to/sandy8111112004/javascript-introduction-to-scope-function-scope-block-scope-d11) that applies to `let` and `const` vars in JavaScript.
-2. Python `==` works like JS `===`, in that both operators compare both value and data type.
+**Verifying the Installation:**
+- Open a terminal or command prompt and type:
+  ```bash
+  python --version
+  ```
+  or for Python 3:
+  ```bash
+  python3 --version
+  ```
+  This should display the installed version of Python.
 
-## Exercises
+**Setting Up a Development Environment:**
+- **IDEs and Text Editors:**
+  - **VS Code:** A lightweight, powerful source code editor with support for Python through extensions.
+  - **PyCharm:** A fully-featured Python IDE that comes in both free (Community) and paid (Professional) versions.
+  - **Jupyter Notebook:** An open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. It is widely used in data science.
 
-The following are a collection of concise exercises from [learnpython.org](https://learnpython.org) (powered by [datacamp.com](https://datacamp.com)) that we believe will be helpful in learning Python for algorithms.
+**Running Your First Python Script:**
+- Create a new file named `hello.py` and add the following code:
+  ```python
+  print("Hello, Python!")
+  ```
+- Save the file and run it from the terminal:
+  ```bash
+  python hello.py
+  ```
+  or for Python 3:
+  ```bash
+  python3 hello.py
+  ```
+  This should print `Hello, Python!` to the terminal.
 
-1. [Hello, World!](https://www.learnpython.org/en/Hello%2C\_World!)
-2. [Variables and Types](https://www.learnpython.org/en/Variables\_and\_Types)
-3. [Lists](https://www.learnpython.org/en/Lists)
-4. [Basic Operators](https://www.learnpython.org/en/Basic\_Operators)
-5. [String Formatting](https://www.learnpython.org/en/String\_Formatting) (Here's a [nice article on String Interpolation](https://www.programiz.com/python-programming/string-interpolation))
-6. [Basic String Operations](https://www.learnpython.org/en/Basic\_String\_Operations)
-7. [Conditions](https://www.learnpython.org/en/Conditions)
-8. [Loops](https://www.learnpython.org/en/Loops)
-9. [Functions](https://www.learnpython.org/en/Functions)
-10. [Classes and Objects](https://www.learnpython.org/en/Classes\_and\_Objects)
-11. [Dictionaries](https://www.learnpython.org/en/Dictionaries)
+### **3 Python Syntax and Basics**
+
+**Python Syntax:**
+- **Indentation:** Python uses indentation to define code blocks. Unlike many other languages, Python does not use curly braces `{}` or keywords like `end` to delimit blocks of code.
+  ```python
+  if 5 > 2:
+      print("Five is greater than two!")
+  ```
+  - The above code uses indentation to define what should be executed if the condition is true.
+
+- **Comments:**
+  - Single-line comments start with `#`.
+    ```python
+    # This is a comment
+    print("Hello, World!")
+    ```
+  - Multi-line comments can be done with triple quotes.
+    ```python
+    """
+    This is a multi-line comment
+    in Python.
+    """
+    ```
+
+**Variables and Data Types:**
+- **Variables:** Variables in Python do not require explicit declaration. They are created the moment you first assign a value to them.
+  ```python
+  x = 5
+  y = "Hello"
+  print(x)
+  print(y)
+  ```
+
+- **Data Types:** Python has several built-in data types, including:
+  - **Integers (`int`):** Whole numbers, e.g., `5`, `100`, `-20`.
+  - **Floats (`float`):** Numbers with a decimal point, e.g., `5.5`, `3.14`.
+  - **Strings (`str`):** Text enclosed in quotes, e.g., `"Hello"`, `'World'`.
+  - **Booleans (`bool`):** Represents `True` or `False`.
+
+**Basic Input/Output Operations:**
+- **Output:** The `print()` function is used to display output in Python.
+  ```python
+  print("Hello, World!")
+  ```
+- **Input:** The `input()` function is used to get user input.
+  ```python
+  name = input("Enter your name: ")
+  print("Hello, " + name)
+  ```
+
+### **4 Basic Arithmetic Operations**
+
+**Arithmetic Operators:**
+- **Addition (`+`):**
+  ```python
+  result = 5 + 3  # 8
+  ```
+- **Subtraction (`-`):**
+  ```python
+  result = 5 - 3  # 2
+  ```
+- **Multiplication (`*`):**
+  ```python
+  result = 5 * 3  # 15
+  ```
+- **Division (`/`):**
+  ```python
+  result = 5 / 3  # 1.6666666666666667
+  ```
+- **Floor Division (`//`):** Divides and returns the largest whole number less than or equal to the result.
+  ```python
+  result = 5 // 3  # 1
+  ```
+- **Modulus (`%`):** Returns the remainder of the division.
+  ```python
+  result = 5 % 3  # 2
+  ```
+- **Exponentiation (`**`):** Raises the number to the power of the exponent.
+  ```python
+  result = 5 ** 3  # 125
+  ```
+
+---
