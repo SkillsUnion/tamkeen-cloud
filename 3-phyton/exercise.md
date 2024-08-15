@@ -1,4 +1,4 @@
-### **Comprehensive Assignment: Python Project Covering Modules 1-7**
+### **Comprehensive Exercise: Python Project Covering Modules 1-7**
 
 ---
 
@@ -150,7 +150,7 @@ You will create a Python-based **Task Management System** that allows users to m
        async def main():
            manager = TaskManager()
            manager.load_from_file()
-           await manager.add_task_with_quote("Finish assignment", "Complete the Python project.")
+           await manager.add_task_with_quote("Finish exercise", "Complete the Python project.")
            manager.view_tasks()
            manager.save_to_file()
 
