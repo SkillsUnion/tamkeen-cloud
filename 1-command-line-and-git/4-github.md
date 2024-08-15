@@ -26,9 +26,9 @@ A GitHub "fork" is a copy of another GitHub repo. SWEs typically "fork" repos th
 
 We can fork a repo by clicking the Fork button on a GitHub repo page. Once forked, we can change our copy of the repo without affecting the original.
 
-![Click the Fork button to fork a repo](<../../.gitbook/assets/0.3 - GitHub - 1) Fork.png>)
+![Click the Fork button to fork a repo](<../.gitbook/assets/0.3 - GitHub - 1) Fork.png>)
 
-![Fork menu; We typically keep the same repo name for clarity](<../../.gitbook/assets/0.3 - GitHub - Fork - 2) Fork menu.png>) ![Forked repo; Notice the repo is now under my account](<../../.gitbook/assets/0.3 - GitHub - Fork - 3) Forked repo.png>)
+![Fork menu; We typically keep the same repo name for clarity](<../.gitbook/assets/0.3 - GitHub - Fork - 2) Fork menu.png>) ![Forked repo; Notice the repo is now under my account](<../.gitbook/assets/0.3 - GitHub - Fork - 3) Forked repo.png>)
 
 ## Git Clone
 
@@ -36,7 +36,7 @@ Once we have edit access to the repo we want to edit, either by forking an exist
 
 Click the copy button in the Code dropdown menu on the GitHub page of the repo we wish to edit.
 
-![Click the copy button in the Code dropdown to copy the repo link to use with git clone](<../../.gitbook/assets/0.3 - GitHub - Clone.png>)
+![Click the copy button in the Code dropdown to copy the repo link to use with git clone](<../.gitbook/assets/0.3 - GitHub - Clone.png>)
 
 Then go to terminal, `cd` to the relevant folder and enter the command `git clone <repo-url>`, where `<repo-url>` is the URL we just copied from GitHub. This will create a new folder named after the repo with the repo's contents inside.
 
@@ -67,11 +67,11 @@ Demonstration of how to push local changes to GitHub
 
 GitHub provides an easy way to view past changes to a repo. For example, if we are wondering which commit changed a line of code that caused a bug, we can easily find which commits changed that line, who made those commits and what other changes were in those commits.
 
-![Click the number of commits on a repo's GitHub page to view a list of all its commits](<../../.gitbook/assets/0.3 - GitHub - 1) View Commits.png>)
+![Click the number of commits on a repo's GitHub page to view a list of all its commits](<../.gitbook/assets/0.3 - GitHub - 1) View Commits.png>)
 
-![Click on any commits in the repo's commit history to view the details of that commit](<../../.gitbook/assets/0.3 - GitHub - 2) Commit List.png>)
+![Click on any commits in the repo's commit history to view the details of that commit](<../.gitbook/assets/0.3 - GitHub - 2) Commit List.png>)
 
-![We can review complete details of each commit in GitHub](<../../.gitbook/assets/0.3 - GitHub - 3) Commit Contents.png>)
+![We can review complete details of each commit in GitHub](<../.gitbook/assets/0.3 - GitHub - 3) Commit Contents.png>)
 
 ## Additional Resources
 
