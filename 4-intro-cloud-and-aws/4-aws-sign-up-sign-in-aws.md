@@ -1,4 +1,4 @@
-# Step 1: Sign Up for an AWS Account
+# 1: Sign Up for an AWS Account
 
 1. Open [https://portal.aws.amazon.com/billing/signup](https://portal.aws.amazon.com/billing/signup).
 2. Choose **Create an AWS Account**.
@@ -35,7 +35,7 @@ A confirmation page will appear, indicating that the account is being activated.
 
 AWS sends a confirmation email when the account activation is complete. It is recommended to check the inbox and spam folder for this email. Once the message is received, full access to all AWS services is granted.
 
-# Step 2: Sign in as the Root User
+# 2: Sign in as the Root User
 
 When an AWS account is first created, it begins with one sign-in identity that has complete access to all AWS services and resources within the account. This identity is known as the AWS account root user and is accessed by signing in with the email address and password used during account creation.
 
@@ -55,7 +55,7 @@ When an AWS account is first created, it begins with one sign-in identity that h
 > If the IAM user has been signed in previously using this browser, the IAM user sign-in page may appear instead. To return to the main sign-in page, choose **Sign in using root user email**.
 
 
-# Step 3: Activate MFA for the AWS Account Root User
+# 3: Activate MFA for the AWS Account Root User
 
 To enhance the security of root user credentials, it is recommended to follow the security best practice of activating multi-factor authentication (MFA) for the AWS account. Since the root user has access to perform sensitive operations within the account, adding this extra layer of authentication provides better protection.
 

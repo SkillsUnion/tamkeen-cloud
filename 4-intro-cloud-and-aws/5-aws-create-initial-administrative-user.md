@@ -5,7 +5,7 @@
 
 After completing Set up a New AWS Account, follow these steps to set up AWS account access for an administrative user, which will be used for daily tasks.
 
-## Step 1: Enable IAM Identity Center
+## 1: Enable IAM Identity Center
 
 To enable IAM Identity Center:
 
@@ -16,7 +16,7 @@ To enable IAM Identity Center:
 
    AWS Organizations automatically sends a verification email to the email address associated with the management account. There might be a delay before the verification email is received. Be sure to verify the email address within 24 hours.
 
-## Step 2: Choose Your Identity Source
+## 2: Choose Your Identity Source
 
 The identity source in IAM Identity Center defines where users and groups are managed. One of the following can be chosen as the identity source:
 
@@ -61,7 +61,7 @@ When IAM Identity Center is first enabled, it is configured with an IAM Identity
 At this point, the user does not yet have access to the management account. Administrative access will be set up by creating a permission set and assigning the user to it.
 
 
-## Step 3: Create an Administrative Permission Set
+## 3: Create an Administrative Permission Set
 
 Permission sets in IAM Identity Center define the level of access users and groups have to an AWS account. Follow these steps to create a permission set with administrative permissions:
 
@@ -69,15 +69,15 @@ Permission sets in IAM Identity Center define the level of access users and grou
 2. Open the IAM Identity Center console.
 3. In the IAM Identity Center navigation pane, under **Multi-account permissions**, choose **Permission sets**.
 4. Choose **Create permission set**.
-5. For **Step 1: Select permission set type**, keep the default settings and choose **Next**. The default settings grant full access to AWS services and resources using the `AdministratorAccess` predefined permission set.
-6. For **Step 2: Specify permission set details**, keep the default settings and choose **Next**. The default session duration is set to one hour.
-7. For **Step 3: Review and create**, do the following:
+5. For **1: Select permission set type**, keep the default settings and choose **Next**. The default settings grant full access to AWS services and resources using the `AdministratorAccess` predefined permission set.
+6. For **2: Specify permission set details**, keep the default settings and choose **Next**. The default session duration is set to one hour.
+7. For **3: Review and create**, do the following:
 
    - Review the permission set type and confirm that it is `AdministratorAccess`.
    - Review the AWS managed policy and confirm that it is `AdministratorAccess`.
    - Choose **Create**.
 
-## Step 4: Set up AWS Account Access for an Administrative User
+## 4: Set up AWS Account Access for an Administrative User
 
 To set up AWS account access for an administrative user in IAM Identity Center, assign the user to the `AdministratorAccess` permission set:
 
@@ -86,14 +86,14 @@ To set up AWS account access for an administrative user in IAM Identity Center, 
 3. In the navigation pane, under **Multi-account permissions**, choose **AWS accounts**.
 4. On the AWS accounts page, select the checkbox next to the AWS account for which administrative access is being assigned. If multiple accounts are in the organization, select the checkbox next to the management account.
 5. Choose **Assign users or groups**.
-6. For **Step 1: Select users and groups**, on the **Assign users and groups to "AWS-account-name"** page:
+6. For **1: Select users and groups**, on the **Assign users and groups to "AWS-account-name"** page:
 
    - On the **Users** tab, select the user to be granted administrative permissions. Use the search box to filter results if needed.
    - Confirm the correct user is selected, then choose **Next**.
 
-7. For **Step 2: Select permission sets**, on the **Assign permission sets to "AWS-account-name"** page, under **Permission sets**, select the `AdministratorAccess` permission set.
+7. For **2: Select permission sets**, on the **Assign permission sets to "AWS-account-name"** page, under **Permission sets**, select the `AdministratorAccess` permission set.
 8. Choose **Next**.
-9. For **Step 3: Review and Submit**, on the **Review and submit assignments to "AWS-account-name"** page:
+9. For **3: Review and Submit**, on the **Review and submit assignments to "AWS-account-name"** page:
 
    - Review the selected user and permission set.
    - Confirm the correct user is assigned to the `AdministratorAccess` permission set, then choose **Submit**.
@@ -105,7 +105,7 @@ If either of the following applies, follow the steps in [Enable MFA](https://doc
 
 When account access is set up for the administrative user, IAM Identity Center creates a corresponding IAM role in the relevant AWS account, with the policies specified in the permission set attached to the role.
 
-## Step 5: Sign in to the AWS Access Portal with Administrative Credentials
+## 5: Sign in to the AWS Access Portal with Administrative Credentials
 
 Complete these steps to confirm that sign-in to the AWS access portal is possible using the administrative user credentials and access to the AWS account is granted:
 
