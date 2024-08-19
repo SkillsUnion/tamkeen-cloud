@@ -14,7 +14,7 @@ An AWS account contains both resources and identities that have access to those 
 
 Credentials, also known as access credentials or security credentials, are the information provided to AWS for signing in and gaining access to AWS resources. Credentials may include an email address, username, password, account ID or alias, verification code, and a multi-factor authentication (MFA) code. The system uses credentials to determine who is making a request and whether the access should be granted. Typically, the access key ID and the secret access key are used for this purpose.
 
-More information regarding credentials can be found in the document [Understanding and Getting Your AWS Credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html).”
+More information regarding credentials can be found in the document [Understanding and Getting Your AWS Credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html).
 
 ## Corporate Credentials
 
