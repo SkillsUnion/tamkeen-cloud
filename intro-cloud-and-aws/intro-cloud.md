@@ -6,6 +6,35 @@
 
 Cloud computing is a transformative technology that allows individuals and businesses to access computing resources over the internet. Rather than maintaining physical hardware and infrastructure on-premises, cloud computing enables the delivery of computing services—including storage, servers, databases, networking, software, analytics, and intelligence—over the internet (commonly referred to as "the cloud"). This shift allows organizations to reduce upfront costs, improve flexibility, and scale resources according to their needs.
 
+# What Is Cloud Computing?
+
+Cloud computing refers to the on-demand delivery of compute power, databases, storage, applications, and other IT resources via the internet through a cloud services platform with pay-as-you-go pricing. Whether applications are being run to share photos with millions of mobile users or to support critical business operations, a cloud services platform provides rapid access to flexible and cost-effective IT resources.
+
+With cloud computing, there is no need for large upfront investments in hardware or the time-consuming management of that hardware. Instead, the right type and size of computing resources can be provisioned as needed, enabling organizations to power new ideas or operate IT departments efficiently. Resources can be accessed almost instantly and payment is only required for what is used.
+
+Cloud computing provides a straightforward way to access servers, storage, databases, and a broad range of application services over the internet. Cloud service platforms, such as Amazon Web Services (AWS), own and maintain the network-connected hardware needed for these application services, while users provision and manage what they require via a web application.
+
+
+**Six Advantages of Cloud Computing**
+
+- **Trade Fixed Expense for Variable Expense**  
+  Instead of making significant investments in data centers and servers without knowing how they will be used, organizations can pay only when computing resources are consumed and only for the amount used.
+
+- **Benefit from Massive Economies of Scale**  
+  By using cloud computing, a lower variable cost can be achieved compared to what could be obtained independently. Since usage from hundreds of thousands of customers is aggregated in the cloud, providers like AWS can achieve higher economies of scale, resulting in lower pay-as-you-go prices.
+
+- **Stop Guessing Capacity**  
+  Cloud computing eliminates the need to guess infrastructure capacity requirements. In traditional setups, making a capacity decision before deploying an application can result in either over-provisioned, idle resources or insufficient capacity. With cloud computing, these issues disappear. Capacity can be scaled up or down as needed with just a few minutes' notice.
+
+- **Increase Speed and Agility**  
+  In a cloud computing environment, new IT resources are just a click away, reducing the time required to make those resources available from weeks to minutes. This dramatically increases organizational agility, as the cost and time needed to experiment and develop is significantly reduced.
+
+- **Stop Spending Money Running and Maintaining Data Centers**  
+  Cloud computing allows organizations to focus on projects that differentiate their business rather than managing infrastructure. Resources can be directed towards serving customers instead of managing tasks like racking, stacking, and powering servers.
+
+- **Go Global in Minutes**  
+  Applications can be deployed in multiple regions worldwide with just a few clicks. This capability allows organizations to offer lower latency and an improved experience for customers at minimal cost.
+
 
 **Key Benefits of Cloud Computing:**
 
