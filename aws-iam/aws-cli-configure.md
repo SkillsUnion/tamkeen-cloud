@@ -1,3 +1,10 @@
+# AWS CLI Install and Update Instructions
+
+### Installation Instructions
+
+For detailed instructions on installing or updating the AWS CLI, please visit the [official documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+
+
 # Configuring AWS CLI
 
 ## 1. Open Your Terminal
