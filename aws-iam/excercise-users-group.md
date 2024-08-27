@@ -1,4 +1,4 @@
-# Step-by-Step Hands-On: Creating IAM Users & Groups
+# Creating IAM Users & Groups
 
 This guide provides a step-by-step walkthrough for creating IAM users and groups, assigning permissions, and adding users to groups in the AWS Management Console.
 
