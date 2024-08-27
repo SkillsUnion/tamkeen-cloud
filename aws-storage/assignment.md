@@ -1,68 +1,98 @@
-# Assignment: Create an S3 Bucket and Upload an Object using the AWS CLI
+# Assignment: Static Website on Amazon S3
 
 ## Objective:
-The objective of this assignment is to provide hands-on experience with Amazon S3 using the AWS Command Line Interface (CLI). You will create a bucket, upload a file (object), and manage it using AWS CLI commands. By the end of this task, you should be familiar with basic S3 operations using the CLI.
-
-## Prerequisites:
-1. Ensure the AWS CLI is installed on your system. If not, follow the [AWS CLI Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html).
-2. Configure your AWS CLI by running the command `aws configure` and entering your AWS credentials (access key, secret key, region, and output format).
+The objective of this assignment is to give hands-on experience in setting up and configuring a static website on Amazon S3. By the end of this assignment, you should be able to create an S3 bucket, configure it for static website hosting, manage public access settings, and upload your web content.
 
 ## Task Overview:
-You are required to create an S3 bucket and upload a file using the AWS CLI. Follow the steps below to complete the assignment.
+You are required to follow the steps below to configure a static website on Amazon S3. This assignment will guide you through the process of creating an S3 bucket, enabling static website hosting, setting permissions, and testing your website.
 
-### Step 1: Create a New S3 Bucket
+## Assignment Steps:
 
-1. Open your terminal or command prompt.
-2. Run the following command to create a new bucket:
-   ```bash
-   aws s3 mb s3://my-unique-bucket-name-[your initials]
-   ```
-   Replace `my-unique-bucket-name-[your initials]` with a globally unique name for your bucket. 
+### 1: Create a Bucket
 
-### Step 2: Upload an Object to the S3 Bucket
+1. Sign in to the [AWS Management Console](https://console.aws.amazon.com/s3/).
+2. In the S3 console, click on **Create bucket**.
+3. Enter a bucket name (e.g., `example.com`).
+4. Choose a Region that is geographically close to you for reduced latency.
+5. Accept the default settings and click **Create**.
 
-1. Choose a file from your local system (e.g., `example.txt`) and upload it to your S3 bucket using the command:
-   ```bash
-   aws s3 cp /path/to/your/file.txt s3://my-unique-bucket-name-[your initials]/
-   ```
-   Replace `/path/to/your/file.txt` with the path to your file and ensure the bucket name matches the one you created.
+### 2: Enable Static Website Hosting
 
-### Step 3: List the Objects in Your Bucket
+1. In the S3 console, select the bucket you created.
+2. Go to **Properties**.
+3. Under **Static website hosting**, click **Edit**.
+4. Select **Use this bucket to host a website**.
+5. Enter `index.html` as the **Index document** name.
+6. Optionally, enter `404.html` as the **Error document** name.
+7. Click **Save changes**.
 
-1. Verify that the object was successfully uploaded by listing the objects in your bucket:
-   ```bash
-   aws s3 ls s3://my-unique-bucket-name-[your initials]/
-   ```
+### 3: Edit Block Public Access Settings
 
-### Step 4: Make the Object Publicly Accessible (Optional)
+1. In the S3 console, select your bucket and go to **Permissions**.
+2. Under **Block public access (bucket settings)**, click **Edit**.
+3. Uncheck **Block all public access** and confirm by clicking **Save changes**.
 
-1. If you want the object to be publicly accessible, run the following command:
-   ```bash
-   aws s3api put-object-acl --bucket my-unique-bucket-name-[your initials] --key file.txt --acl public-read
-   ```
-   Replace `file.txt` with your object’s key name.
+> **Note:** Disabling Block Public Access allows anyone on the internet to access your bucket. Proceed only if you understand the risks.
 
-2. Verify that you can access the file in a web browser using the URL:
-   ```
-   https://my-unique-bucket-name-[your initials].s3.amazonaws.com/file.txt
-   ```
+### 4: Add a Bucket Policy to Make Your Bucket Publicly Accessible
 
-### Step 5: Clean Up Resources
+1. In the S3 console, under **Permissions**, go to **Bucket Policy** and click **Edit**.
+2. Copy and paste the following bucket policy:
+    ```json
+    {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "PublicReadGetObject",
+                "Effect": "Allow",
+                "Principal": "*",
+                "Action": "s3:GetObject",
+                "Resource": "arn:aws:s3:::Bucket-Name/*"
+            }
+        ]
+    }
+    ```
+3. Replace `Bucket-Name` with your bucket name.
+4. Click **Save changes**.
 
-1. After completing the assignment, delete the object from the bucket:
-   ```bash
-   aws s3 rm s3://my-unique-bucket-name-[your initials]/file.txt
-   ```
+### 5: Configure an Index Document
 
-2. Delete the bucket to avoid incurring costs:
-   ```bash
-   aws s3 rb s3://my-unique-bucket-name-[your initials] --force
-   ```
+1. Create an `index.html` file with the following content:
+    ```html
+    <html>
+    <head>
+        <title>My Website Home Page</title>
+    </head>
+    <body>
+      <h1>Welcome to my website</h1>
+      <p>Now hosted on Amazon S3!</p>
+    </body>
+    </html>
+    ```
+2. Upload the `index.html` file to your S3 bucket using the **Upload** option in the S3 console.
+
+### 6: Configure an Error Document
+
+1. Create a `404.html` file with your custom error message.
+2. Upload the `404.html` file to your S3 bucket.
+
+### 7: Test Your Website Endpoint
+
+1. In the S3 console, go to **Properties** for your bucket.
+2. Under **Static website hosting**, copy the **Endpoint** URL and open it in your web browser.
+3. Verify that your website is displayed.
+
+### 8: Clean Up (Optional)
+
+If this setup was for learning purposes only, delete the S3 bucket and its contents to avoid incurring charges. You can do this by selecting the bucket and choosing the **Delete bucket** option.
 
 ## Submission Instructions:
+
 1. Provide screenshots showing:
-   - The command used to create the bucket.
-   - The command used to upload the object.
-   - The output from listing the objects in the bucket.
-2. Include the bucket name and a brief description of the file you uploaded.
-3. (Optional) If you made the file public, include the URL to the file.
+   - The created bucket and its settings.
+   - The uploaded index.html and 404.html files.
+   - The website endpoint displaying your hosted content.
+   
+2. Write a brief summary of your experience setting up the static website.
+
+3. (Optional) If you wish, share the public URL of your hosted website.
