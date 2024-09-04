@@ -1,10 +1,15 @@
 theme: jekyll-theme-primer
 exclude: 
-  # - 1-frontend
-  # - 2-full-stack
-  # - 3-backend
-  # - 4-capstone
+  # 0-foundations
   # - algorithms
+  # - aws-ec2
+  # - aws-iam
+  # - aws-services-overview
+  # - aws-storage
+  # - command-line-and-git
+  # - intro-cloud-and-aws
+  # - javascript
+  # - phyton
   # - general-reference
   # - interview-prep
   # - logistics
