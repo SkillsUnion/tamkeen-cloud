@@ -1,4 +1,4 @@
-### **Introduction to Cloud Computing**
+# **Introduction to Cloud Computing**
 
 ---
 
@@ -6,7 +6,7 @@
 
 Cloud computing is a transformative technology that allows individuals and businesses to access computing resources over the internet. Rather than maintaining physical hardware and infrastructure on-premises, cloud computing enables the delivery of computing services—including storage, servers, databases, networking, software, analytics, and intelligence—over the internet (commonly referred to as "the cloud"). This shift allows organizations to reduce upfront costs, improve flexibility, and scale resources according to their needs.
 
-# What Is Cloud Computing?
+## What Is Cloud Computing?
 
 Cloud computing refers to the on-demand delivery of compute power, databases, storage, applications, and other IT resources via the internet through a cloud services platform with pay-as-you-go pricing. Whether applications are being run to share photos with millions of mobile users or to support critical business operations, a cloud services platform provides rapid access to flexible and cost-effective IT resources.
 
@@ -15,7 +15,7 @@ With cloud computing, there is no need for large upfront investments in hardware
 Cloud computing provides a straightforward way to access servers, storage, databases, and a broad range of application services over the internet. Cloud service platforms, such as Amazon Web Services (AWS), own and maintain the network-connected hardware needed for these application services, while users provision and manage what they require via a web application.
 
 
-**Six Advantages of Cloud Computing**
+## **Six Advantages of Cloud Computing**
 
 - **Trade Fixed Expense for Variable Expense**  
   Instead of making significant investments in data centers and servers without knowing how they will be used, organizations can pay only when computing resources are consumed and only for the amount used.
@@ -36,7 +36,7 @@ Cloud computing provides a straightforward way to access servers, storage, datab
   Applications can be deployed in multiple regions worldwide with just a few clicks. This capability allows organizations to offer lower latency and an improved experience for customers at minimal cost.
 
 
-**Key Benefits of Cloud Computing:**
+## **Key Benefits of Cloud Computing:**
 
 ![](<../.gitbook/assets/cloud-computing-advantages.jpg>)
 
@@ -57,7 +57,7 @@ Cloud computing provides a straightforward way to access servers, storage, datab
 
 ---
 
-**Key Characteristics of Cloud Computing:**
+## **Key Characteristics of Cloud Computing:**
 
 1. **On-Demand Self-Service:**
    - Users can provision and manage computing resources (like virtual servers, storage, and networking) as needed, without requiring human intervention from the service provider. This self-service model accelerates deployment and reduces the time required to bring applications to market.
@@ -76,7 +76,7 @@ Cloud computing provides a straightforward way to access servers, storage, datab
 
 ---
 
-**Cloud Computing Deployment Models:**
+## **Cloud Computing Deployment Models:**
 
 ![](<../.gitbook/assets/cloud-model.jpg>)
 
@@ -98,7 +98,7 @@ Cloud computing provides a straightforward way to access servers, storage, datab
 
 ---
 
-**Service Models in Cloud Computing:**
+## **Service Models in Cloud Computing:**
 
 ![](<../.gitbook/assets/cloud-computing-service.png>)
 
