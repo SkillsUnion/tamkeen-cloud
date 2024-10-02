@@ -107,4 +107,4 @@ After completing the tutorial, it is important to clean up by terminating the in
 After termination, the instance status changes to **shutting down** and then **terminated**. The terminated instance remains visible in the console for a short time before being automatically deleted.
 
 > **Important:**  
-> Terminating an instance stops any further charges for that instance or usage against Free Tier limits. If the instance is to be kept without incurring charges, it can be stopped instead of terminated. For more information, see [Stop and start Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html).
+> Terminating an instance stops any further charges for that instance or usage against Free Tier limits. If the instance is to be kept without incurring charges, it can be stopped instead of terminated. For more information, see <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html" target="_blank">Stop and start Amazon EC2 instances</a>.

@@ -16,7 +16,6 @@ Multiple instances can be launched from a single AMI when uniform configurations
 
 It is possible to create an AMI from an existing Amazon EC2 instance and subsequently use it to launch instances with the same configuration. AMIs can also be copied to different AWS Regions, allowing instances to be launched in those Regions. Additionally, AMIs that are created can be shared with other AWS accounts, enabling them to launch instances with the same configuration. Furthermore, AMIs can be sold through the AWS Marketplace.
 
-
 ## AMI Types and Characteristics in Amazon EC2
 
 When launching an instance, it is essential to select an Amazon Machine Image (AMI) that is compatible with the chosen instance type. The characteristics to consider when selecting an AMI include:

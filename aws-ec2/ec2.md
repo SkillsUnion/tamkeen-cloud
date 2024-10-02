@@ -16,23 +16,23 @@ Amazon EC2 instances can be created and managed using several interfaces:
 
 - **AWS Command Line Interface (CLI)**
 
-  The AWS Command Line Interface (CLI) enables interaction with AWS services through commands in a command-line shell. It is available on Windows, Mac, and Linux. For detailed information, refer to the [AWS Command Line Interface User Guide](https://docs.aws.amazon.com/cli/latest/userguide/). The specific commands for Amazon EC2 can be found in the [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/reference/ec2/).
+  The AWS Command Line Interface (CLI) enables interaction with AWS services through commands in a command-line shell. It is available on Windows, Mac, and Linux. For detailed information, refer to the <a href="https://docs.aws.amazon.com/cli/latest/userguide/" target="_blank">AWS Command Line Interface User Guide</a>. The specific commands for Amazon EC2 can be found in the <a href="https://docs.aws.amazon.com/cli/latest/reference/ec2/" target="_blank">AWS CLI Command Reference</a>.
 
 - **AWS CloudFormation**
 
-  Amazon EC2 resources can be created using AWS CloudFormation. Users can create a template in JSON or YAML format that describes the AWS resources, and AWS CloudFormation will provision and configure those resources. These templates can be reused to provision the same resources multiple times across different Regions and accounts. For more information on supported resource types and properties for Amazon EC2, see the [EC2 resource type reference](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/AWS_EC2.html) in the AWS CloudFormation User Guide.
+  Amazon EC2 resources can be created using AWS CloudFormation. Users can create a template in JSON or YAML format that describes the AWS resources, and AWS CloudFormation will provision and configure those resources. These templates can be reused to provision the same resources multiple times across different Regions and accounts. For more information on supported resource types and properties for Amazon EC2, see the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/AWS_EC2.html" target="_blank">EC2 resource type reference</a> in the AWS CloudFormation User Guide.
 
 - **AWS SDKs**
 
-  AWS provides SDKs that allow developers to build applications using language-specific APIs instead of making requests over HTTP or HTTPS. These SDKs include libraries, sample code, tutorials, and other resources to help automate tasks like cryptographically signing requests, retrying requests, and handling error responses. For more information, visit [Tools to Build on AWS](https://aws.amazon.com/tools/).
+  AWS provides SDKs that allow developers to build applications using language-specific APIs instead of making requests over HTTP or HTTPS. These SDKs include libraries, sample code, tutorials, and other resources to help automate tasks like cryptographically signing requests, retrying requests, and handling error responses. For more information, visit <a href="https://aws.amazon.com/tools/" target="_blank">Tools to Build on AWS</a>.
 
 - **AWS Tools for PowerShell**
 
-  AWS Tools for PowerShell consist of PowerShell modules built on the functionality of the AWS SDK for .NET. These tools enable users to script operations on AWS resources from the PowerShell command line. For more information, refer to the [AWS Tools for Windows PowerShell User Guide](https://docs.aws.amazon.com/powershell/latest/userguide/). The cmdlets for Amazon EC2 can be found in the [AWS Tools for PowerShell Cmdlet Reference](https://docs.aws.amazon.com/powershell/latest/reference/index.html).
+  AWS Tools for PowerShell consist of PowerShell modules built on the functionality of the AWS SDK for .NET. These tools enable users to script operations on AWS resources from the PowerShell command line. For more information, refer to the <a href="https://docs.aws.amazon.com/powershell/latest/userguide/" target="_blank">AWS Tools for Windows PowerShell User Guide</a>. The cmdlets for Amazon EC2 can be found in the <a href="https://docs.aws.amazon.com/powershell/latest/reference/index.html" target="_blank">AWS Tools for PowerShell Cmdlet Reference</a>.
 
 - **Query API**
 
-  Amazon EC2 provides a Query API that allows users to make HTTP or HTTPS requests using the HTTP verbs GET or POST with a Query parameter named Action. For more information about API actions for Amazon EC2, see the [Amazon EC2 API Reference](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/).
+  Amazon EC2 provides a Query API that allows users to make HTTP or HTTPS requests using the HTTP verbs GET or POST with a Query parameter named Action. For more information about API actions for Amazon EC2, see the <a href="https://docs.aws.amazon.com/AWSEC2/latest/APIReference/" target="_blank">Amazon EC2 API Reference</a>.
 
 ## Getting Started with Amazon EC2
 

@@ -25,7 +25,7 @@ Instance types are named based on the following components:
 - **Capabilities**
 - **Size**
 
-For more information, refer to the naming conventions in the [Amazon EC2 Instance Types Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html#instance-type-summary).
+For more information, refer to the naming conventions in the <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html#instance-type-summary" target="_blank">Amazon EC2 Instance Types Guide</a>.
 
 ### Current Generation Instances
 
