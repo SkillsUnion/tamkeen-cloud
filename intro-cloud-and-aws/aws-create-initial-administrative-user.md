@@ -42,14 +42,13 @@ After connecting a directory to IAM Identity Center, specify a user for administ
 
 At this point, the user does not yet have access to the management account. Administrative access will be set up by creating a permission set and assigning the user to it.
 
-
 ## Use the Default Directory and Create a User in IAM Identity Center
 
 When IAM Identity Center is first enabled, it is configured with an IAM Identity Center directory as the default identity source. Follow these steps to create a user in IAM Identity Center:
 
 1. Sign in to the AWS Management Console as the account owner by choosing **Root user** and entering the AWS account email address. On the next page, enter the password.
 2. Open the IAM Identity Center console.
-3. Follow the steps in [Add users](https://docs.aws.amazon.com/singlesignon/latest/userguide/addusers.html) to create a user.
+3. Follow the steps in <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/addusers.html" target="_blank">Add users</a> to create a user.
 
    When specifying user details, the default option to send an email with password setup instructions can be used, or a one-time password can be generated. Ensure the email address specified is accessible.
 
@@ -59,7 +58,6 @@ When IAM Identity Center is first enabled, it is configured with an IAM Identity
    - On the New user sign-up page, enter and confirm a password, then choose **Set new password**.
 
 At this point, the user does not yet have access to the management account. Administrative access will be set up by creating a permission set and assigning the user to it.
-
 
 ## 3: Create an Administrative Permission Set
 
@@ -98,7 +96,7 @@ To set up AWS account access for an administrative user in IAM Identity Center, 
    - Review the selected user and permission set.
    - Confirm the correct user is assigned to the `AdministratorAccess` permission set, then choose **Submit**.
 
-If either of the following applies, follow the steps in [Enable MFA](https://docs.aws.amazon.com/singlesignon/latest/userguide/mfa-enable-how-to.html) to enable MFA for IAM Identity Center:
+If either of the following applies, follow the steps in <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/mfa-enable-how-to.html" target="_blank">Enable MFA</a> to enable MFA for IAM Identity Center:
 
 - The default Identity Center directory is being used as the identity source.
 - An AWS Managed Microsoft AD directory or self-managed directory in Active Directory is being used, and RADIUS MFA is not enabled with AWS Directory Service.
@@ -110,7 +108,7 @@ When account access is set up for the administrative user, IAM Identity Center c
 Complete these steps to confirm that sign-in to the AWS access portal is possible using the administrative user credentials and access to the AWS account is granted:
 
 1. Sign in to the AWS Management Console as the account owner by choosing **Root user** and entering the AWS account email address. On the next page, enter the password.
-2. Open the AWS IAM Identity Center console at [https://console.aws.amazon.com/singlesignon/](https://console.aws.amazon.com/singlesignon/).
+2. Open the AWS IAM Identity Center console at <a href="https://console.aws.amazon.com/singlesignon/" target="_blank">https://console.aws.amazon.com/singlesignon/</a>.
 3. In the navigation pane, choose **Dashboard**.
 4. On the Dashboard page, under **Settings summary**, copy the AWS access portal URL.
 5. Open a separate browser, paste the copied AWS access portal URL, and press **Enter**.

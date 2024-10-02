@@ -14,10 +14,9 @@ To sign up for an AWS account, the following information must be provided:
 
 - **Phone Number**: This phone number may be required for account ownership confirmation, and it should be ensured that calls can be received at this number.
 
-- **Multi-Factor Authentication (MFA) Device**: To enhance the security of AWS resources, multi-factor authentication (MFA) should be enabled for the root user account. In addition to regular sign-in credentials, secondary authentication is required when MFA is activated, providing an additional security layer. Further details regarding MFA can be found in the [IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html#id_credentials_mfa-what-is-mfa).
+- **Multi-Factor Authentication (MFA) Device**: To enhance the security of AWS resources, multi-factor authentication (MFA) should be enabled for the root user account. In addition to regular sign-in credentials, secondary authentication is required when MFA is activated, providing an additional security layer. Further details regarding MFA can be found in the <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html#id_credentials_mfa-what-is-mfa" target="_blank">IAM User Guide</a>.
 
-- **AWS Support Plan**: A support plan must be chosen during the account creation process. Information on the available plans can be found in the [Compare AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/) documentation.
-
+- **AWS Support Plan**: A support plan must be chosen during the account creation process. Information on the available plans can be found in the <a href="https://aws.amazon.com/premiumsupport/plans/" target="_blank">Compare AWS Support Plans</a> documentation.
 
 ## AWS Organizations
 
@@ -25,9 +24,9 @@ To sign up for an AWS account, the following information must be provided:
 
 An AWS account must be managed by AWS Organizations. If an organization has not been set up, there is no requirement to do so immediately. When IAM Identity Center is enabled, a choice will be provided to allow AWS to create an organization.
 
-If AWS Organizations has already been set up, it is recommended to ensure that all features are enabled. For more information, see [Enabling all features in your organization](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_org_support-all-features.html) in the AWS Organizations User Guide.
+If AWS Organizations has already been set up, it is recommended to ensure that all features are enabled. For more information, see <a href="https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_org_support-all-features.html" target="_blank">Enabling all features in your organization</a> in the AWS Organizations User Guide.
 
-To enable IAM Identity Center, signing in to the AWS Management Console using the credentials of the AWS Organizations management account is necessary. IAM Identity Center cannot be enabled while signed in with credentials from an AWS Organizations member account. For more information, see [Creating and managing an AWS Organization](http://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_org.html) in the AWS Organizations User Guide.
+To enable IAM Identity Center, signing in to the AWS Management Console using the credentials of the AWS Organizations management account is necessary. IAM Identity Center cannot be enabled while signed in with credentials from an AWS Organizations member account. For more information, see <a href="http://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_org.html" target="_blank">Creating and managing an AWS Organization</a> in the AWS Organizations User Guide.
 
 ---
 
@@ -35,9 +34,9 @@ To enable IAM Identity Center, signing in to the AWS Management Console using th
 
 ### Checking Quotas and Requesting Increases
 
-If IAM roles have already been configured in an AWS account, it is advisable to check whether the account is approaching the quota for IAM roles. For more information, see [IAM Object Quotas](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html#reference_iam-quotas-entities).
+If IAM roles have already been configured in an AWS account, it is advisable to check whether the account is approaching the quota for IAM roles. For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html#reference_iam-quotas-entities" target="_blank">IAM Object Quotas</a>.
 
-If the quota is nearing its limit, a quota increase should be requested. Otherwise, issues might arise when provisioning permission sets in IAM Identity Center if accounts exceed the IAM role quota. For details on requesting a quota increase, see [Requesting a quota increase](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html) in the Service Quotas User Guide.
+If the quota is nearing its limit, a quota increase should be requested. Otherwise, issues might arise when provisioning permission sets in IAM Identity Center if accounts exceed the IAM role quota. For details on requesting a quota increase, see <a href="https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html" target="_blank">Requesting a quota increase</a> in the Service Quotas User Guide.
 
 ---
 
@@ -84,4 +83,4 @@ Before creating multiple accounts, a management plan should be developed. It is 
 
 ### AWS Control Tower
 
-AWS also offers AWS Control Tower, which enhances automation in Organizations and integrates with other AWS services like AWS CloudTrail, AWS Config, Amazon CloudWatch, and AWS Service Catalog. These services may incur additional costs. For more information, see [AWS Control Tower Pricing](https://aws.amazon.com/controltower/pricing).
+AWS also offers AWS Control Tower, which enhances automation in Organizations and integrates with other AWS services like AWS CloudTrail, AWS Config, Amazon CloudWatch, and AWS Service Catalog. These services may incur additional costs. For more information, see <a href="https://aws.amazon.com/controltower/pricing" target="_blank">AWS Control Tower Pricing</a>.
