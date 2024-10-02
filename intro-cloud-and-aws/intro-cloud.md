@@ -14,7 +14,6 @@ With cloud computing, there is no need for large upfront investments in hardware
 
 Cloud computing provides a straightforward way to access servers, storage, databases, and a broad range of application services over the internet. Cloud service platforms, such as Amazon Web Services (AWS), own and maintain the network-connected hardware needed for these application services, while users provision and manage what they require via a web application.
 
-
 ## **Six Advantages of Cloud Computing**
 
 - **Trade Fixed Expense for Variable Expense**  
@@ -34,7 +33,6 @@ Cloud computing provides a straightforward way to access servers, storage, datab
 
 - **Go Global in Minutes**  
   Applications can be deployed in multiple regions worldwide with just a few clicks. This capability allows organizations to offer lower latency and an improved experience for customers at minimal cost.
-
 
 ## **Key Benefits of Cloud Computing:**
 
@@ -79,7 +77,6 @@ Cloud computing provides a straightforward way to access servers, storage, datab
 ## **Cloud Computing Deployment Models:**
 
 ![](<../.gitbook/assets/cloud-model.jpg>)
-
 
 1. **Public Cloud:**
    - **Description:** In a public cloud model, cloud resources are owned and operated by a third-party cloud service provider and delivered over the internet. The infrastructure is shared among multiple organizations, making it a cost-effective solution for businesses that do not require extensive customization or control over their environment.
