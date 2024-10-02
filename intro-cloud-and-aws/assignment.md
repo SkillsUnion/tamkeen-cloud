@@ -11,7 +11,7 @@ The objective of this assignment is to guide you through creating a new AWS Free
 ## Assignment Instructions:
 
 1. **Create a New AWS Account:**
-    - Visit the AWS website at [aws.amazon.com](https://aws.amazon.com) and click on "Create a Free Account."
+    - Visit the AWS website at <a href="https://aws.amazon.com" target="_blank">aws.amazon.com</a> and click on "Create a Free Account."
     - Follow the steps to sign up for an AWS account:
         - Provide your email address.
         - Set a password and choose an account name.
