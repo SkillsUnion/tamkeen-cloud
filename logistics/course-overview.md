@@ -1,4 +1,4 @@
-### Cloud Engineering Path Overview with Updated Language Section
+### Cloud Engineering Path Overview
 
 ---
 
