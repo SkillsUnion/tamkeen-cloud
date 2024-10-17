@@ -1,6 +1,6 @@
-### Module 1.1: Basic IT Infrastructure
+# Basic IT Infrastructure
 
-### **Lesson Objectives: Module 1.1 - Basic IT Infrastructure**
+### **Lesson Objectives: Basic IT Infrastructure**
 
 - Define IT Infrastructure and its role in business operations.
 - Identify the key components: hardware, software, and networking.
