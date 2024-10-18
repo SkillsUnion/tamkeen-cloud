@@ -1,4 +1,4 @@
-### **Connectivity to AWS**
+# **Connectivity to AWS**
 
 #### **Amazon Virtual Private Cloud (Amazon VPC)**
 

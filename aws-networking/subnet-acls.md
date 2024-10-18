@@ -1,4 +1,4 @@
-### Subnets and Network Access Control Lists
+# Subnets and Network Access Control Lists
 
 To understand the role of subnets within a VPC, consider this analogy from a coffee shop.
 
