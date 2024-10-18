@@ -1,4 +1,4 @@
-# Introduction to Programming Languages**
+# Introduction to Programming Languages
 
 ---
 

@@ -1,4 +1,4 @@
-# What is Software Development?**
+# What is Software Development?
 
 ---
 
