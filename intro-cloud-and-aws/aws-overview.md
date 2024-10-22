@@ -8,6 +8,8 @@
 
 Amazon Athena is an interactive query service that simplifies the analysis of data in Amazon S3 using standard SQL. Athena is serverless, meaning there is no infrastructure to manage, and users pay only for the queries they run.
 
+![alt text](image.png)
+
 **Key Features**
 
 Athena is easy to use: simply point to the data in Amazon S3, define the schema, and start querying using standard SQL. Most results are delivered within seconds. With Athena, there is no need for complex extract, transform, and load (ETL) jobs to prepare data for analysis, making it accessible for anyone with SQL skills to quickly analyze large-scale datasets.
@@ -22,6 +24,8 @@ Athena is integrated with AWS Glue Data Catalog out of the box, allowing users t
 
 Amazon CloudSearch is a managed service in the AWS Cloud that makes it simple and cost-effective to set up, manage, and scale a search solution for websites or applications.
 
+![alt text](image-1.png)
+
 **Key Features**
 
 It supports 34 languages and popular search features such as highlighting, autocomplete, and geospatial search.
@@ -32,6 +36,8 @@ It supports 34 languages and popular search features such as highlighting, autoc
 
 Amazon DataZone is a data management service designed to publish data and make it available through a business data catalog via a personalized web application.
 
+![alt text](image-2.png)
+
 **Key Features**
 
 It enables secure access to data stored across AWS, on-premises, or in SaaS applications like Salesforce. Amazon DataZone integrates across AWS services such as Amazon Redshift, Amazon Athena, AWS Glue, AWS Lake Formation, and Amazon QuickSight.
@@ -41,6 +47,8 @@ It enables secure access to data stored across AWS, on-premises, or in SaaS appl
 **Overview**
 
 Amazon EMR is a leading cloud big data platform for processing vast amounts of data using open-source tools like Apache Spark, Hive, HBase, Flink, Hudi, and Presto.
+
+![alt text](image-3.png)
 
 **Key Features**
 
@@ -54,6 +62,8 @@ Amazon FinSpace is a data management and analytics service tailored for the fina
 
 **Key Features**
 
+![alt text](image-4.png)
+
 FinSpace reduces the time spent finding and preparing petabytes of financial data from months to minutes. It enables financial organizations to analyze data from internal sources and third-party feeds, while enforcing compliance requirements.
 
 ### Amazon Kinesis
@@ -61,6 +71,8 @@ FinSpace reduces the time spent finding and preparing petabytes of financial dat
 **Overview**
 
 Amazon Kinesis facilitates the collection, processing, and analysis of real-time streaming data for quick insights and immediate response.
+
+![alt text](image-5.png)
 
 **Key Features**
 
@@ -72,6 +84,8 @@ Kinesis offers key capabilities for cost-effective data processing at any scale,
 
 Amazon Data Firehose is the easiest way to reliably load streaming data into data stores and analytics tools.
 
+![alt text](image-6.png)
+
 **Key Features**
 
 It can capture, transform, and load data into Amazon S3, Redshift, OpenSearch Service, and Splunk. The fully managed service scales automatically and supports real-time analytics with minimal administration.
@@ -81,6 +95,8 @@ It can capture, transform, and load data into Amazon S3, Redshift, OpenSearch Se
 **Overview**
 
 Amazon Managed Service for Apache Flink is a managed service for analyzing streaming data and responding in real-time.
+
+![alt text](image-7.png)
 
 **Key Features**
 
@@ -112,6 +128,8 @@ The service automatically scales to ingest video from millions of devices and in
 
 Amazon OpenSearch Service makes it easy to deploy, secure, and scale OpenSearch for real-time search, analysis, and visualization.
 
+![alt text](image-8.png)
+
 **Key Features**
 
 It powers use cases like log analytics, full-text search, and application monitoring with enterprise-grade availability and security.
@@ -142,6 +160,8 @@ It supports complex queries on large datasets at a low cost, with most results r
 
 Amazon Redshift Serverless makes it easier to run and scale analytics without managing infrastructure.
 
+![alt text](image-9.png)
+
 **Key Features**
 
 It automatically provisions and scales capacity based on demand, allowing users to focus on querying data and generating insights.
@@ -151,6 +171,8 @@ It automatically provisions and scales capacity based on demand, allowing users 
 **Overview**
 
 Amazon QuickSight is a fast, cloud-powered business intelligence (BI) service that enables the creation and publication of interactive dashboards.
+
+![alt text](image-10.png)
 
 **Key Features**
 
@@ -162,6 +184,8 @@ It scales easily to thousands of users without requiring infrastructure manageme
 
 AWS Clean Rooms enables companies and partners to securely analyze and collaborate on datasets without sharing underlying data.
 
+![alt text](image-11.png)
+
 **Key Features**
 
 Customers can create secure data clean rooms in minutes and collaborate with others on AWS to generate insights while maintaining data privacy.
@@ -172,6 +196,8 @@ Customers can create secure data clean rooms in minutes and collaborate with oth
 
 AWS Data Exchange simplifies the process of finding, subscribing to, and using third-party data in the cloud.
 
+![alt text](image-12.png)
+
 **Key Features**
 
 It allows users to subscribe to data from leading providers and load it directly into Amazon S3 for analysis using AWS analytics and ML services.
@@ -181,6 +207,8 @@ It allows users to subscribe to data from leading providers and load it directly
 **Overview**
 
 AWS Data Pipeline is a web service for reliably processing and moving data between AWS compute and storage services, as well as on-premises sources.
+
+![alt text](image-13.png)
 
 **Key Features**
 
@@ -202,6 +230,8 @@ It uses configurable ML and rule-based techniques to create unified customer pro
 
 AWS Glue is a fully managed ETL service that simplifies data preparation for analytics.
 
+![alt text](image-14.png)
+
 **Key Features**
 
 It integrates with the AWS Glue Data Catalog for metadata management and supports data integration using Apache Spark, PySpark, and Ray for scalable workloads.
@@ -222,6 +252,8 @@ It integrates with analytics and ML services to help users extract insights from
 
 Amazon MSK is a fully managed service that simplifies building and running applications using Apache Kafka.
 
+![alt text](image-15.png)
+
 **Key Features**
 
 It automates the setup and management of Kafka clusters, allowing organizations to focus on building applications instead of managing infrastructure.
@@ -233,6 +265,8 @@ It automates the setup and management of Kafka clusters, allowing organizations 
 **Overview**
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale computing easier for developers.
 
+![alt text](image-16.png)
+
 **Key Features**
 The simple web interface of Amazon EC2 allows users to obtain and configure capacity with minimal friction. It provides complete control over computing resources and lets applications run on Amazon’s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances (called Amazon EC2 instances) to minutes, allowing quick scaling of capacity, both up and down, as computing requirements change.
 
@@ -240,6 +274,8 @@ The simple web interface of Amazon EC2 allows users to obtain and configure capa
 
 **Overview**
 Amazon Lightsail is designed to be the easiest way to launch and manage a virtual private server with AWS.
+
+![alt text](image-17.png)
 
 **Key Features**
 Lightsail plans include everything needed to jumpstart a project, including a VM, SSD-based storage, data transfer, DNS management, and a static IP address—all for a low, predictable price.
@@ -257,6 +293,8 @@ AL2023 provides seamless integration with various AWS services and development t
 **Overview**
 AWS App Runner is a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs at scale.
 
+![alt text](image-18.png)
+
 **Key Features**
 AWS App Runner automatically builds, deploys, and scales web applications with load balancing and encryption. It also scales automatically to meet traffic needs, allowing developers to focus on applications instead of infrastructure.
 
@@ -273,6 +311,8 @@ AWS Batch dynamically provisions the optimal quantity and type of compute resour
 **Overview**
 AWS Elastic Beanstalk is a service for deploying and scaling web applications and services developed in languages like Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker.
 
+![alt text](image-19.png)
+
 **Key Features**
 AWS Elastic Beanstalk handles deployment tasks like capacity provisioning, load balancing, and auto-scaling while allowing full control over the underlying AWS resources.
 
@@ -281,6 +321,8 @@ AWS Elastic Beanstalk handles deployment tasks like capacity provisioning, load 
 **Overview**
 AWS Fargate is a compute engine for Amazon ECS that allows users to run containers without managing servers or clusters.
 
+![alt text](image-20.png)
+
 **Key Features**
 With Fargate, users only need to package their applications in containers, specify CPU and memory requirements, define networking and IAM policies, and launch the application without worrying about underlying infrastructure.
 
@@ -288,6 +330,8 @@ With Fargate, users only need to package their applications in containers, speci
 
 **Overview**
 AWS Lambda lets users run code without provisioning or managing servers, charging only for the compute time consumed.
+
+![alt text](image-21.png)
 
 **Key Features**
 AWS Lambda is ideal for running code for virtually any application or backend service without the need for administration. Code can be set up to run automatically from other AWS services or called directly from web or mobile apps.
@@ -331,6 +375,8 @@ VMware Cloud on AWS allows organizations to run VMware's compute, storage, and n
 **Overview**
 Amazon Elastic Container Registry (Amazon ECR) is a fully-managed Docker container registry that simplifies storing, managing, and deploying Docker container images.
 
+![alt text](image-22.png)
+
 **Key Features**
 - Integrated with Amazon ECS for seamless development to production workflows.
 - Eliminates the need for operating container repositories or scaling infrastructure.
@@ -342,6 +388,8 @@ Amazon Elastic Container Registry (Amazon ECR) is a fully-managed Docker contain
 **Overview**
 Amazon Elastic Container Service (Amazon ECS) is a scalable and high-performance container orchestration service that supports Docker containers, allowing you to run and scale containerized applications on AWS.
 
+![alt text](image-23.png)
+
 **Key Features**
 - No need to manage your own container orchestration software or virtual machine clusters.
 - Simple API calls to launch, stop, and query the state of your applications.
@@ -351,6 +399,8 @@ Amazon Elastic Container Service (Amazon ECS) is a scalable and high-performance
 
 **Overview**
 Amazon Elastic Kubernetes Service (Amazon EKS) makes it easy to deploy, manage, and scale containerized applications using Kubernetes on AWS.
+
+![alt text](image-24.png)
 
 **Key Features**
 - Runs Kubernetes management infrastructure across multiple Availability Zones for high availability.
@@ -375,6 +425,8 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database engine th
 **Overview**
 Amazon DynamoDB is a key-value and document database that provides single-digit millisecond performance at any scale. It is a fully managed, multi-Region database with built-in security, backup and restore, and in-memory caching for internet-scale applications.
 
+![alt text](image-25.png)
+
 **Key Features**
 - Handles more than 10 trillion requests per day and supports peaks of more than 20 million requests per second.
 - Ideal for mobile, web, gaming, ad tech, IoT, and other applications requiring low-latency data access.
@@ -384,6 +436,8 @@ Amazon DynamoDB is a key-value and document database that provides single-digit 
 
 **Overview**
 Amazon ElastiCache is a fully managed in-memory caching service that improves the performance of web applications by retrieving data from fast, managed caches.
+
+![alt text](image-26.png)
 
 **Supported Engines**
 - **Redis**: A Redis-compatible in-memory service suitable for high-performance use cases such as web, mobile apps, gaming, and IoT.
@@ -425,6 +479,8 @@ Amazon Neptune is a fast, reliable, fully-managed graph database service that su
 **Overview**
 Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud with support for six familiar database engines, including MySQL, MariaDB, PostgreSQL, Oracle Database, Microsoft SQL Server, and Amazon RDS on AWS Outposts.
 
+![alt text](image-27.png)
+
 **Key Features**
 - Automates time-consuming administration tasks such as hardware provisioning, database setup, patching, and backups.
 - Cost-efficient and resizable capacity optimized for memory, performance, or I/O.
@@ -433,6 +489,8 @@ Amazon RDS makes it easy to set up, operate, and scale a relational database in 
 
 **Overview**
 Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log owned by a central trusted authority.
+
+![alt text](image-28.png)
 
 **Key Features**
 - Tracks each application data change and maintains a complete, verifiable history of changes over time.
@@ -472,6 +530,8 @@ Amazon Lightsail offers managed databases separate from compute workloads with s
 **Overview**
 AWS Amplify makes it easy to create, configure, and implement scalable mobile applications powered by AWS. Amplify seamlessly provisions and manages your mobile backend and provides a simple framework to easily integrate your backend with iOS, Android, Web, and React Native frontends.
 
+![alt text](image-29.png)
+
 **Key Features**
 - Automates both front-end and back-end release processes for faster feature delivery.
 - Provides cloud services for tasks that can’t be done on-device, such as offline data synchronization, storage, or data sharing.
@@ -482,6 +542,8 @@ AWS Amplify makes it easy to create, configure, and implement scalable mobile ap
 
 **Overview**
 AWS AppSync is a serverless back-end for mobile, web, and enterprise applications that makes it easy to build data-driven applications by handling secure data management tasks.
+
+![alt text](image-30.png)
 
 **Key Features**
 - Supports online and offline data access, data synchronization, and manipulation across multiple data sources.
@@ -512,6 +574,8 @@ Amazon Location Service makes it easy for developers to add location functionali
 
 ### Amazon API Gateway
 
+![alt text](image-31.png)
+
 **Overview**
 Amazon API Gateway is a fully managed service that simplifies the process of creating, publishing, maintaining, monitoring, and securing APIs at any scale.
 
@@ -522,6 +586,8 @@ With Amazon API Gateway, developers can create an API that acts as a “front do
 
 **Overview**
 Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs globally with low latency and high transfer speeds.
+
+![alt text](image-32.png)
 
 **Key Features**
 CloudFront integrates seamlessly with other AWS services such as AWS Shield, Amazon S3, Elastic Load Balancing, and Lambda@Edge, offering a developer-friendly environment. It operates on a pay-as-you-go pricing model with no upfront fees.
@@ -546,6 +612,8 @@ It evaluates each application request in real time using AWS Zero Trust principl
 
 **Overview**
 Amazon Virtual Private Cloud (Amazon VPC) allows the provisioning of a logically isolated section of the AWS Cloud where users can launch AWS resources in a virtual network.
+
+![alt text](image-33.png)
 
 **Key Features**
 Amazon VPC provides full control over virtual networking, including IP address range selection, subnet creation, route table configuration, and network gateway settings.
@@ -627,6 +695,8 @@ AWS VPN includes AWS Site-to-Site VPN for creating encrypted tunnels and AWS Cli
 **Overview**
 Elastic Load Balancing (ELB) distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses.
 
+![alt text](image-34.png)
+
 **Key Features**
 ELB offers four types of load balancers: Application Load Balancer, Network Load Balancer, Gateway Load Balancer, and Classic Load Balancer, each catering to different traffic management needs.
 
@@ -645,6 +715,8 @@ The program integrates CSPs’ private 5G and 4G LTE networks with AWS services 
 
 **Overview**
 Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily. It supports scaling to millions of users and integrates with various identity providers like Apple, Facebook, Twitter, or Amazon, with SAML 2.0 identity solutions or your own identity system.
+
+![alt text](image-35.png)
 
 **Key Features**
 - Save data locally on users’ devices, enabling offline access.
@@ -774,6 +846,8 @@ AWS IAM helps you securely control access to AWS resources by managing permissio
 **Overview**
 AWS KMS helps you create and manage cryptographic keys and control their use across AWS services.
 
+![alt text](image-36.png)
+
 **Key Features**
 - FIPS 140-2 validated hardware security modules (HSMs).
 - Integrated with AWS CloudTrail for logging key usage.
@@ -866,6 +940,8 @@ AWS Backup enables you to centralize and automate data protection across AWS ser
 
 **Overview**
 Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances. It offers high availability and durability by automatically replicating volumes within an Availability Zone.
+
+![alt text](image-37.png)
 
 **Key Features**
 - Consistent, low-latency performance for demanding workloads.
