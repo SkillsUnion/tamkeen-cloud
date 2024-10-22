@@ -739,6 +739,8 @@ Amazon Detective simplifies security investigations by automatically collecting 
 **Overview**
 Amazon GuardDuty is a threat detection service that continuously monitors for malicious activity and anomalous behavior across your AWS accounts, workloads, and data.
 
+![alt text](image-39.png)
+
 **Key Features**
 - Analyzes billions of events and uses threat intelligence feeds and machine learning to detect unauthorized activity.
 - Delivers findings to the GuardDuty console, Amazon CloudWatch Events, and AWS Security Hub for easy integration and response.
@@ -757,6 +759,8 @@ Amazon Inspector is an automated vulnerability management service that continuou
 
 **Overview**
 Amazon Macie is a fully managed data security and privacy service that uses machine learning to discover sensitive data and monitor security across Amazon S3 environments.
+
+![alt text](image-40.png)
 
 **Key Features**
 - Detects sensitive data types like financial, health, and personally identifiable information (PII).
@@ -830,6 +834,8 @@ AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD) 
 **Overview**
 AWS Firewall Manager provides centralized security management and enforcement for firewall rules across multiple AWS accounts and applications.
 
+![alt text](image-41.png)
+
 **Key Features**
 - Automatically applies security policies to new applications and resources.
 - Integrates with AWS Organizations for centralized policy management.
@@ -868,6 +874,8 @@ AWS Network Firewall is a managed service that provides network protection for A
 **Overview**
 AWS RAM helps you securely share resources across AWS accounts without creating duplicates.
 
+![alt text](image-42.png)
+
 **Key Features**
 - Share resources like subnets, transit gateways, and more.
 - Reduces operational overhead by managing shared resources in one place.
@@ -894,6 +902,8 @@ AWS Security Hub centralizes and automates security checks across your AWS accou
 
 **Overview**
 AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards web applications on AWS.
+
+![alt text](image-43.png)
 
 **Key Features**
 - AWS Shield Standard offers free protection against common DDoS attacks.
@@ -922,10 +932,13 @@ AWS WAF is a web application firewall that helps protect your web applications a
 **Overview**
 AWS WAF Captcha helps block unwanted bot traffic by requiring users to complete challenges before accessing AWS WAF-protected resources.
 
+![alt text](image-44.png)
+
 **Key Features**
 - Configurable rules for applying CAPTCHA challenges based on specific traffic patterns.
 - Includes an audio version and is designed to meet accessibility requirements.
 
+![alt text](image-45.png)
 
 ## Storage
 
@@ -962,6 +975,8 @@ AWS Elastic Disaster Recovery minimizes downtime and data loss by providing fast
 
 **Overview**
 Amazon Elastic File System (Amazon EFS) provides scalable, elastic file storage for Linux-based workloads. It automatically grows and shrinks as you add and remove files, making it ideal for dynamic workloads.
+
+![alt text](image-46.png)
 
 **Key Features**
 - Scales on demand to petabytes without disrupting applications.
@@ -1017,6 +1032,8 @@ Amazon FSx for Windows File Server provides fully managed, native Microsoft Wind
 **Overview**
 Amazon Simple Storage Service (Amazon S3) offers scalable, secure, and high-performance object storage. It is designed for 99.999999999% (11 9s) of durability and is ideal for a wide range of use cases.
 
+![alt text](image-47.png)
+
 **Key Features**
 - Multiple storage classes for different data access needs, from frequently accessed data to long-term archival storage.
 - S3 Object Lock for WORM (write-once-read-many) storage, helping to meet regulatory requirements.
@@ -1025,6 +1042,8 @@ Amazon Simple Storage Service (Amazon S3) offers scalable, secure, and high-perf
 
 **Overview**
 AWS Storage Gateway is a hybrid storage service that connects on-premises applications to AWS cloud storage for use cases like backup, disaster recovery, and cloud data processing.
+
+![alt text](image-48.png)
 
 **Key Features**
 - Seamless integration with AWS storage services like Amazon S3, S3 Glacier, Amazon EBS, and Amazon FSx.
