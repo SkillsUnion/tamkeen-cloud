@@ -34,7 +34,7 @@ Develop computational thinking by building solid mental models and using mistake
 
    - **Embrace Errors**: Errors are part of programming. Use them as learning tools and be playful—don’t fear breaking things.
    - **Ask Questions**: Regularly question your understanding. What did you try? What causes the error? What do you think is happening?
-   - **Rubber Duck Debugging**: Talk through your problem to clarify your thoughts.
+   - **Rubber Duck Debugging**: Talk through your problem to clarify your thoughts. https://rubberduckdebugging.com/
 
 ---
 
