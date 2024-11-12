@@ -1,6 +1,6 @@
 # Exercise
 
-Run each of the above commands with local files and folders. Verify file and folder changes in Ubuntu File Manager or MacOS Finder.
+Run each of the above commands with local files and folders. Verify file and folder changes in your machine:
 
 - Part 1: Navigation
   - Tasks on moving through directories (`cd`, `ls`).
