@@ -1,4 +1,4 @@
-# Course Methodology
+# Programme Methodology
 
 ## Flipped Classroom
 
