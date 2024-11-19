@@ -106,5 +106,7 @@ AWS operates hundreds of Edge Locations worldwide, strategically positioned near
 
 ### **How to Check Edge Location Availability**
 Use the AWS CLI to verify Edge Location support for services like Amazon CloudFront:
+
 ```bash
 aws cloudfront list-distributions
+```
