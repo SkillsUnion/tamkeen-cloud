@@ -1,4 +1,4 @@
-# **AWS Networking: Comprehensive Beginner's Guide**
+# AWS Networking
 
 ---
 
