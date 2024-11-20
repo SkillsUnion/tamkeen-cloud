@@ -1,5 +1,13 @@
 # **Hidden Files**
 
+## **Learning Objectives: Hidden Files**
+1. Understand the purpose of hidden files and directories in Unix-based systems and their naming convention (starting with a dot `.`).  
+2. Learn how to create, view, and manage hidden files and directories using commands like `mv`, `mkdir`, and `ls -a`.  
+3. Use the `tree -a` command to explore hidden files within directory structures.  
+4. Recognize the role of hidden files in storing user and system configurations, especially in the home directory.  
+5. Develop good practices for cleaning up experimental directories and closing the terminal session properly.  
+
+
 > **Note for Windows users**: Please use the VS Code terminal connected to Ubuntu via WSL (Windows Subsystem for Linux). The Windows Command Prompt uses PowerShell by default, which is not compatible with Unix-based commands that most software engineers rely on. Refer to the [Windows Command Line Setup](../logistics/required-software.md#install-and-setup-windows-subsystem-for-linux-wsl) for instructions.
 >
 > **Note for Mac users**: You can access the terminal by searching for “Terminal” in Spotlight (Cmd + Space) or by navigating to **Applications > Utilities > Terminal**. Mac's terminal uses a Unix-based shell similar to Linux, so the commands covered here will work seamlessly on macOS.

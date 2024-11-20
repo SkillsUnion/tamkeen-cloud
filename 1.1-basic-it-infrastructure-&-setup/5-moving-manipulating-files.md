@@ -1,5 +1,12 @@
 # **Moving and Manipulating Files**
 
+## **Learning Objectives: Moving and Manipulating Files**
+1. Learn to move files and directories using the `mv` command, including handling multiple files and nested directories.  
+2. Understand how to copy files with the `cp` command and rename them using `mv`.  
+3. Develop skills to delete files and directories safely using `rm`, `rmdir`, and recursive options.  
+4. Explore the importance of using `pwd` and cautious practices to avoid accidental file deletions.  
+5. Recognize the risks of permanent deletions with `rm` and use safety measures like the `rm -i` interactive option.  
+
 > **Note for Windows users**: Please use the VS Code terminal connected to Ubuntu via WSL (Windows Subsystem for Linux). The Windows Command Prompt uses PowerShell by default, which is not compatible with Unix-based commands that most software engineers rely on. Refer to the [Windows Command Line Setup](../logistics/required-software.md#install-and-setup-windows-subsystem-for-linux-wsl) for instructions.
 >
 > **Note for Mac users**: You can access the terminal by searching for “Terminal” in Spotlight (Cmd + Space) or by navigating to **Applications > Utilities > Terminal**. Mac's terminal uses a Unix-based shell similar to Linux, so the commands covered here will work seamlessly on macOS.

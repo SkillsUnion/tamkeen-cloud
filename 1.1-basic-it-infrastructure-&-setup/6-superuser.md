@@ -1,5 +1,11 @@
 # **The Command Line and the Superuser**
 
+## **Learning Objectives: The Command Line and the Superuser**
+1. Understand the concept of the superuser (root) and its role in performing administrative tasks on Unix-based systems.  
+2. Learn how the `sudo` command enables safer execution of commands requiring superuser privileges on a per-command basis.  
+3. Recognize the risks and responsibilities associated with using `sudo` and identify best practices for safe usage.  
+4. Differentiate between `sudo` and `su`, and understand why `sudo` is the preferred method for administrative tasks in modern systems.  
+
 > **Note for Windows users**: Please use the VS Code terminal connected to Ubuntu via WSL (Windows Subsystem for Linux). The Windows Command Prompt uses PowerShell by default, which is not compatible with Unix-based commands that most software engineers rely on. Refer to the [Windows Command Line Setup](../logistics/required-software.md#install-and-setup-windows-subsystem-for-linux-wsl) for instructions.
 >
 > **Note for Mac users**: You can access the terminal by searching for “Terminal” in Spotlight (Cmd + Space) or by navigating to **Applications > Utilities > Terminal**. Mac's terminal uses a Unix-based shell similar to Linux, so the commands covered here will work seamlessly on macOS.

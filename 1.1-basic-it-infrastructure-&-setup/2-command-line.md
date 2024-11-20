@@ -1,5 +1,11 @@
 # Command Line
 
+### **Learning Objectives: Command Line**
+
+1. Understand the purpose and functionality of the command line in modern software development and system management.  
+2. Explore the historical origins of the command line, particularly its foundation in Unix, and its evolution to modern systems.  
+3. Learn the key features of Unix-based shell programs like `bash`, including text commands, scripting, and automation.  
+
 ## **Introduction**
 
 The command line, commonly referred to as the "terminal," is a powerful text-based interface used to interact with your computer. It allows users to manage files, use Git for version control, and run applications such as Node.js. While the command line is distinct from writing application code, it is essential for efficiently building, deploying, and managing software.

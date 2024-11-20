@@ -1,13 +1,11 @@
 # Basic IT Infrastructure
 
-### **Lesson Objectives: Basic IT Infrastructure**
+## **Learning Objectives: Basic IT Infrastructure**
 
-- Define IT Infrastructure and its role in business operations.
-- Identify the key components: hardware, software, and networking.
-- Differentiate between traditional and cloud-based infrastructure.
-- Explain how IT infrastructure improves business efficiency.
-- Understand IT infrastructure management (operational, service, and asset management).
-- Describe the benefits of Infrastructure as a Service (IaaS).
+1. Define IT infrastructure and explain its role in supporting business operations.  
+2. Identify the core components of IT infrastructure: hardware, software, and networking.  
+3. Compare traditional and cloud-based infrastructures, highlighting their benefits and limitations.  
+4. Understand the importance of IT infrastructure management and strategies for optimizing operations.  
 
 
 #### **What is IT Infrastructure? An Introductory Guide**
