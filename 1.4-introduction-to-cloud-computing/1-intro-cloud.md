@@ -1,5 +1,13 @@
 # **Introduction to Cloud Computing**
 
+## Learning Objectives: Introduction to Cloud Computing
+
+By the end of this module, participants will be able to:
+
+1. Define cloud computing and its role in transforming modern IT infrastructure.
+2. Identify the advantages and key characteristics of cloud computing.
+3. Distinguish between different deployment models (Public, Private, Hybrid) and service models (IaaS, PaaS, SaaS) in cloud computing.
+
 ---
 
 **Overview:**

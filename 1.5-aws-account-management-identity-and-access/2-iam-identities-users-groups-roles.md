@@ -1,5 +1,14 @@
 # AWS Identity and Access Management (IAM)
 
+## **Learning Objectives**
+
+By the end of this module, participants will be able to:
+
+1. **Understand the structure and purpose of AWS IAM identities**, including root users, IAM users, groups, and roles, in managing access to AWS resources.  
+2. **Differentiate between IAM users and roles**, and identify scenarios where each is most appropriate for managing secure access.  
+3. **Apply best practices for IAM identity management**, including the use of temporary credentials and centralized access through IAM Identity Center.
+
+---
 ## Overview
 
 AWS Identity and Access Management (IAM) is a web service that helps securely control access to AWS resources. IAM allows management of permissions to determine which AWS resources users can access. It provides the necessary infrastructure for controlling authentication (who can sign in) and authorization (what actions can be performed) for an AWS account.
