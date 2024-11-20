@@ -1,13 +1,12 @@
 # GitHub
 
-## Learning Objectives
+## Learning Objectives: GitHub**
 
-1. Know what Github is and what feature it has
-2. Know how to fork a repo on GitHub
-3. Know how to clone a repo from GitHub
-4. Know how to push changes to GitHub
-5. Know how to pull changes from GitHub
-6. Know how to view repo commit history in GitHub
+1. Understand the purpose of GitHub and its features for collaborative software development.  
+2. Learn how to fork a repository to create an independent copy of a GitHub repo.  
+3. Use `git clone` to download a local copy of a repository for editing.  
+4. Gain proficiency in pushing local changes to GitHub using `git push` and pulling changes from GitHub using `git pull`.  
+5. Learn how to view commit history on GitHub to track and analyze changes over time.  
 
 ## Introduction
 

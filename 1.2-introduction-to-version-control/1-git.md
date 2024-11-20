@@ -1,10 +1,12 @@
 # Git
 
-## Learning Objectives
+### **Learning Objectives: Git**
+1. Understand the core purpose of Git and its role in version control and collaborative software development.  
+2. Learn to create, stage, and commit code changes using essential Git commands (`git init`, `git add`, `git commit`).  
+3. Recognize best practices for creating small, meaningful commits with descriptive messages.  
+4. Gain hands-on experience in using Git commands through practical exercises, including creating and managing repositories.  
 
-1. Know how to use Git commands
-2. Know how to add, and commit, files to "commits", i.e. versions of our code
-3. Know when to commit changes during project development
+This revised set of objectives ensures a focus on foundational Git concepts and practical skills.
 
 ## Introduction
 

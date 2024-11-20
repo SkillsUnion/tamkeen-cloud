@@ -1,10 +1,12 @@
 # Pull Requests
 
-## Learning Objectives
+## **Refined Learning Objectives: Pull Requests**
 
-1. Know what Pull Requests are for Github
-2. Know how to create pull requests in GitHub
-3. Know how to leave comments on and merge pull requests in GitHub
+1. Understand the purpose and role of pull requests (PRs) in GitHub for code review and collaboration.  
+2. Learn how to create pull requests to propose and merge changes from one branch to another.  
+3. Gain the ability to leave comments on specific lines of code in pull requests for feedback and discussion.  
+4. Learn how to merge approved pull requests to update target branches with the proposed changes.  
+
 
 ## Introduction
 

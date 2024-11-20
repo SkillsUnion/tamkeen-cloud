@@ -1,11 +1,12 @@
 # Branches
 
-## Learning Objectives
+## **Learning Objectives: Git Branches**
 
-1. Use Git Branches to allow us to develop features independently of "production" code to avoid affecting what our teammates and users see before we are ready.
-2. How to create a new branch
-3. How to move between branches
-4. How to merge 1 branch to another and resolve merge conflicts
+1. Understand the purpose of Git branches and their role in enabling independent feature development without affecting production code.  
+2. Learn how to create a new branch and switch between branches using Git commands.  
+3. Gain proficiency in merging branches, including merging feature branches to `main` and vice versa, both locally and through GitHub.  
+4. Develop strategies to handle and resolve merge conflicts effectively using tools like VS Code.  
+
 
 ## Introduction
 
