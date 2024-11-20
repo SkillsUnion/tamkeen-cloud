@@ -2,12 +2,12 @@
 
 ---
 
-#### **Learning Objectives:**
-By the end of this module, participants will be able to:
+## Learning Objectives: What is Software Development?
 
-1. Define software development and its importance.
-2. Differentiate between different types of software development.
-3. Understand the components and tools involved in the software development process.
+1. Define software development and explain its significance in solving problems and improving efficiency across industries.  
+2. Differentiate between major types of software development, including web, mobile, desktop, embedded systems, game, and cloud-based development.  
+3. Identify key components of the software development process, such as coding, tools, databases, and APIs.  
+4. Understand the role and responsibilities of software developers in designing, building, and maintaining software applications.  
 
 ---
 

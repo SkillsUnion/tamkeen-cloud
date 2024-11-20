@@ -2,14 +2,12 @@
 
 ---
 
-#### **Learning Objectives:**
+## Learning Objectives: Introduction to Programming Languages
 
-By the end of this module, participants will be able to:
-
-1. Define what programming languages are and their role in software development.
-2. Understand the different types of programming languages and their use cases.
-3. Explore the most commonly used programming languages in software development.
-4. Identify key factors in choosing a programming language for a project.
+1. Define programming languages and explain their role in enabling communication between developers and computers.  
+2. Differentiate between types of programming languages, including low-level, high-level, compiled, and interpreted languages.  
+3. Explore the most commonly used programming languages and their specific use cases in software development.  
+4. Identify key factors to consider when choosing a programming language for a given project.  
 
 ---
 

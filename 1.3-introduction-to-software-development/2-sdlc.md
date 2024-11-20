@@ -2,14 +2,12 @@
 
 ---
 
-#### **Learning Objectives:**
+## Learning Objectives: Software Development Life Cycle (SDLC)
 
-By the end of this module, participants will be able to:
-
-1. Define the Software Development Life Cycle (SDLC) and its purpose.
-2. Understand the different phases of the SDLC.
-3. Identify the importance of each phase in delivering a successful software project.
-4. Explore different SDLC models such as Waterfall, Agile, and DevOps.
+1. Define the Software Development Life Cycle (SDLC) and explain its purpose in delivering high-quality software.  
+2. Understand and describe the phases of the SDLC, including planning, requirements analysis, design, implementation, testing, deployment, and maintenance.  
+3. Identify the significance of each SDLC phase in minimizing risks, managing costs, and ensuring quality.  
+4. Compare and evaluate different SDLC models, such as Waterfall, Agile, Scrum, and DevOps, and understand their appropriate use cases.  
 
 ---
 
