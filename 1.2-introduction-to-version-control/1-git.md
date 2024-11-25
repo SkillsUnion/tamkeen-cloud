@@ -6,8 +6,6 @@
 3. Recognize best practices for creating small, meaningful commits with descriptive messages.  
 4. Gain hands-on experience in using Git commands through practical exercises, including creating and managing repositories.  
 
-This revised set of objectives ensures a focus on foundational Git concepts and practical skills.
-
 ## Introduction
 
 All software engineers use version control to manage and review project versions and to write code in teams. Git is the most popular version control system.
