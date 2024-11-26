@@ -25,7 +25,7 @@ Cloud Engineering Bootcamp students can add Skills Union to the Education sectio
 5. **End Date**
    - The month you graduated from the Cloud Engineering Bootcamp
 6. **Description**
-   - Comprehensive training in cloud architecture, AWS services, and DevOps practices. View my cloud engineering projects here: \<PORTFOLIO-LINK>
+   - Comprehensive training in cloud architecture, AWS services, and DevOps practices.
 
 ![alt text](image-2.png)
 

@@ -25,7 +25,7 @@ Software Engineering Bootcamp students can add Rocket Academy to the Education s
 5. End Date
    1. The month you graduated from Rocket's Bootcamp
 6. Description
-   1. Full-stack software engineering and algorithms. Review my portfolio here: \<PORTFOLIO-LINK>
+   1. Full-stack software engineering and algorithms.
 
 ![](<../.gitbook/assets/LinkedIn Badge - Form.png>)
 
