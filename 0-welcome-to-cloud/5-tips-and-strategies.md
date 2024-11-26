@@ -13,7 +13,7 @@ One of the biggest challenges when starting a project is figuring out where to b
    - **Focus on Essentials**: Leave out features that are not essential to the main purpose of the program.
    - **Plan for Simplicity**: Think about simplifying parts of the program, e.g., simulating a dice roll with a fixed value if it fits the purpose.
 
-### 3. Translate the Problem into JavaScript
+### 3. Translate the Problem into the logical flow
    - **Control Flow**: Processes and logic might require loops or conditionals.
    - **Data Types and Structures**: Identify the data types and structures you need, like arrays for ordered lists or numbers for calculations.
 
