@@ -2,6 +2,8 @@
 
 Depending on the industry in which a company operates, specific compliance standards may need to be met. Audits or inspections are typically conducted to ensure that these standards are adhered to.
 
+![alt text](image-11.png)
+
 **AWS Artifact** is a service that provides on-demand access to AWS security and compliance reports, as well as selected online agreements. AWS Artifact is divided into two main sections: **AWS Artifact Agreements** and **AWS Artifact Reports**.
 
 ---

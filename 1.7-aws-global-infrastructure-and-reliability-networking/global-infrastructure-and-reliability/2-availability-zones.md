@@ -2,6 +2,8 @@
 
 Availability Zones (AZs) are the building blocks of AWS's high-availability and fault-tolerant architecture. They are designed to ensure resilience and reliability for applications hosted on Amazon Web Services (AWS). In this guide, we’ll dive into what AZs are, their importance, and best practices for leveraging them in your cloud architecture.
 
+![alt text](image-4.png)
+
 ---
 
 ## **What is an AWS Availability Zone?**
