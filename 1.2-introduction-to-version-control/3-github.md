@@ -1,6 +1,6 @@
 # GitHub
 
-## Learning Objectives: GitHub**
+## Learning Objectives: GitHub
 
 1. Understand the purpose of GitHub and its features for collaborative software development.  
 2. Learn how to fork a repository to create an independent copy of a GitHub repo.  
