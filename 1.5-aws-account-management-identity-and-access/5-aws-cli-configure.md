@@ -15,6 +15,8 @@ Open your preferred terminal or command prompt. For example:
 
 ## 2. Run the AWS Configure Command
 
+![alt text](image-6.png)
+
 In your terminal, type the following command:
 
 ```bash

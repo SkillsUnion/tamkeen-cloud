@@ -12,7 +12,7 @@ An AMI is specific to the following attributes:
 
 Multiple instances can be launched from a single AMI when uniform configurations are needed. Conversely, different AMIs can be used to launch instances with varying configurations, as illustrated below.
 
-![Launch multiple instances from an AMI.](ami-multiple-instances.png)
+![alt text](image-5.png)
 
 It is possible to create an AMI from an existing Amazon EC2 instance and subsequently use it to launch instances with the same configuration. AMIs can also be copied to different AWS Regions, allowing instances to be launched in those Regions. Additionally, AMIs that are created can be shared with other AWS accounts, enabling them to launch instances with the same configuration. Furthermore, AMIs can be sold through the AWS Marketplace.
 
@@ -26,6 +26,8 @@ When launching an instance, it is essential to select an Amazon Machine Image (A
 - **Launch Permissions**
 - **Root Device Type**
 - **Virtualization Types**
+
+![alt text](image-4.png)
 
 ### Launch Permissions
 

@@ -1,5 +1,7 @@
 # Amazon Elastic File System
 
+![alt text](image.png)
+
 Amazon Elastic File System (Amazon EFS) provides serverless, fully elastic file storage that allows sharing of file data without the need to provision or manage storage capacity and performance. Amazon EFS is designed to scale on demand to petabytes without disrupting applications, automatically growing and shrinking as files are added and removed. With a simple web services interface, you can quickly and easily create and configure file systems. The service manages all the file storage infrastructure, allowing you to avoid the complexity of deploying, patching, and maintaining complex file system configurations.
 
 Amazon EFS supports the Network File System version 4 (NFSv4.1 and NFSv4.0) protocol, ensuring that existing applications and tools work seamlessly with Amazon EFS. The service is accessible across most types of Amazon Web Services compute instances, including Amazon EC2, Amazon ECS, Amazon EKS, AWS Lambda, and AWS Fargate.

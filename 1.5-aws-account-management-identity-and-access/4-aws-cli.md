@@ -25,6 +25,7 @@ $ aws --version
 aws-cli/2.17.20 Python/3.11.6 Linux/5.10.205-195.807.amzn2.x86_64 botocore/1.18.6
 ```
 
+![alt text](image-5.png)
 
 # Prerequisites to Use the AWS CLI Version 2
 

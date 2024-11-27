@@ -11,6 +11,10 @@ By the end of this module, participants will be able to:
 ---
 ## Overview
 
+![alt text](image-1.png)
+
+![alt text](image.png)
+
 AWS Identity and Access Management (IAM) is a web service that helps securely control access to AWS resources. IAM allows management of permissions to determine which AWS resources users can access. It provides the necessary infrastructure for controlling authentication (who can sign in) and authorization (what actions can be performed) for an AWS account.
 
 ## IAM Identities (Users, User Groups, and Roles)
@@ -29,10 +33,13 @@ The root user is the initial sign-in identity created when an AWS account is set
 
 IAM users are individual identities within an AWS account with specific permissions. Best practices suggest using temporary credentials instead of creating IAM users with long-term credentials (e.g., passwords or access keys). IAM users should only be created for use cases not supported by federated users.
 
+![alt text](image-2.png)
 
 ### IAM User Groups
 
 An IAM user group is a collection of IAM users managed as a unit. Groups allow easy management of permissions for multiple users. For example, an IAM group named "Developers" can be assigned permissions commonly needed for development tasks.
+
+![alt text](image-3.png)
 
 ### IAM Roles
 
@@ -42,6 +49,8 @@ IAM roles are identities within an AWS account that have specific permissions bu
 - **Cross-Account Access**: Roles allow access to resources in one AWS account from another account.
 - **Cross-Service Access**: AWS services can use roles to perform tasks in other services.
 - **Applications on Amazon EC2**: Roles manage temporary credentials for applications running on EC2 instances, allowing them to securely interact with other AWS services.
+
+![alt text](image-4.png)
 
 ### Temporary Credentials in IAM
 

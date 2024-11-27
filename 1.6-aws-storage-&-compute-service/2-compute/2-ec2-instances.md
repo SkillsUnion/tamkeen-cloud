@@ -12,6 +12,8 @@ Amazon EC2 includes features designed to optimize both the performance and cost-
 
 When launching an EC2 instance, the specified instance type determines the hardware of the host computer used for the instance. Each instance type offers different combinations of compute, memory, and storage capabilities and is categorized into an instance family based on these features. Users should select an instance type based on the specific requirements of the application or software being run on the instance.
 
+![alt text](image-3.png)
+
 Amazon EC2 dedicates certain resources of the host computer, such as CPU, memory, and instance storage, to a specific instance. Other resources, like the network and disk subsystem, are shared among instances. If multiple instances on a host computer attempt to use the same shared resource, each instance receives an equal share. However, an instance can consume more of a shared resource when it is underutilized by others.
 
 Each instance type offers varying minimum performance from shared resources. For example, instance types with high I/O performance have a larger share of resources, which reduces the variance in I/O performance. Most applications require moderate I/O performance, but for applications needing greater or more consistent I/O, a higher I/O performance instance type is recommended.

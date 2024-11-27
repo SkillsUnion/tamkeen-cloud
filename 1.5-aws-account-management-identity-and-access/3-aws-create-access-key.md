@@ -14,10 +14,14 @@ Follow these steps to create an AWS Access Key ID for your IAM user.
 
 ## 3. Navigate to Users
 
+![alt text](image.png)
+
 1. In the left navigation panel, select **Users**.
 2. From the list of users, select the user for which you want to create the access key.
 
 ## 4. Create the Access Key
+
+![alt text](image-1.png)
 
 1. On the selected user's summary page, choose the **Security Credentials** tab.
 2. Scroll down to the **Access keys** section.
