@@ -37,27 +37,13 @@ The following are common Git commands we will use as software engineers.
 | `git diff <filepath>`            | Review changes made in each file at given file path since latest commit. If file path not specified, show changes made to all files in repo.</p><p>This allows us to verify we made intended changes. If changes are longer than window height, use <code>Enter</code> to browse downward. Press <code>q</code> to exit.                                                                                                                                                                                                                    |
 | `git add <filepath>`             | Stage files in specified file path for commit by adding them to the staging area. Files added to staging are not committed yet.<br><br>Often (but not always) we will want to add all changed files to staging. We can do this with <code>git add .</code>, where <code>.</code> is an alias for the current folder.                                                                                                                                                                                                                        |
 | `git commit -m <commit-message>` | <p>Commit all files in staging to a new Git commit. The <code>-m</code> flag, which stands for "message", allows us to enter a mandatory commit message in the command line instead of in an editor. Commit messages should be short and descriptive, describing what changed and why.<br><br>Running <code>git commit</code> without the <code>-m</code> flag may bring us to Git's default editor, which we should have set to VS Code. If we get stuck in a command line editor, type <code>:q</code> and press <code>Enter</code> to exit.</p> |
-| `git log`                        | <p>View a list of all commits in this repo. Use <code>Enter</code> to scroll downward and <code>q</code> to exit if output longer than screen height. <br><br>You can use the <code>--oneline</code> flag for a more concise list of commits.</p>                                                                                                                                                                                                                                                                                                  |
+| `git log`                        | <p>View a list of all commits in this repo. Use <code>Enter</code> to scroll downward and <code>q</code> to exit if output longer than screen height. <br><br>You can use the <code>--oneline</code> flag for a more concise list of commits.</p>
+
 
 ## When to commit changes?
 
 1. We should strive to keep commits relatively small so it is easy for our team to review the changes in each commit
 2. We should strive to only commit code when it is in a state that others would find useful; not in a broken state or with commented-out scratch code
-
-## Exercise: Git Poetry
-
-The following exercises should help familiarise you with Git. We use text instead of code, but the Git functionality is the same. You may wish to have 3 windows open on your screen: VS Code, the Git Commands table above, and the following instructions.
-
-1. Open today's folder in terminal and create a folder with the command `mkdir`
-2. `cd` into the folder, and initialise it as a git repo using the command `git init`
-3. Create a text file in the command line using `touch spring-poem.txt` and open it in VS Code with `code spring-poem.txt`
-4. Write a poem about spring (or anything) in `spring-poem.txt` and save the file
-5. Stage and commit `spring-poem.txt` with `git add .` and `git commit -m`
-6. Edit our poem to reference leaves (or anything). Stage and commit the edits
-7. Add a 2nd poem about winter (or anything) in a new file `winter-poem.txt`
-8. Add a title to our spring poem above the poem in the file
-9. Commit the latest changes to `winter-poem.txt` and `spring-poem.txt` in 2 commits by adding 1 of them to the staging area and committing before adding the other
-10. Use `git log` to review commits in our repo
 
 ## Additional Resources
 
