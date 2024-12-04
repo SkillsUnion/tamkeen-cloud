@@ -25,6 +25,14 @@ Users could also write "shell scripts"—simple programs composed of multiple sh
 
 ---
 
+{% include youtube.html id="I4EWvMFj37g" %}
+
+---
+
+{% include youtube.html id="-txKSRn0qeA" %}
+
+---
+
 ## **The Command Line in Modern Systems**
 
 Linux, a descendant of Unix, retains much of the functionality and structure of its predecessor. Modern Linux systems continue to support the same text-based commands and shell programs originally designed for Unix. The difference today is that instead of using old hardware terminals, most users access the command line through software terminals that run in a window alongside graphical applications.
