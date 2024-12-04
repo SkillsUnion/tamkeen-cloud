@@ -25,6 +25,7 @@ Cloud computing refers to the on-demand delivery of compute power, databases, st
   </a>
 </p>
 
+{% include youtube.html id="mxT233EdY5c" %}
 
 With cloud computing, there is no need for large upfront investments in hardware or the time-consuming management of that hardware. Instead, the right type and size of computing resources can be provisioned as needed, enabling organizations to power new ideas or operate IT departments efficiently. Resources can be accessed almost instantly and payment is only required for what is used.
 
