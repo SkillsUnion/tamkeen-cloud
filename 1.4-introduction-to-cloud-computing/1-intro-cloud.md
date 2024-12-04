@@ -18,7 +18,10 @@ Cloud computing is a transformative technology that allows individuals and busin
 
 Cloud computing refers to the on-demand delivery of compute power, databases, storage, applications, and other IT resources via the internet through a cloud services platform with pay-as-you-go pricing. Whether applications are being run to share photos with millions of mobile users or to support critical business operations, a cloud services platform provides rapid access to flexible and cost-effective IT resources.
 
+---
 {% include youtube.html id="mxT233EdY5c" %}
+
+---
 
 With cloud computing, there is no need for large upfront investments in hardware or the time-consuming management of that hardware. Instead, the right type and size of computing resources can be provisioned as needed, enabling organizations to power new ideas or operate IT departments efficiently. Resources can be accessed almost instantly and payment is only required for what is used.
 
