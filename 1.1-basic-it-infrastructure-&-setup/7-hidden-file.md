@@ -125,3 +125,9 @@ logout
 ```
 
 By mastering the **Ctrl-Alt-T** shortcut to open the terminal and **Ctrl-D** to close it, you can seamlessly integrate the command line into your workflow, making it a powerful tool at your fingertips.
+
+### Additional Video
+
+{% include youtube.html id="gd7BXuUQ91w" %}
+
+---
