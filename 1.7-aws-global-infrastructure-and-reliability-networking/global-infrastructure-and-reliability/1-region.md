@@ -1,3 +1,5 @@
+{% include youtube.html id="RPis5mbM8c8" %}
+
 # AWS Regions
 
 AWS Regions are the foundation of Amazon Web Services' (AWS) global infrastructure. These geographically distinct areas are designed to meet diverse business needs by providing secure, scalable, and compliant cloud services to organizations worldwide. In this guide, we’ll focus on understanding AWS Regions, their key features, and how to choose the right Region for your workloads.

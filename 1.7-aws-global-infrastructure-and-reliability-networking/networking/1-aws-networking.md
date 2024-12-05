@@ -23,6 +23,9 @@ At the end of this module, learners will:
 
 AWS networking provides the foundation for deploying applications and services in a secure, scalable, and reliable environment. The core service enabling AWS networking is **Amazon Virtual Private Cloud (VPC)**, which allows users to create isolated virtual networks within the AWS cloud.
 
+
+{% include youtube.html id="t7keOHhYYE0" %}
+
 ### **Key Features of AWS Networking**
 - **Isolation:** Each VPC operates independently, providing a secure environment.
 - **Customization:** Users can configure subnets, routing tables, and access controls.
@@ -44,6 +47,10 @@ With Amazon Virtual Private Cloud (Amazon VPC), you can launch AWS resources in 
 The following diagram shows an example VPC. The VPC has one subnet in each of the Availability Zones in the Region, EC2 instances in each subnet, and an internet gateway to allow communication between the resources in your VPC and the internet.
 
 ![alt text](image-13.png)
+
+
+{% include youtube.html id="7_NNlnH7sAg" %}
+
 
 ### **1.2 Why Use a VPC?**
 A VPC is critical for:
