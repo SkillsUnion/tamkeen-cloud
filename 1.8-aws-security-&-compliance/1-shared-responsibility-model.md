@@ -2,6 +2,8 @@
 
 The AWS Shared Responsibility Model defines the division of security responsibilities between AWS and its customers. Both AWS and customers play key roles in maintaining the security of resources within the AWS environment. The model is categorized into two sections: **security in the cloud** (customer responsibilities) and **security of the cloud** (AWS responsibilities).
 
+{% include youtube.html id="U632-ND7dKQ" %}
+
 ![alt text](image.png)
 
 ---
@@ -35,5 +37,9 @@ AWS ensures the security of the foundational infrastructure that supports custom
 #### **Analogy: Homeowner and Homebuilder**
 
 The shared responsibility model can be compared to the relationship between a homeowner and a homebuilder. AWS (the builder) constructs and secures the infrastructure (the house), while the customer (the homeowner) is responsible for securing the content inside (e.g., locking doors and protecting belongings). Together, both parties ensure overall security.
+
+
+{% include youtube.html id="o13js0hIO_o" %}
+
 
 By following the shared responsibility model, AWS provides a secure infrastructure, while customers maintain control over the security of their data and applications within that environment.
