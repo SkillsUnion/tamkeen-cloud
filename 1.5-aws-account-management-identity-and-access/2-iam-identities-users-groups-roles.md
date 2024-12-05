@@ -17,6 +17,10 @@ By the end of this module, participants will be able to:
 
 AWS Identity and Access Management (IAM) is a web service that helps securely control access to AWS resources. IAM allows management of permissions to determine which AWS resources users can access. It provides the necessary infrastructure for controlling authentication (who can sign in) and authorization (what actions can be performed) for an AWS account.
 
+
+{% include youtube.html id="3y596T1eH_8" %}
+
+
 ## IAM Identities (Users, User Groups, and Roles)
 
 ### IAM Identity Overview
@@ -82,6 +86,10 @@ Create an IAM role in the following cases:
 - Running an application on Amazon EC2 that requires access to AWS resources.
 - Developing mobile apps that need to authenticate users and access AWS resources.
 - Allowing users from a corporate network to access AWS without requiring additional sign-in.
+
+
+{% include youtube.html id="9R3v3lhfkTk" %}
+
 
 ## Comparing AWS Account Root User Credentials and IAM User Credentials
 

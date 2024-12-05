@@ -86,3 +86,10 @@ Amazon EFS supports lifecycle management, automatically transitioning data betwe
 ### 8. Replication
 
 Amazon EFS allows creating a replica of a file system in a preferred AWS Region. The replication process is automatic and continuous, synchronizing data and metadata between the source and destination file systems. This feature ensures a recovery point objective (RPO) and a recovery time objective (RTO) of minutes, helping meet compliance and business continuity goals.
+
+
+---
+
+{% include youtube.html id="vAV4ASDnbN0" %}
+
+---

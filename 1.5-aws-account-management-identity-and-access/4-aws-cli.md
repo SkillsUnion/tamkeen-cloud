@@ -11,6 +11,9 @@ All infrastructure as a service (IaaS) administration, management, and access fu
 The AWS CLI provides direct access to the public APIs of AWS services, enabling users to explore service capabilities and develop shell scripts to manage resources. Beyond the low-level, API-equivalent commands, several AWS services offer customizations for the AWS CLI. These customizations may include higher-level commands designed to simplify the use of services with complex APIs.
 
 
+{% include youtube.html id="Rp-A84oh4G8" %}
+
+
 # About AWS CLI Version 2
 
 The AWS CLI version 2 is the most recent major release of the AWS CLI and supports all the latest features. Some features introduced in version 2 are not backported to version 1, making it necessary to upgrade in order to access those features. Additionally, there are some "breaking" changes in version 2 that may require script modifications. For a list of these breaking changes, refer to the guide on migrating from AWS CLI version 1 to version 2.
