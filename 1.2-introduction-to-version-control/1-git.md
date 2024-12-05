@@ -14,6 +14,9 @@ Version control is not strictly necessary to create programs, but it makes softw
 
 In this submodule we will learn how to create code versions, more commonly known as "commits".&#x20;
 
+
+{% include youtube.html id="e9lnsKot_SQ" %}
+
 We will continue to learn Git techniques as we progress through Bootcamp.
 
 ## Git Terminology
@@ -43,6 +46,13 @@ The following are common Git commands we will use as software engineers.
 
 1. We should strive to keep commits relatively small so it is easy for our team to review the changes in each commit
 2. We should strive to only commit code when it is in a state that others would find useful; not in a broken state or with commented-out scratch code
+
+---
+
+{% include youtube.html id="hwP7WQkmECE" %}
+
+---
+
 
 ## Exercise: Git Poetry
 

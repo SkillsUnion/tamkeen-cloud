@@ -14,6 +14,10 @@ A GitHub <a href="https://docs.github.com/en/free-pro-team@latest/github/collabo
 
 ![A pull request on Facebook's React repo](<../.gitbook/assets/0.3.1 - Pull Requests - 2 - Sample PR.png>) ![Reviewers can leave comments on pull requests to acknowledge good work and request changes](<../.gitbook/assets/0.3.1 - Pull Requests - 2 - Sample PR Comment.png>)
 
+
+{% include youtube.html id="8lGpZkjnkt4" %}
+
+
 ## How to create, comment on and merge pull requests
 
 Below is a demo video for how to create, comment on and merge pull requests.

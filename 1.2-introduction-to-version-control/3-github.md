@@ -12,6 +12,12 @@
 
 GitHub is a code-hosting website that hosts Git repos for individuals or teams to review and collaborate on. Team members can easily review latest code changes and commit history, making software development more transparent and thorough.
 
+---
+
+{% include youtube.html id="HkdAHXoRtos" %}
+
+---
+
 ## GitHub Workflow Summary
 
 1. **Fork** repos we do not have edit access to to suggest changes or maintain our own copy
