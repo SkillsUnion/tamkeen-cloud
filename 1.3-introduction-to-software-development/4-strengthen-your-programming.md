@@ -17,6 +17,7 @@ By the end of this module, participants will be able to:
 In today’s rapidly evolving tech landscape, continuous learning and practice are essential for software developers. Whether you are focused on mastering JavaScript or Python, accessing high-quality external resources can help you improve your programming skills beyond the basics. This module provides a curated list of external resources, tools, and tutorials that can help you strengthen your knowledge of JavaScript or Python. Or you can also refer to the collection:
 
 
+{% include youtube.html id="DHjqpvDnNGE" %}
 
 ---
 
@@ -45,6 +46,10 @@ In today’s rapidly evolving tech landscape, continuous learning and practice a
 ---
 
 ### **Python Resources**
+
+
+{% include youtube.html id="x7X9w_GIm1s" %}
+
 
 #### **1. Real Python**  
 - **Link**: [Real Python](https://realpython.com/)

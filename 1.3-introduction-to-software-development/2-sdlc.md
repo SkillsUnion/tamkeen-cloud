@@ -19,6 +19,10 @@ There are several SDLC models, each with its own approach to how the stages of d
 
 ---
 
+{% include youtube.html id="i-QyW8D3ei0" %}
+
+---
+
 #### **Phases of the Software Development Life Cycle:**
 
 The SDLC consists of the following key phases:
