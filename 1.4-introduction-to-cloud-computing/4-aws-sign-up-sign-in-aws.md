@@ -35,6 +35,13 @@ A confirmation page will appear, indicating that the account is being activated.
 
 AWS sends a confirmation email when the account activation is complete. It is recommended to check the inbox and spam folder for this email. Once the message is received, full access to all AWS services is granted.
 
+
+---
+
+{% include youtube.html id="lIdh92JmWtg" %}
+
+---
+
 # 2: Sign in as the Root User
 
 When an AWS account is first created, it begins with one sign-in identity that has complete access to all AWS services and resources within the account. This identity is known as the AWS account root user and is accessed by signing in with the email address and password used during account creation.

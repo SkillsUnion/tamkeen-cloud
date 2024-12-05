@@ -2,6 +2,8 @@
 
 Amazon Web Services (AWS) is the world's most comprehensive and widely adopted cloud computing platform, offering over 200 fully featured services from data centers around the globe. AWS enables businesses of all sizes, from startups to enterprises, to lower costs, increase agility, and drive innovation. Whether you're moving existing applications to the cloud or building new ones, AWS provides the tools and resources to help you succeed.
 
+{% include youtube.html id="a9__D53WsUs" %}
+
 ---
 
 ### **Why AWS?**
@@ -75,6 +77,10 @@ AWS provides businesses with a comprehensive suite of tools to innovate, scale, 
 # AWS Overview
 
 ![alt text](image-38.png)
+
+
+{% include youtube.html id="JIbIYCM48to" %}
+
 
 ## Analytics
 

@@ -20,6 +20,9 @@ The AWS Free Tier enables users to explore and utilize AWS services at no cost, 
 - **Service Availability**: Not all AWS services are included in the Free Tier. Review the [AWS Free Tier page](https://aws.amazon.com/free/) for detailed information.
 
 
+{% include youtube.html id="SFaSB6vgp8k" %}
+
+
 https://us-east-1.console.aws.amazon.com/billing/home?region=us-east-1#/freetier
 
 ![alt text](image-52.png)
