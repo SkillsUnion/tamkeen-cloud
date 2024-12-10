@@ -45,11 +45,9 @@ Gain hands-on experience with major cloud providers to learn cloud architecture,
 
 - **Exploring Major Providers**:
   - **AWS**: Market leader with a vast array of services.
-  - **Microsoft Azure**: Best for organizations using Microsoft products.
-  - **Google Cloud Platform (GCP)**: Great for data and machine learning services.
 
 - **Hands-on Practice**:
-  - Use free tiers on AWS, Azure, or GCP to explore services like virtual machines, object storage, and databases.
+  - Use free tiers on AWS to explore services like virtual machines, object storage, and databases.
   - Experiment with deployments, virtual networking, and scaling in the cloud.
 
 ---
@@ -59,7 +57,7 @@ Gain hands-on experience with major cloud providers to learn cloud architecture,
 Learn how to set up, manage, and optimize databases in cloud environments for high availability, scalability, and performance.
 
 - **Topics Covered**:
-  - **Relational Databases (e.g., AWS RDS, Azure SQL)**: Learn how to provision and manage SQL databases in the cloud.
+  - **Relational Databases (e.g., AWS RDS)**: Learn how to provision and manage SQL databases in the cloud.
   - **NoSQL Databases (e.g., DynamoDB, MongoDB)**: Understand when and how to use NoSQL solutions for unstructured data.
   - **Data Backup and Recovery**: Implement robust data backup strategies and disaster recovery.
 
@@ -100,7 +98,7 @@ Understand how to build, manage, and scale containerized applications using Dock
   - **Kubernetes Basics**: Understand pods, deployments, services, and autoscaling.
 
 - **Hands-on Practice**:
-  - Deploy a containerized application on a Kubernetes cluster using AWS EKS, Azure AKS, or Google Kubernetes Engine (GKE).
+  - Deploy a containerized application on a Kubernetes cluster using AWS EKS.
 
 ---
 

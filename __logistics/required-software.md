@@ -15,19 +15,9 @@ To participate in this courses, the following hardware and software are necessar
 
 GUI-application software is software that operates with a graphical user interface (GUI) on your operating system.
 
-### Discord
-
-Discord is a chat software and the primary mode of communication at this bootcampt. It enables communication across the school, within sections, and between individuals. Discord is widely used by tech communities globally for internal communication.
-
-- **Installation:**
-  - Download the Discord mobile app from the [Android Play Store](https://play.google.com/store) or [iOS App Store](https://www.apple.com/app-store/).
-  - Download the Discord desktop app for your operating system [here](https://discord.com/download).
-
-Discord is a cornerstone of this course. If you're new to Discord, check out the [quick-start guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord) and make sure to read through the Discord House Rules before the course begins.
-
 ### Zoom
 
-Zoom is the video conferencing software used for this bootcamp classes. Each section has its own Zoom room, and the link to this room will be found at the top of each section's Discord channel.
+Zoom is the video conferencing software used for this bootcamp classes. Each section has its own Zoom room, and the link to this room will be found at the top of each section's Disco channel.
 
 - **Installation:**
   - Download the Zoom Client for Meetings [here](https://zoom.us/download).

@@ -22,7 +22,8 @@ The identity source in IAM Identity Center defines where users and groups are ma
 
 - **IAM Identity Center Directory**: When IAM Identity Center is enabled for the first time, it is automatically configured with an IAM Identity Center directory as the default identity source, where users and groups are created and assigned access levels.
 - **Active Directory**: This option is selected if users are managed in either an AWS Managed Microsoft AD directory or a self-managed directory in Active Directory (AD).
-- **External Identity Provider (IdP)**: This option is chosen if users are managed in an external identity provider such as Okta or Azure Active Directory.
+- **External Identity Provider (IdP)**: This option is chosen if users are managed in an external identity provider such as Okta.
+
 
 Once IAM Identity Center is enabled, the identity source must be chosen. The selected identity source determines where IAM Identity Center searches for users and groups that need single sign-on (SSO) access. After the identity source is chosen, a user is created or specified and administrative permissions are assigned.
 

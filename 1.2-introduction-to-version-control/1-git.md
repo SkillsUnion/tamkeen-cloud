@@ -17,7 +17,7 @@ In this submodule we will learn how to create code versions, more commonly known
 
 {% include youtube.html id="e9lnsKot_SQ" %}
 
-We will continue to learn Git techniques as we progress through Bootcamp.
+We will continue to learn Git techniques as we progress through this program.
 
 ## Git Terminology
 
