@@ -27,7 +27,7 @@ GitHub is a code-hosting website that hosts Git repos for individuals or teams t
 
 ## GitHub Fork
 
-A GitHub "fork" is a copy of another GitHub repo. SWEs typically "fork" repos they do not have edit access to either to make improvements to merge back into original repos, or to create and maintain independent versions of repos. At this bootcamp we will fork this bootcamp exercise repos to complete and submit assignments.
+A GitHub "fork" is a copy of another GitHub repo. SWEs typically "fork" repos they do not have edit access to either to make improvements to merge back into original repos, or to create and maintain independent versions of repos. 
 
 We can fork a repo by clicking the Fork button on a GitHub repo page. Once forked, we can change our copy of the repo without affecting the original.
 
@@ -46,13 +46,13 @@ Click the copy button in the Code dropdown menu on the GitHub page of the repo w
 Then go to terminal, `cd` to the relevant folder and enter the command `git clone <repo-url>`, where `<repo-url>` is the URL we just copied from GitHub. This will create a new folder named after the repo with the repo's contents inside.
 
 ```
-bootcamp % git clone https://github.com/kai-rocket/react.git
+ce % git clone https://github.com/aws-samples/aws-cdk-examples.git
 Cloning into 'react'...
 remote: Enumerating objects: 203678, done.
 remote: Total 203678 (delta 0), reused 0 (delta 0), pack-reused 203678
 Receiving objects: 100% (203678/203678), 173.82 MiB | 5.85 MiB/s, done.
 Resolving deltas: 100% (144768/144768), done.
-bootcamp %
+ce %
 ```
 
 Once we've cloned the repo we can make edits to it and track our changes with Git.

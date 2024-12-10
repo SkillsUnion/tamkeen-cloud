@@ -2,13 +2,13 @@
 
 ## Flipped Classroom
 
-This bootcamp adopts a flipped-classroom model where we expects students to review lectures and course materials before class, and spend class time clarifying concepts and completing exercises with the guidance of a section leader.
+This program adopts a flipped-classroom model where we expects students to review lectures and course materials before class, and spend class time clarifying concepts and completing exercises with the guidance of a section leader.
 
 ## How to unblock yourself
 
 ### General tips
 
-This bootcamp recommends the following 3 steps to unblock ourselves when blocked on a problem.
+This program recommends the following 3 steps to unblock ourselves when blocked on a problem.
 
 1. Trace the error message. What could be causing this error message? If we address that and there is another error message, keep addressing until there are no more error messages. If you do not see an error message, find where it is and/or find a way to give yourself more clues, e.g. with `console.log` statements.
 2. Google the error message and context, e.g. "PropTypes not defined React". Skim through Google results and dig deeper in results that seem more promising.
@@ -16,7 +16,7 @@ This bootcamp recommends the following 3 steps to unblock ourselves when blocked
 
 ### How to use Google
 
-Students will need to use Google as a resource to solve problems not explained in our curriculum. We will do our best to document the most common mistakes, but it would be impossible to document all. Professional SWEs spend most time finding answers on Google, and googling effectively may be your most important takeaway from Bootcamp.
+Students will need to use Google as a resource to solve problems not explained in our curriculum. We will do our best to document the most common mistakes, but it would be impossible to document all. Professional SWEs spend most time finding answers on Google, and googling effectively may be your most important takeaway from program.
 
 When searching on Google, generally search for a combination of your error message and relevant technology name. For example, "Uncaught TypeError: Cannot read properties of null JavaScript" (JavaScript is the technology in this example). This will allow Google to share results for the specific error we are seeing for the specific technology.
 
@@ -179,126 +179,3 @@ When debugging errors in AWS, follow this checklist to ensure thorough documenta
 - [ ] **Check Network Setup**: Ensure that VPC, subnets, and routing are set up properly for service communication.
 - [ ] **Reproduce the Error in Isolation**: Try to reproduce the issue in a controlled environment to isolate the cause.
 - [ ] **Provide Detailed Error Information**: Share error messages, CloudWatch logs, and configuration files to assist others in troubleshooting.
-
-
-## Difficulty Levels
-
-We provides multiple levels of difficulty to accommodate different learning speeds and prior experience. Students can complete Bootcamp without attempting Comfortable, but students that complete Comfortable may have a firmer grasp of concepts. We recommends completing Base for all of each day's post-class and pre-class exercises before attempting Comfortable.
-
-### Base
-
-Bare minimum. All students must complete Base to understand concepts.
-
-### Comfortable
-
-Reinforce with further exercises around same concepts. For students that wish to deepen understanding of current concepts before moving onto new ones.
-
-### More Comfortable
-
-Deepest exercises that this bootcamp offers for each concept. For students that wish to push the limits of their understanding of the current concepts.
-
-## Project Methodology
-
-### Ideation Phase 1
-
-Brainstorm app ideas and solicit feedback from your section in Disco. What problem does the app solve, for whom? How does the app solve the problem? What data does the app handle? Feel free to use our project planning template to guide you.
-
-### Ideation Phase 2
-
-Create the following planning docs, save them in the project GitHub repo and share them with your section in Disco for feedback. Your SL will review your planning docs with you before you begin implementation.
-
-#### All Projects
-
-1. User stories
-2. Wireframes
-3. Kanban board
-
-#### Project 2 Onward
-
-1. DB schema outline (NoSQL) or DB ERD (SQL)
-
-### Scrum
-
-Professional tech teams typically run using <a href="https://www.atlassian.com/agile/scrum" target="_blank">Agile Scrum Methodology</a>. We simulates this during Bootcamp project weeks. Each course day students will share the following with their section to keep each other on track.
-
-1. What did you do between the previous course day and today?
-2. What do you plan to do between today and the next course day?
-3. Do you have any blockers?
-
-### Presentations
-
-Students present projects in class on the last day of each module. Presentations should cover the following.
-
-1. App demo
-2. App development strategy
-3. Biggest challenges faced
-4. What you might do differently next time
-
-### Post-Mortem
-
-After each project your section leader will review your code with you 1-1. Please prepare answers to below questions before meeting. Consider recording notes; past students have found post-mortem notes helpful for resumes and portfolios.
-
-Consider questions from both a technical and process perspective.
-
-1. What went well? Please share a link to the specific code.
-2. What were the biggest challenges you faced? Please share a link to the specific code.
-3. What would you do differently next time?
-
-### Demo Video
-
-Record a video after each project to showcase your hard work for your portfolio and employers.
-
-#### Requirements
-
-1. Demo your app in a 1-2 minute video (brevity is best!)
-2. Explain who your app is for, what their problem is and how they would solve their problem with your app
-3. Use language that non-technical recruiters would understand
-4. Record locally with Zoom with your face in the upper-right corner. Upload to YouTube and embed a video link in your project `README`.
-
-#### Past Examples
-
-These batches did not have a time limit; please keep yours under 2 minutes if possible.
-
-1. <a href="https://www.youtube.com/watch?v=466AbXvMdzc" target="_blank">Porter (FTBC3)</a>
-2. <a href="https://www.youtube.com/watch?v=JjHM96XIXjs" target="_blank">Ian (FTBC2)</a>
-3. <a href="https://www.youtube.com/watch?v=RxihjXRp7cQ" target="_blank">Jit Corn (FTBC1)</a>
-
-## Sharing Code with Classmates
-
-In software engineering, there are so many different ways to solve the same problem. One great way to maximise learning to have a look at how your friends completed the same exercises!
-
-1. To start off any project, you will have to go to the starter repo and fork the repo.
-2. Next, you will go to this new forked repo and `git clone` it down to your filesystem.
-3. You are now ready to go work on your project and make all the required changes.
-4. It'll be great to include a `README.md` that includes
-   1. A brief description of your app
-   2. How to setup and run your app
-   3. For example, see <a href="https://github.com/jiachen247/bootcamp/tree/master/M3/3.ICE.1/bigfoot-express-bootcamp" target="_blank">here</a>
-5. Once done, you can go on to commit and push the files as per usual
-   1. `git add .`
-   2. `git commit -m "insert commit message here"`
-   3. `git push`
-6. Once the push is successfully, you should see it on your forked repo on Github.
-7. Go on to make a Pull Request (from your forked repo to the original starter repo)
-   1. Please name the PR "\<Your name> \<Bootcamp batch>" eg. "Jiachen FTBC6"
-
-
-## Peer Code Review
-
-Occasionally we will review each others' code to learn from each other. Start by reviewing your partner's code individually, before discussing the review in pairs.
-
-### Part 1: Individual
-
-1. Clone partner's code
-2. Read partner's code
-   1. How does it work?
-   2. How is it different from my implementation?
-   3. What can I learn from this?
-3. Run partner's code
-   1. If you're not sure how certain code might behave, run it. Feel free to edit the code to verify your understanding.
-4. Complete code review on partner's GitHub pull request to help them improve
-
-### Part 2: In Pairs
-
-1. Review learnings from individual code reviews
-2. Pair program on 1 person's code to get a working version. The person with the weaker understanding of the current concepts should be the driver. For more info on pair programming, read <a href="https://github.com/SkillsUnion/tamkeen-cloud/blob/main/logistics/course-component.md#pair-programming" target="_blank">Our's primer on pair programming in Coding Basics</a>.

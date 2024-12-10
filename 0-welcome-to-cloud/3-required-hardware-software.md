@@ -17,7 +17,7 @@ GUI-application software is software that operates with a graphical user interfa
 
 ### Zoom
 
-Zoom is the video conferencing software used for this bootcamp classes. Each section has its own Zoom room, and the link to this room will be found at the top of each section's Disco channel.
+Zoom is the video conferencing software used for this program classes. Each section has its own Zoom room, and the link to this room will be found at the top of each section's Disco channel.
 
 - **Installation:**
   - Download the Zoom Client for Meetings [here](https://zoom.us/download).
@@ -42,7 +42,7 @@ VSCode is the most popular code editor globally. All code for SWE Fundamentals w
 
 ## Introduction
 
-This document outlines required software for Coding Bootcamp. Please install this software before starting the course unless instructed otherwise.
+This document outlines required software for this program. Please install this software before starting the course unless instructed otherwise.
 
 ## Complete Fundamentals setup
 
@@ -229,7 +229,7 @@ ESLint is a JavaScript code linter that helps us detect functional errors in our
 ```
 
 
-## Setup folder structure for Coding Bootcamp
+## Setup folder structure for Cloud Engineering Program
 
 We recommends the following folder structure to keep ourselves organised during Bootcamp.
 
