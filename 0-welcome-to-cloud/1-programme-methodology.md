@@ -52,105 +52,133 @@ Compare the following 3 questions. Notice how it becomes much easier to help som
 > ```
 
 
+### **How to Document Your Errors in Cloud Engineering (AWS Focus)**
 
-### **How to document your errors**
+In Cloud Engineering, documenting errors effectively is crucial to debugging and resolving issues efficiently, especially when working with AWS services. This process helps both individuals and teams to quickly identify and resolve issues, minimizing downtime and improving collaboration.
 
-In this section, we will be looking at how we can document errors, this will facilitate your debugging process and make asking for help much easier.
+### **AWS Infrastructure Errors**
 
-### Frontend React Error
+When working with AWS infrastructure, errors often stem from misconfigured resources, permissions, or connectivity issues. Below is how to document such errors.
 
-When handling errors in a React frontend, you can usually see an error message in the Command Line Interface where you executed the command ‘npm start’, as well as the console of the browser. The browser usually emulates the error that is found in the Command Line Interface, so the Terminal, for Mac, or Ubuntu for Windows, is where one starts debugging. Let’s take a look at an application that is currently experiencing an error.
+**Documenting AWS Service Errors**
 
-**To document a React error to the fullest, find the errors in your Command Line Interface, take some screenshots and provide these screenshots when asking for help.**&#x20;
+AWS provides comprehensive logging through **CloudWatch Logs** for almost all services. Here’s how to document an error that occurs within AWS resources like EC2, RDS, or Lambda.
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-09-23 at 11.17.02 AM.png" alt=""><figcaption><p>React terminal error</p></figcaption></figure>
+1. **Check CloudWatch Logs**: When an error occurs in any AWS service, such as a Lambda function failure or an EC2 instance not starting, the error will typically be logged in **CloudWatch Logs**.
+   
+2. **Review the Error Message**: Read the error message to understand where the issue is originating. CloudWatch Logs provide detailed information, including error codes and service-specific messages.
 
-The error found in the CLI specifies that there is an issue:
+Example:
+```
+‘ConnectionRefusedError: Unable to connect to RDS instance at 'db-instance-name'.’
+```
+This error typically indicates that there is an issue with your security group settings or the RDS instance is not running.
 
-`‘Module not found: Error: Can’t resolve ‘./Greting’ …  ERROR in ./src/App.js 6:0-33’`&#x20;
+**Documenting AWS Service Errors**:
+- Capture **CloudWatch Logs** that show the error details.
+- Include the **AWS Resource** involved (e.g., EC2 instance ID, RDS instance endpoint).
+- Provide the **error message** or code that AWS has logged.
+- If applicable, share any **configuration files** (e.g., CloudFormation templates, security group settings).
 
-This means that something that we are importing within the App.js cannot be found, the file which we are importing from seems to be ‘./Greting’.
+---
 
+### **IAM and Permissions Errors**
 
+AWS Identity and Access Management (IAM) issues are common and can lead to access-related errors in various services like S3, EC2, or Lambda.
 
-<figure><img src="../.gitbook/assets/Greetings Student Called Sam.jpg" alt=""><figcaption><p>Browser error</p></figcaption></figure>
+**Example IAM Error**
 
-The error that we would see in the browser mirrors what we have looked at previously, this is because React is showcasing the errors that occurred during runtime. This means we probably need to take a look into the App.js as React’s error reporting is telling us where the issue originates.&#x20;
+If an EC2 instance or Lambda function does not have sufficient permissions to access a resource, you might see an error like:
+```
+‘AccessDeniedException: User does not have permission to perform action on resource.’
+```
 
-#### Further documenting && Solving the Error
+This error is indicative of an **IAM permission** issue.
 
-<figure><img src="../.gitbook/assets/EXPLORER.png" alt=""><figcaption><p><br>Failing App.js</p></figcaption></figure>
+**Documenting IAM Errors**:
+- **Capture the error message** from CloudWatch or the AWS Console that indicates an access issue.
+- **Include the IAM role** or user involved and any relevant **permissions** or policies.
+- **Screenshot or provide configuration details** of the IAM policy or role settings that are causing the issue.
+- **Log the AWS service** that is failing (e.g., EC2, Lambda, S3) and the resource the service is attempting to access.
 
-From the code block here we can see that the component is importing ‘./Greting.js’, but if we look at the image, on the left,  we can see that the  file name is called Greeting.js. So to fix this problem, we just need to fix the import statement, such that we were importing from the correct file, then the error should be fixed.
+---
 
-So when we are documenting this error we should share error screenshots of the CLI tool running the application, the browser errors as well as the JavaScript components or files that are being flagged by React. In this case, the App.js.
+### **Networking and Connectivity Issues**
 
+Many issues in Cloud Engineering are related to **networking**—for instance, issues with VPC, subnets, or security groups can prevent communication between services.
 
+**Example VPC Error**
 
-### Document Backend Errors
+A common error might look like:
+```
+‘TimeoutError: Unable to connect to the database instance due to security group misconfiguration.’
+```
 
-When developing a backend server, it might seem operational, however, when an actual API route is consumed an error is thrown  in your CLI window where the backend application is running. This issue that is occurring might stem from the route handler, the Controller or even database. So what we will have to do is breakdown the error and and see if that can solve the issue.
+This indicates that the **security group** or **VPC settings** are incorrectly configured, preventing resources from communicating.
 
-To do this we would need to share the error that is being shown within our backend CLI, an example is below.
+**Documenting Networking Errors**:
+- **Identify the services** involved (e.g., EC2, RDS, Lambda).
+- **Capture the error message** that indicates connectivity failure (e.g., timeout, access denial).
+- **Screenshot or provide CloudFormation** or **VPC configurations** (subnet settings, route tables, security groups).
+- **Ensure the proper ports** are open in security groups for the services to communicate.
 
-<figure><img src="../.gitbook/assets/port 5432.png" alt=""><figcaption><p>CLI Error</p></figcaption></figure>
+---
 
-In the error above, we can see that it reads:
+### **Database Errors in AWS (RDS, DynamoDB, etc.)**
 
-`‘ConnectionRefusedError … connect ECONNREFUSED 127.0.0.1:5432”`
+Issues related to databases like **RDS**, **DynamoDB**, or **Aurora** can also occur due to misconfigurations or access problems.
 
-By reading the error we can ascertain the where the issue is seeming from, in this case it seems like a Seqeulize issue has occurred, specifically that the client (our server) cannot connect to our database. There is a simple solution to this error, turn on your database. It’s possible to forget to start your database server locally or even on a deployed instance, when developing always remember to check your environments are setup before testing.\
+**Example RDS Error**
 
+An RDS error might look like:
+```
+‘DatabaseInstanceNotFound: The specified RDS instance does not exist or is not available.’
+```
 
-You should always over share when trying to debug as it will help to provide context to people attempting to help you.
+This can happen if the instance is incorrectly named or the connection string is misconfigured.
 
+**Documenting Database Errors**:
+- **Capture the error message** from CloudWatch or the AWS Console that indicates the issue.
+- **Provide the RDS instance ID** or **DynamoDB table name** involved in the error.
+- **Include connection string** or configuration details that may be incorrect (e.g., incorrect endpoint or credentials).
+- **Check VPC/subnet settings** if the issue is connectivity-related.
 
+---
 
-Here is an example of another error:
+### **Lambda Errors**
 
-<figure><img src="../.gitbook/assets/Screenshot 2022-09-26 at 5.23.23 PM.png" alt=""><figcaption><p>Database Issue</p></figcaption></figure>
+AWS Lambda functions can fail for a variety of reasons, such as permission issues, missing environment variables, or timeout errors.
 
-There are a few things that you should look out for when you are debugging your applications, some of them are highlighted above, we can see that the error is being thrown by Seqeulize, the error reads:
+**Example Lambda Error**
 
-`‘error: relation “sightings” does not exist’`&#x20;
+An error in Lambda might look like:
+```
+‘Task timed out after 60.00 seconds.’
+```
 
-The error code is ’42P01’, a quick google indicates that, our database, PostgreSQL, states that error 42P01 **denotes the database query is on an undefined table**. This error usually occurs due to improper database setup, unidentified table name.
+This indicates that the function’s execution time exceeded the defined timeout.
 
-But how could this be? You’ve already setup the database, you have run npx sequelize db:migrate as well as the seed commands. So how when, I am consuming an API does it error out? Consider how Sequelize sets up your database, it will use the credentials found in ‘/config/database.js’, for database creation, migration as well as seeding data. On the other hand when querying data programatically from the application it will take whatever credentials that you have placed into the ‘/models/index.js’. Use console.log statements to ensure that your are using the correct credentials when you query data.&#x20;
+**Documenting Lambda Errors**:
+- **Capture the error message** from CloudWatch Logs related to the Lambda function.
+- **Provide the function name** and **execution logs**.
+- Include **configuration details**, such as **timeout settings**, **IAM roles**, or **environment variables**.
 
+---
 
+### **General Debugging Checklist for Cloud Engineering (AWS)**
 
-The issues above were database related. You may encounter issues with other parts of your backend, such as your Controller or Router. If you do encounter an issue it would be prudent to share all of the affected files.&#x20;
+When debugging errors in AWS, follow this checklist to ensure thorough documentation and troubleshooting:
 
-Say you are trying to get some data from your database and display it on your backend, but you're receiving an error like this:
-
-<figure><img src="../.gitbook/assets/Screenshot 2022-10-04 at 4.03.13 PM (1).png" alt=""><figcaption><p>Backend Error, Controller</p></figcaption></figure>
-
-This error seems to stem from the baseController file as highlighted by the image above, in this case, it would be prudent to share this file if you are asking for help. &#x20;
-
-<figure><img src="../.gitbook/assets/Screenshot 2022-10-04 at 4.07.07 PM.png" alt=""><figcaption><p>BaseController.js</p></figcaption></figure>
-
-The error reads:
-
-`'TypeError: Cannot read properties of undefined (reading 'findAll')'`
-
-This indicates that there is an issue with the findAll command, in this case, we have spelt model incorrectly, replace with `this.model` and the code should be operational.
-
-
-
-**Debugging CheckList**
-
-* [ ] &#x20;Find any error codes&#x20;
-* [ ] Document your error codes and environments they occur in
-* [ ] Google the error codes to find a fix
-* [ ] Check all of your environment is setup correctly
-* [ ] Check that your environmental variables are correct
-* [ ] Check casing throughout your application
-* [ ] Check your dependancy injections
-* [ ] Checkout your git commits to find a working version of your code
-* [ ] Remove code line by line to check where the bug is
-* [ ] Rebuild the application one line at a time checking to see if its broken
-
+- [ ] **Check CloudWatch Logs**: For detailed error logs across all services (EC2, Lambda, RDS, etc.).
+- [ ] **Identify IAM Permission Issues**: Review IAM roles and policies that might cause access issues.
+- [ ] **Verify Resource Configurations**: Ensure EC2 instances, RDS, S3 buckets, etc., are properly configured and accessible.
+- [ ] **Check Security Group Settings**: Ensure correct security group settings, VPC configurations, and subnet routing.
+- [ ] **Examine CloudFormation or Terraform Scripts**: Ensure infrastructure as code is correctly set up.
+- [ ] **Check AWS Service Limits**: Verify that you are within AWS service limits (e.g., Lambda execution time, EC2 storage).
+- [ ] **Check Environment Variables**: Ensure all necessary environment variables are set correctly for your application (e.g., AWS access keys, database URLs).
+- [ ] **Check Network Setup**: Ensure that VPC, subnets, and routing are set up properly for service communication.
+- [ ] **Reproduce the Error in Isolation**: Try to reproduce the issue in a controlled environment to isolate the cause.
+- [ ] **Provide Detailed Error Information**: Share error messages, CloudWatch logs, and configuration files to assist others in troubleshooting.
 
 
 ## Difficulty Levels
