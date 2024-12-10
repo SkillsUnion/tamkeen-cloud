@@ -22,7 +22,7 @@ What makes a good cloud engineer? These are both hard and soft skills one needs 
 3. **DevOps Practices**
    - Understanding Infrastructure as Code (IaC)
    - Writing and managing scripts using Terraform and AWS CloudFormation
-   - Setting up and managing CI/CD pipelines with tools like Jenkins, GitHub Actions, and AWS CodePipeline
+   - Setting up and managing CI/CD pipelines with tools like AWS CodePipeline, AWS CodeBuild and AWS CodeDeploy
 
 4. **Cloud Native Applications**
    - Understanding and implementing containerization using Docker
@@ -60,33 +60,31 @@ What makes a good cloud engineer? These are both hard and soft skills one needs 
 Cloud Engineering Bootcamp contains few modules and courses days each, each of which culminates in a project. It requires students to complete module projects to continue in the Cloud Engineering Bootcamp.
 
 **1. Cloud Technology Fundamentals**
+- IT Setup & Version Control: Hardware, software, operating systems, VSCode, CLI, Git commands (Fork, Clone, Add, Commit, Push), GitHub.  
+- Software Development: Python, JavaScript, Node.js, npm, yarn, nodemon.  
+- Introduction to Cloud: Cloud models (IaaS, PaaS, SaaS), cloud architecture, AWS IAM setup.  
+- Identity & Access Management: Users, groups, policies, MFA, AWS CLI.  
+- Billing & S3 Security: Billing dashboard, cost allocation, S3 storage security, website setup, versioning, replication.  
+- Compute & Networking: EC2 basics, security groups, load balancing, auto-scaling, VPC, subnets, Route 53.  
+- Security & Compliance: DDoS protection (WAF, Shield), AWS firewall services.
 
-Understand and configure basic cloud environments:
-- Introduction to Cloud Computing, setting up development environment, Git basics
-- Advanced Git, JavaScript basics, Node.js introduction
-- Cloud computing concepts, AWS IAM
-- AWS services overview, EC2, Lambda basics
-- Serverless functions, databases with RDS and DynamoDB
-- VPC, networking, Route 53, CloudFront
+**2. Cloud Application and Integration**
+- Cloud Integration & AWS Services: SQS, SNS, EventBridge, AppSync, Amplify, AWS DataSync.  
+- Databases & Analytics: SQL and NoSQL databases on AWS.  
+- Infrastructure as Code: AWS CloudFormation, AWS CDK.  
+- Containers: Docker, Kubernetes with ECS/EKS.  
+- Serverless Applications: Serverless, AWS SAM, Lambda.
 
-**2. Cloud Native Applications**
+**3. DevOps, Logging & Monitoring**
+- Microservices: Transition from monolithic to microservices, challenges in implementation.  
+- CI/CD Basics: SDLC models (Waterfall, Agile, DevOps).  
+- CI/CD on AWS: AWS CodeBuild, CodeDeploy, CodePipeline.  
+- CI/CD for Containers: CI/CD with Docker and GitHub Actions or AWS CI/CD tools.  
+- CI/CD for Serverless: CI/CD for serverless applications with GitHub Actions or AWS CI/CD tools.  
+- Logging & Monitoring: AWS XRay, CloudWatch, CloudTrail, App Mesh, centralized logs, metrics, alarms, dashboards.
 
-Deploy and manage cloud-native applications using containers and serverless technologies (group project)
-- Docker, AWS ECS and EKS
-- Serverless computing, microservices, BDD, TDD, DDD
-
-**3. DevOps and Infrastructure as Code**
-
-Implement DevOps practices and infrastructure as code (individual or group project)
-- Infrastructure as Code with Terraform and CloudFormation
-- Capstone Project (I) - Design and deploy cloud infrastructure
-
-**4. DevSecOps, Logging & Monitoring**
-
-Develop and deploy secure, efficient cloud-native applications with integrated monitoring and DevSecOps practices (individual or group project)
-- CI/CD pipelines with Jenkins, GitHub Actions, AWS CodePipeline
-- Logging and monitoring with AWS CloudWatch, security best practices
-- Capstone Project (II) - Develop and deploy cloud-native applications with DevSecOps practices
+**4. Capstone Project  **
+- Project Week 1 and 2
 
 
 We hope this teaching style suits you and we are excited to teach you the best!

@@ -108,13 +108,13 @@ Learn the principles of DevOps to automate and streamline cloud infrastructure d
   - **CI/CD Pipelines**: Automate code integration, testing, and deployment.
   - **Collaboration**: Foster better collaboration between development and operations teams through automation and monitoring tools.
 
-- **DevOps Tools**:
-  - **Jenkins**: Automate the build and deployment process.
-  - **GitLab CI/CD**: Use GitLab for continuous integration and delivery.
-  - **Docker**: Integrate container management into DevOps pipelines.
+- **AWS DevOps Tools**:
+  - **AWS CodePipeline**: Automate the build, test, and deploy processes using AWS's CI/CD service.
+  - **AWS CodeBuild**: Build and test code with a fully managed build service from AWS.
+  - **AWS CodeDeploy**: Automate the deployment of applications to EC2, Lambda, and on-premises servers.
 
 - **Hands-on Practice**:
-  - Set up a CI/CD pipeline with Jenkins or GitLab to automatically deploy updates to a cloud environment.
+  - Set up a CI/CD pipeline with the right tools to automatically deploy updates to a cloud environment.
   - Configure networking components such as load balancers and VPNs for secure, scalable infrastructure.
 
 ---
