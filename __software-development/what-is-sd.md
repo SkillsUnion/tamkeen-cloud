@@ -42,7 +42,7 @@ There are several major categories of software development, each with its own fo
 
 5. **Game Development**: This focuses on creating video games for consoles, mobile devices, and PCs. Commonly used tools include Unity and Unreal Engine, while programming languages like C++ and C# are widely used.
 
-6. **Cloud-based Development**: Building applications that run on the cloud. These applications are designed to scale easily and utilize cloud infrastructure for data storage, computing, and other services. Cloud-based platforms like AWS, Microsoft Azure, and Google Cloud are frequently used.
+6. **Cloud-based Development**: Building applications that run on the cloud. These applications are designed to scale easily and utilize cloud infrastructure for data storage, computing, and other services. Cloud-based platforms like AWS are frequently used.
 
 ---
 

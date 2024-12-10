@@ -80,7 +80,7 @@ Cloud computing provides a straightforward way to access servers, storage, datab
 
 1. **Public Cloud:**
    - **Description:** In a public cloud model, cloud resources are owned and operated by a third-party cloud service provider and delivered over the internet. The infrastructure is shared among multiple organizations, making it a cost-effective solution for businesses that do not require extensive customization or control over their environment.
-   - **Examples:** Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP).
+   - **Examples:** Amazon Web Services (AWS).
    - **Use Cases:** Hosting web applications, storing data backups, running development and testing environments.
 
 2. **Private Cloud:**
@@ -90,7 +90,7 @@ Cloud computing provides a straightforward way to access servers, storage, datab
 
 3. **Hybrid Cloud:**
    - **Description:** A hybrid cloud combines both public and private cloud environments, allowing data and applications to be shared between them. This model offers the flexibility to choose the optimal cloud environment for each workload while maintaining data control and compliance.
-   - **Examples:** IBM Hybrid Cloud, Microsoft Azure Hybrid, AWS hybrid solutions.
+   - **Examples:** AWS hybrid solutions.
    - **Use Cases:** Running sensitive workloads in a private cloud while leveraging the public cloud for non-sensitive workloads, or using the public cloud for burst capacity during peak demand.
 
 ---
@@ -101,11 +101,11 @@ Cloud computing provides a straightforward way to access servers, storage, datab
 
 1. **Infrastructure as a Service (IaaS):**
    - Provides virtualized computing resources like servers, storage, and networking over the internet. Organizations can deploy and manage operating systems, applications, and data while the cloud provider manages the underlying infrastructure.
-   - **Examples:** Amazon EC2, Google Compute Engine, Microsoft Azure Virtual Machines.
+   - **Examples:** Amazon EC2.
 
 2. **Platform as a Service (PaaS):**
    - Delivers a platform that allows developers to build, run, and manage applications without worrying about managing the underlying infrastructure. PaaS solutions include development tools, database management, and application hosting environments.
-   - **Examples:** AWS Elastic Beanstalk, Google App Engine, Microsoft Azure App Services.
+   - **Examples:** AWS Elastic Beanstalk.
 
 3. **Software as a Service (SaaS):**
    - SaaS provides software applications over the internet, typically on a subscription basis. The provider manages everything from infrastructure to application updates. Users simply access the software through a web browser.
