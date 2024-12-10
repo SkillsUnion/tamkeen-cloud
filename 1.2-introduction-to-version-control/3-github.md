@@ -47,7 +47,7 @@ Then go to terminal, `cd` to the relevant folder and enter the command `git clon
 
 ```
 ce % git clone https://github.com/aws-samples/aws-cdk-examples.git
-Cloning into 'react'...
+Cloning into 'cloudengineering'...
 remote: Enumerating objects: 203678, done.
 remote: Total 203678 (delta 0), reused 0 (delta 0), pack-reused 203678
 Receiving objects: 100% (203678/203678), 173.82 MiB | 5.85 MiB/s, done.

@@ -75,7 +75,7 @@ Follow instructions at <a href="https://brew.sh" target="_blank">https://brew.sh
 
 Homebrew is a package manager for MacOS that provides a single source of truth for which packages and package versions are installed. This is typically only relevant to command line packages; We typically do not install GUI applications via Homebrew.
 
-Homebrew typically manages OS-specific packages, e.g. `node`, and not application-specific packages, e.g. `react`. Application-specific packages are typically managed by application-level package managers such as `npm` or `pip`. Application-specific packages are typically bundled and deployed together with an application, regardless of where those applications are running.
+Homebrew typically manages OS-specific packages, e.g. `node`, and not application-specific packages, e.g. `aws`. Application-specific packages are typically managed by application-level package managers such as `npm` or `pip`. Application-specific packages are typically bundled and deployed together with an application, regardless of where those applications are running.
 
 ## Install and configure Git
 
@@ -126,7 +126,7 @@ After you have created the personal access token be sure to save it in a safe sp
 
 #### Configure Git default branch
 
-Set the default Git branch to `main` as per GitHub's (and this bootcamp's) latest convention. Some older versions of Git may still use `master` as the default branch name.
+Set the default Git branch to `main` as per GitHub's (and this program's) latest convention. Some older versions of Git may still use `master` as the default branch name.
 
 ```bash
 git config --global init.defaultBranch main
@@ -135,7 +135,7 @@ git config --global init.defaultBranch main
 #### Configure Git default editor
 
 1. Follow instructions <a href="https://stackoverflow.com/a/39604469" target="_blank">here</a> to enable the `code` command in terminal to open VS Code.
-2. Set the default Git code editor to VS Code to avoid Git's default command line editor Vim, which requires learning Vim-specific keyboard shortcuts. We may need to use Vim on remote servers as SWEs, but to keep things simple during Bootcamp we will stick to VS Code.
+2. Set the default Git code editor to VS Code to avoid Git's default command line editor Vim, which requires learning Vim-specific keyboard shortcuts. We may need to use Vim on remote servers as SWEs, but to keep things simple during the program we will stick to VS Code.
 
 ```shell
 git config --global core.editor "code --wait"
@@ -231,22 +231,22 @@ ESLint is a JavaScript code linter that helps us detect functional errors in our
 
 ## Setup folder structure for Cloud Engineering Program
 
-We recommends the following folder structure to keep ourselves organised during Bootcamp.
+We recommends the following folder structure to keep ourselves organised during the program.
 
 
 >Name files and folders in kebab-case, e.g. `new-file.txt`, lowercase and hyphenated for ease of use on the command line. We do not recommend naming files and folders with spaces in names because we will need to enter special characters in the terminal to escape the space character when referring to these files.
 
 
->Please do not store code in folders synced to cloud storage such as Google Drive or Apple iCloud. This will cause issues during Bootcamp, such as package installations running slowly or unnecessary extra files committed to GitHub.
+>Please do not store code in folders synced to cloud storage such as Google Drive or Apple iCloud. This will cause issues during the program, such as package installations running slowly or unnecessary extra files committed to GitHub.
 
 
-1. Store all Bootcamp code in a folder called `bootcamp`.
-2. Within `bootcamp`, create a folder `m1` for Module 1 and store all Module 1 exercise code there in exercise-specific folders. Our Project 1 repo folder can also go inside `m1`.
-3. Make 3 copies of `m1` within `bootcamp` and rename them `m2`, `m3`, and `m4`, 1 folder for each module in Bootcamp.
+1. Store all the program code in a folder called `cloudengineering`.
+2. Within `cloudengineering`, create a folder `m1` for Module 1 and store all Module 1 exercise code there in exercise-specific folders. Our Project 1 repo folder can also go inside `m1`.
+3. Make 3 copies of `m1` within `cloudengineering` and rename them `m2`, `m3`, and `m4`, 1 folder for each module in the program.
 
 ## Sign up for accounts
 
-We will use the following software accounts during Bootcamp.
+We will use the following software accounts during the program.
 
 1. <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>
 2. <a href="https://leetcode.com/" target="_blank">LeetCode</a>

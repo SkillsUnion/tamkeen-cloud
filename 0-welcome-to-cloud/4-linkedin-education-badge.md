@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Cloud Engineering Bootcamp students can add Skills Union to the Education sections of their LinkedIn profiles. Follow these instructions.
+Cloud Engineering Program students can add Skills Union to the Education sections of their LinkedIn profiles. Follow these instructions.
 
 ## 1. Go to your LinkedIn profile page and click "**Add profile section**"
 
@@ -12,18 +12,18 @@ Cloud Engineering Bootcamp students can add Skills Union to the Education sectio
 
 ![Education Section](image-1.png)
 
-## 3. Fill in Skills Union's Cloud Engineering Bootcamp course details
+## 3. Fill in Skills Union's Cloud Engineering Program course details
 
 1. **Notify network**
    - On
 2. **School**
    - Skills Union
 3. **Degree**
-   - Cloud Engineering Bootcamp
+   - Cloud Engineering
 4. **Start Date**
-   - The month you enrolled in the Cloud Engineering Bootcamp
+   - The month you enrolled in the Cloud Engineering Program
 5. **End Date**
-   - The month you graduated from the Cloud Engineering Bootcamp
+   - The month you graduated from the Cloud Engineering Program
 6. **Description**
    - Comprehensive training in cloud architecture, AWS services, and DevOps practices.
 

@@ -37,12 +37,12 @@ git checkout -b my-feature
 Verify we are on the new `my-feature` branch with `git branch`.
 
 ```
-react % git checkout -b my-feature
+cloudengineering % git checkout -b my-feature
 Switched to a new branch 'my-feature'
-react % git branch
+cloudengineering % git branch
   main
 * my-feature
-react %
+cloudengineering %
 ```
 
 Now we can make commits on `my-feature` that build on the state of `main` when we created `my-feature`. Changes on `my-feature` will not affect any other branch in our repo.
@@ -72,22 +72,22 @@ Once done with our feature on our feature branch, we can merge our changes to `m
 We may see the following output when pushing a feature branch to GitHub for the first time with `git push`. To resolve, enter the command Git suggests: `git push --set upstream origin my-feature`, where `my-feature` is the name of our feature branch.
 
 ```
-react % git push
+cloudengineering % git push
 fatal: The current branch my-feature has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin my-feature
 
-react % git push --set-upstream origin my-feature
+cloudengineering % git push --set-upstream origin my-feature
 Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
 remote:
 remote: Create a pull request for 'my-feature' on GitHub by visiting:
-remote:      https://github.com/the-bootcamp-22992299/react/pull/new/my-feature
+remote:      https://github.com/the-cloud-engineering-22992299/aws/pull/new/my-feature
 remote:
-To https://github.com/the-bootcamp-22992299/react.git
+To https://github.com/the-cloud-engineering-22992299/aws.git
  * [new branch]          my-feature -> my-feature
 Branch 'my-feature' set up to track remote branch 'my-feature' from 'origin'.
-react %
+cloudengineering %
 ```
 
 `upstream` refers to where our code should be hosted. `origin` refers to our GitHub repo or where we cloned our repo from. `my-feature` tells Git to create a new branch called `my-feature` in GitHub and by default push changes from the local `my-feature` branch to the GitHub `my-feature` branch.

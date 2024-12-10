@@ -4,52 +4,72 @@
 
 This program adopts a flipped-classroom model where we expects students to review lectures and course materials before class, and spend class time clarifying concepts and completing exercises with the guidance of a section leader.
 
-## How to unblock yourself
+# How to Unblock Yourself in Cloud Engineering
 
-### General tips
+### General Tips
 
-This program recommends the following 3 steps to unblock ourselves when blocked on a problem.
+When working with Cloud Engineering tasks, especially on AWS, it's important to follow a structured approach to solve problems. Here are three steps to unblock yourself when encountering a roadblock:
 
-1. Trace the error message. What could be causing this error message? If we address that and there is another error message, keep addressing until there are no more error messages. If you do not see an error message, find where it is and/or find a way to give yourself more clues, e.g. with `console.log` statements.
-2. Google the error message and context, e.g. "PropTypes not defined React". Skim through Google results and dig deeper in results that seem more promising.
-3. Ask your peers and section leader in your section Disco channel, sharing context about the problem and what you've learnt from Steps 1 and 2 above. Context will allow them to help you. We mostly uses mainstream technologies and our problems will not be overly difficult.
+1. **Trace the Error Message**: Start by tracing the error message. What is the root cause? If addressing one error leads to another, continue troubleshooting step by step until no more error messages appear. If no error message is provided, try adding more logging (e.g., using `console.log` in Lambda functions or CloudWatch logs in AWS services) to gather additional clues.
+   
+2. **Google the Error Message and Context**: If you have a specific error message, combine it with the context of the technology you're working with. For example, if you're facing issues with an EC2 instance not starting, search for "EC2 instance not starting AWS error." By skimming through relevant Google results, you can find potential solutions and dive deeper into promising answers.
 
-### How to use Google
+3. **Ask for Help**: When you're stuck, ask for help. Share the context about the problem, what you've learned from debugging and Googling, and the error you're encountering. Ask your peers, mentors, or the section leader in your program's communication channel (e.g., Discord or Slack). Providing context will allow others to assist you more effectively.
 
-Students will need to use Google as a resource to solve problems not explained in our curriculum. We will do our best to document the most common mistakes, but it would be impossible to document all. Professional SWEs spend most time finding answers on Google, and googling effectively may be your most important takeaway from program.
+### How to Use Google Effectively
 
-When searching on Google, generally search for a combination of your error message and relevant technology name. For example, "Uncaught TypeError: Cannot read properties of null JavaScript" (JavaScript is the technology in this example). This will allow Google to share results for the specific error we are seeing for the specific technology.
+As a Cloud Engineer, you'll often face issues related to AWS configurations, infrastructure setup, or integration of services. You will need to use Google to troubleshoot problems that aren't explicitly covered in your curriculum. Searching effectively is a key skill, as many Cloud Engineers spend a large portion of their time finding solutions through online resources.
 
-With experience you will know when you are on the right track. Often it takes multiple permutations of Google search keywords to find the answer we are looking for. The goal when reading documentation, Stack Overflow or forum answers is to find relevant information as quickly as possible without reading more than necessary.
+When searching for solutions, combine error messages with relevant technologies to narrow down your search. For instance:
 
-### How to ask questions to get help
+- "EC2 instance not starting AWS"
+- "Error 403 S3 access denied"
+- "Lambda function timeout AWS"
 
-Always provide context with questions. Helpful context for technical questions can include:
+As you gain more experience, you will better identify the right resources and recognize patterns in the results. Focus on the most relevant information, and avoid unnecessary reading. Platforms like **Stack Overflow**, **AWS documentation**, and **forums** are great places to find solutions.
 
-1. What is the error message?
-2. What do you think is the problem?
-3. What have you learnt from debugging and googling?
-4. What is the relevant code causing the problem?
+### How to Ask Questions for Help
 
-Compare the following 3 questions. Notice how it becomes much easier to help someone the more context we have about their problem.
+When asking for help, always provide enough context. The more specific you are, the easier it is for others to help you. Here's a template for providing context with your technical questions:
 
-#### Question 1: No context
+1. **What is the error message?**
+2. **What do you think is the problem?**
+3. **What have you learned from debugging and Googling?**
+4. **What is the relevant code or configuration causing the problem?**
 
-> "My code is not working. Please help!"
+Compare the following examples to see how context can help others assist you more effectively:
 
-#### Question 2: Incomplete context
+#### Question 1: No Context
 
-> "My code is not working. I'm getting the error "Uncaught TypeError: Cannot read properties of null (reading 'rank')". Please help!"
+> "My CloudFormation stack is failing. Please help!"
 
-#### Question 3: Full context
+#### Question 2: Incomplete Context
 
-> "I'm getting the error 'Uncaught TypeError: Cannot read properties of null (reading 'rank')' on line 3. On line 3 I'm accessing a property of object `card` from my card deck. Googling tells me that `card` must be `null`, but I am not sure why. I've attached the relevant code below. Any suggestions?"
+> "My CloudFormation stack is failing. I get the error 'ResourceNotFound: AWS::S3::Bucket'. Please help!"
+
+#### Question 3: Full Context
+
+> "I'm encountering the error 'ResourceNotFound: AWS::S3::Bucket' in my CloudFormation stack on line 15. The stack attempts to create an S3 bucket, but it seems the bucket name conflicts with an existing resource. I’ve checked AWS documentation on naming constraints but can’t find a solution. Below is the relevant code for the resource definition."
 >
-> ```javascript
-> const cardDeck = [null];
-> const card = cardDeck[0];
-> console.log(card.rank);
+> ```yaml
+> Resources:
+>   MyS3Bucket:
+>     Type: 'AWS::S3::Bucket'
+>     Properties:
+>       BucketName: 'my-existing-bucket-name'
 > ```
+>
+> Any suggestions on how to resolve this?
+
+By including the error message, what you think the problem might be, your attempts to solve it, and the relevant code or configuration, you're giving others the information they need to help you solve the issue faster.
+
+### Additional Tips for Debugging AWS Issues
+
+- **Check CloudWatch Logs**: AWS services like Lambda, EC2, and API Gateway generate logs in CloudWatch. Check these logs for detailed error messages and timestamps to help pinpoint the issue.
+  
+- **Review IAM Permissions**: Many errors in AWS stem from incorrect IAM policies. Ensure that the correct roles and permissions are applied to your services.
+  
+- **Verify Resource Configuration**: Double-check configurations like security groups, VPC settings, and AWS networking to ensure proper communication between services (e.g., EC2 instances and RDS databases).
 
 
 ### **How to Document Your Errors in Cloud Engineering (AWS Focus)**
