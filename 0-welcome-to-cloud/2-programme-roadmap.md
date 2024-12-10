@@ -87,18 +87,16 @@ Master cloud automation through Infrastructure as Code (IaC) to manage resources
 
 ### **6. CONTAINER & ORCHESTRATION**
 **Objective:**  
-Understand how to build, manage, and scale containerized applications using Docker and Kubernetes.
+Understand how to build, manage, and scale containerized applications using Docker.
 
 - **Key Technologies**:
   - **Docker**: Learn how to package applications into containers to ensure consistency across environments.
-  - **Kubernetes**: Master container orchestration for deploying, managing, and scaling containerized applications.
 
 - **Topics Covered**:
   - **Containerization**: Learn to build Docker images, run containers, and manage container networking.
-  - **Kubernetes Basics**: Understand pods, deployments, services, and autoscaling.
 
 - **Hands-on Practice**:
-  - Deploy a containerized application on a Kubernetes cluster using AWS EKS.
+  - Deploy a containerized application on a cluster using AWS ECS.
 
 ---
 
@@ -113,7 +111,7 @@ Learn the principles of DevOps to automate and streamline cloud infrastructure d
 - **DevOps Tools**:
   - **Jenkins**: Automate the build and deployment process.
   - **GitLab CI/CD**: Use GitLab for continuous integration and delivery.
-  - **Docker & Kubernetes**: Integrate container management into DevOps pipelines.
+  - **Docker**: Integrate container management into DevOps pipelines.
 
 - **Hands-on Practice**:
   - Set up a CI/CD pipeline with Jenkins or GitLab to automatically deploy updates to a cloud environment.

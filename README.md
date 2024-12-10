@@ -26,8 +26,8 @@ What makes a good cloud engineer? These are both hard and soft skills one needs 
 
 4. **Cloud Native Applications**
    - Understanding and implementing containerization using Docker
-   - Deploying and managing applications with Kubernetes
-   - Using AWS ECS and EKS for container orchestration
+   - Deploying and managing applications with Docker
+   - Using AWS ECR and ECS for container orchestration
 
 5. **Cloud Security and Cost Management**
    - Implementing cloud security best practices
@@ -72,7 +72,7 @@ Understand and configure basic cloud environments:
 **2. Cloud Native Applications**
 
 Deploy and manage cloud-native applications using containers and serverless technologies (group project)
-- Docker, Kubernetes, AWS ECS and EKS
+- Docker, AWS ECS and EKS
 - Serverless computing, microservices, BDD, TDD, DDD
 
 **3. DevOps and Infrastructure as Code**
