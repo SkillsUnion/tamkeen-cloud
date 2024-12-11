@@ -62,7 +62,7 @@ Learn how to set up, manage, and optimize databases in cloud environments for hi
   - **Data Backup and Recovery**: Implement robust data backup strategies and disaster recovery.
 
 - **Hands-on Practice**:
-  - Use AWS RDS or Google Cloud SQL to set up a database, configure backups, and optimize performance.
+  - Use AWS RDS to set up a database, configure backups, and optimize performance.
 
 ---
 
