@@ -44,11 +44,6 @@ VSCode is the most popular code editor globally. All code for SWE Fundamentals w
 
 This document outlines required software for this program. Please install this software before starting the course unless instructed otherwise.
 
-## Complete Fundamentals setup
-
-1. Please install the latest version of Windows or MacOS that your computer supports.
-2. If you haven't already, please obtain and install <a href="https://github.com/SkillsUnion/tamkeen-cloud/blob/main/logistics/required-hardware.md" target="_blank">Fundamentals required hardware, software and accounts</a>.
-
 ## \[Windows Only] Install Windows-specific software
 
 ### Install and setup Windows Subsystem for Linux (WSL)
