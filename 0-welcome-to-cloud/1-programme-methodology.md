@@ -193,7 +193,7 @@ When debugging errors in AWS, follow this checklist to ensure thorough documenta
 - [ ] **Identify IAM Permission Issues**: Review IAM roles and policies that might cause access issues.
 - [ ] **Verify Resource Configurations**: Ensure EC2 instances, RDS, S3 buckets, etc., are properly configured and accessible.
 - [ ] **Check Security Group Settings**: Ensure correct security group settings, VPC configurations, and subnet routing.
-- [ ] **Examine CloudFormation or Terraform Scripts**: Ensure infrastructure as code is correctly set up.
+- [ ] **Examine CloudFormation or CDK Scripts**: Ensure infrastructure as code is correctly set up.
 - [ ] **Check AWS Service Limits**: Verify that you are within AWS service limits (e.g., Lambda execution time, EC2 storage).
 - [ ] **Check Environment Variables**: Ensure all necessary environment variables are set correctly for your application (e.g., AWS access keys, database URLs).
 - [ ] **Check Network Setup**: Ensure that VPC, subnets, and routing are set up properly for service communication.

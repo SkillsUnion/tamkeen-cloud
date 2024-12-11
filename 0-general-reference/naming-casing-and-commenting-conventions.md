@@ -64,9 +64,9 @@ File names for configuration files or scripts related to AWS infrastructure shou
 
 - Example: `deploy-ec2-instance.sh`, `setup-s3-bucket.json`
 
-### AWS CloudFormation and Terraform Files
+### AWS CloudFormation
 
-CloudFormation or Terraform configuration files should follow consistent naming conventions, such as **kebab-case** for filenames.
+CloudFormation configuration files should follow consistent naming conventions, such as **kebab-case** for filenames.
 
 - Example: `create-ec2-instance.yaml`, `define-vpc-networking.tf`
 
@@ -118,7 +118,7 @@ The **@param** tag is used for function parameters, and the **@return** tag desc
 
 ### High-Level Infrastructure Comments
 
-For Cloud Engineering-specific tasks, such as configuring AWS resources, **high-level comments** should be included to explain complex configurations, especially for CloudFormation or Terraform scripts.
+For Cloud Engineering-specific tasks, such as configuring AWS resources, **high-level comments** should be included to explain complex configurations, especially for CloudFormation scripts.
 
 ```yaml
 # CloudFormation template to create a VPC with 2 subnets: one public and one private

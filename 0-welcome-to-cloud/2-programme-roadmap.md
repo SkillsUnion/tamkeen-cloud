@@ -71,17 +71,16 @@ Learn how to set up, manage, and optimize databases in cloud environments for hi
 Master cloud automation through Infrastructure as Code (IaC) to manage resources effectively and improve consistency.
 
 - **Key Tools**:
-  - **Terraform**: A cloud-agnostic tool to manage and provision infrastructure across multiple cloud providers.
   - **AWS CloudFormation**: AWS-specific tool for managing resources through templates.
-  - **Ansible**: For configuration management and automation.
+  - **AWS CDK**: AWS-specific tool for managing resources.
 
 - **Concepts to Learn**:
   - **IaC Best Practices**: Writing modular, reusable IaC templates.
   - **Version Control for Infrastructure**: Use Git to manage and track infrastructure changes.
 
 - **Hands-on Practice**:
-  - Build a cloud environment using Terraform, automating the setup of compute, networking, and storage resources.
-  - Use Ansible for configuration management across cloud instances.
+  - Build a cloud environment using AWS CloudFormation, automating the setup of compute, networking, and storage resources.
+  - Use AWS CDK for management across cloud instances/services.
 
 ---
 

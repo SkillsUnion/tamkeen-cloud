@@ -21,7 +21,7 @@ What makes a good cloud engineer? These are both hard and soft skills one needs 
 
 3. **DevOps Practices**
    - Understanding Infrastructure as Code (IaC)
-   - Writing and managing scripts using Terraform and AWS CloudFormation
+   - Writing and managing scripts using AWS CloudFormation
    - Setting up and managing CI/CD pipelines with tools like AWS CodePipeline, AWS CodeBuild and AWS CodeDeploy
 
 4. **Cloud Native Applications**
