@@ -14,7 +14,7 @@ When working with Cloud Engineering tasks, especially on AWS, it's important to 
    
 2. **Google the Error Message and Context**: If you have a specific error message, combine it with the context of the technology you're working with. For example, if you're facing issues with an EC2 instance not starting, search for "EC2 instance not starting AWS error." By skimming through relevant Google results, you can find potential solutions and dive deeper into promising answers.
 
-3. **Ask for Help**: When you're stuck, ask for help. Share the context about the problem, what you've learned from debugging and Googling, and the error you're encountering. Ask your peers, mentors, or the section leader in your program's communication channel (e.g., Discord or Slack). Providing context will allow others to assist you more effectively.
+3. **Ask for Help**: When you're stuck, ask for help. Share the context about the problem, what you've learned from debugging and Googling, and the error you're encountering. Ask your peers, mentors, or the section leader in your program's communication channel. Providing context will allow others to assist you more effectively.
 
 ### How to Use Google Effectively
 
