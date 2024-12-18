@@ -223,8 +223,7 @@ ESLint is a JavaScript code linter that helps us detect functional errors in our
 }
 ```
 
-
-## Setup folder structure for Cloud Engineering Program
+## Recommendation folder structure for Cloud Engineering Program
 
 We recommends the following folder structure to keep ourselves organised during the program.
 
@@ -237,15 +236,8 @@ We recommends the following folder structure to keep ourselves organised during 
 
 1. Store all the program code in a folder called `cloudengineering`.
 2. Within `cloudengineering`, create a folder `m1` for Module 1 and store all Module 1 exercise code there in exercise-specific folders. Our Project 1 repo folder can also go inside `m1`.
-3. Make 3 copies of `m1` within `cloudengineering` and rename them `m2`, `m3`, and `m4`, 1 folder for each module in the program.
+3. Make 3 copies of `m1` within `cloudengineering` and rename them `m2`, `m3`, 1 folder for each module in the program.
 
-## Sign up for accounts
-
-We will use the following software accounts during the program.
-
-1. <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>
-2. <a href="https://leetcode.com/" target="_blank">LeetCode</a>
-3. <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>
 
 ## Extra Reading
 

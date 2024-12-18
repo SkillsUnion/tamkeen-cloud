@@ -29,7 +29,7 @@ Develop proficiency in key programming and scripting languages used in cloud aut
 
 - **Languages to Learn**:
   - **Bash**: Essential for scripting and automating tasks in Linux environments.
-  - **Python**: Crucial for automation, scripting, and working with serverless cloud architectures.
+  - **Python**: It can be working with serverless cloud architectures.
   - **JavaScript/TypeScript**: Important for developing cloud-native applications, including serverless applications and API development.
 
 - **Learning Resources**:
