@@ -1,4 +1,4 @@
-# **AWS SNS (Simple Notification Service) Tutorial**
+# **AWS SNS (Simple Notification Service)**
 
 ## **Prerequisites**
 - An **AWS account** with necessary IAM permissions.

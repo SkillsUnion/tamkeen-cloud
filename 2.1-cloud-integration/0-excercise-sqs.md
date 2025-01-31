@@ -1,4 +1,4 @@
-# **AWS SQS (Simple Queue Service) Tutorial**
+# **AWS SQS (Simple Queue Service)**
 
 ## **Prerequisites**
 - An **AWS account** with necessary IAM permissions.
