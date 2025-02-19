@@ -156,6 +156,7 @@ aws events create-archive --name MyArchive --event-bus-name default --retention-
 ---
 
 ## **Comparison: EventBridge vs. SNS vs. SQS**
+
 | Feature            | EventBridge                     | SNS                         | SQS                         |
 |--------------------|--------------------------------|-----------------------------|-----------------------------|
 | **Use Case**       | Event-driven workflows        | Pub/Sub messaging           | Queue-based processing      |
@@ -164,7 +165,8 @@ aws events create-archive --name MyArchive --event-bus-name default --retention-
 | **Integration**    | AWS services & SaaS apps     | AWS services & subscribers | AWS services & consumers    |
 | **Ordering**       | Not guaranteed               | Not guaranteed              | FIFO queues ensure ordering |
 
----
+
+
 
 ## **Best Practices for EventBridge**
 1. **Use Custom Event Buses** for better isolation and security.

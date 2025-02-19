@@ -32,13 +32,15 @@ Identity Pools **grant temporary AWS credentials** to users authenticated via Co
 - **Federated identity integration** with **SAML and OpenID Connect (OIDC)** providers.
 
 ### **2.3 User Pools vs. Identity Pools**
-| Feature | **User Pools** | **Identity Pools** |
+
+| **Feature** | **User Pools** | **Identity Pools** |
 |---------|--------------|----------------|
 | **Purpose** | User authentication | AWS resource access |
 | **Token Type** | OAuth JWT tokens | Temporary IAM credentials |
 | **User Directory** | Yes | No |
 | **Federated Sign-In** | Yes | Yes |
 | **Primary Use Case** | Secure authentication | AWS access control |
+
 
 ---
 
@@ -52,6 +54,7 @@ Amazon Cognito supports multiple authentication methods:
 | **Implicit Flow (OAuth 2.0)** | Used for Single Page Applications (SPAs). |
 | **Resource Owner Password Flow** | Allows direct username & password authentication. |
 | **Custom Authentication** | Uses **AWS Lambda triggers** for tailored auth workflows. |
+
 
 ### **3.2 Cognito Tokens**
 Cognito issues **OAuth 2.0-compliant JWT tokens**:
