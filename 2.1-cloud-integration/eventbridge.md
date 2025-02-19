@@ -1,5 +1,7 @@
 
-### **Amazon EventBridge: A Comprehensive Guide**
+### **Amazon EventBridge**
+
+![alt text](image-4.png)
 
 ## **Introduction to Amazon EventBridge**
 Amazon EventBridge is a **serverless event bus** service that enables applications to communicate in real-time by ingesting, filtering, and delivering events. It simplifies the creation of event-driven applications and allows integration across AWS services, third-party applications, and custom applications.
@@ -36,6 +38,10 @@ EventBridge follows a structured architecture that consists of **event buses, ru
 4. **Event Sources**  
    - The origins of events.
    - Can be **AWS services, SaaS applications, or custom applications**.
+
+---
+
+![alt text](image-3.png)
 
 ---
 
