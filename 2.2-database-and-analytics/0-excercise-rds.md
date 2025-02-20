@@ -1,16 +1,17 @@
-# **Working with Relational Databases on Amazon RDS**
+# **Step-by-Step Activity: Working with Relational Databases on Amazon RDS using Terminal**
 
 ---
 
 ## **Objective:**
-Set up a **Relational Database Management System (RDBMS)** on **Amazon RDS**, create a **MySQL database**, and connect to it using **AWS Management Console** and **MySQL Workbench**.
+Set up a **Relational Database Management System (RDBMS)** on **Amazon RDS**, create a **MySQL database**, and perform **CRUD (Create, Read, Update, Delete)** operations using the **terminal**.
 
 ---
 
 ## **Prerequisites:**
 1. An **active AWS account**.
-2. **MySQL Workbench** installed on your local machine.
-3. **IAM permissions** to access **Amazon RDS**, **VPC**, and **EC2**.
+2. **IAM permissions** to access **Amazon RDS**, **VPC**, and **EC2**.
+3. **MySQL client** installed on your **local terminal**.
+4. **Basic understanding** of **SQL** and **relational databases**.
 
 ---
 
@@ -105,32 +106,27 @@ Set up a **Relational Database Management System (RDBMS)** on **Amazon RDS**, cr
 
 ---
 
-## **4. Connect to the Database Using MySQL Workbench**
+## **4. Connect to the Database Using Terminal**
 
 ### **Step 1:** Retrieve the **Database Endpoint**
 - Navigate to **Amazon RDS Dashboard** > **Databases**.
 - Select **my-mysql-db**.
 - Copy the **endpoint** (e.g., `my-mysql-db.xxxxxxx.us-east-1.rds.amazonaws.com`).
 
-### **Step 2:** Open **MySQL Workbench**
-- Click **+** to add a new **MySQL connection**.
+### **Step 2:** Connect via **Terminal**
+- Open your **terminal** and **connect to the database** using the **MySQL client**:
 
-### **Step 3:** Configure **Connection Settings**
-- **Connection Name:** `My RDS Database`.
-- **Hostname:** Paste the **RDS endpoint**.
-- **Port:** `3306`.
-- **Username:** `admin`.
-- **Password:** **Store securely** and **Test connection**.
+```bash
+mysql -h my-mysql-db.xxxxxxx.us-east-1.rds.amazonaws.com -P 3306 -u admin -p
+```
 
-### **Step 4:** Connect to the **Database**
-- Click **Connect**.
-- You should see the **database schema** (`mydb`).
+- Enter the **password** when prompted.
 
 ---
 
-## **5. Create a Sample Table and Insert Data**
+## **5. Create a Sample Table and Perform CRUD Operations**
 
-### **Step 1:** Create a **Table**
+### **Step 1:** Create a **Database Table**
 ```sql
 CREATE TABLE Employees (
     EmployeeID INT AUTO_INCREMENT PRIMARY KEY,
@@ -153,7 +149,15 @@ INSERT INTO Employees (Name, Position, Salary) VALUES
 SELECT * FROM Employees;
 ```
 
-You should see the **inserted data** displayed in **MySQL Workbench**.
+### **Step 4:** Update **Existing Data**
+```sql
+UPDATE Employees SET Salary = 80000 WHERE Name = 'John Doe';
+```
+
+### **Step 5:** Delete **Data from the Table**
+```sql
+DELETE FROM Employees WHERE Name = 'Mike Johnson';
+```
 
 ---
 
@@ -180,8 +184,8 @@ By completing this activity, you have:
 
 - **Set up a VPC and security group** for **RDS connectivity**.
 - **Launched a MySQL database** instance using **Amazon RDS**.
-- **Connected to the database** using **MySQL Workbench**.
-- **Created and managed data** within the **RDS instance**.
+- **Connected to the database** using the **terminal**.
+- **Performed CRUD operations** using **SQL commands**.
 - **Cleaned up resources** to avoid **unwanted charges**.
 
-For more information on **Amazon RDS** and **relational databases**, visit the [**AWS RDS Documentation**](https://docs.aws.amazon.com/rds/).
+For more information on **Amazon RDS**, visit the [**AWS RDS Documentation**](https://docs.aws.amazon.com/rds/).
