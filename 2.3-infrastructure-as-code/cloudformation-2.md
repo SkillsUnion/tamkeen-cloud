@@ -4,6 +4,7 @@
 AWS CloudFormation supports provisioning a wide range of AWS services.
 
 #### **1.1 Common AWS Resources in CloudFormation**
+
 | **Resource Type** | **AWS Resource** |
 |------------------|-----------------|
 | **Compute** | `AWS::EC2::Instance`, `AWS::Lambda::Function` |
