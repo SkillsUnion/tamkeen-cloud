@@ -1,4 +1,4 @@
-# **Working with Non-Relational Databases on Amazon DynamoDB**
+# **Non-Relational Databases on Amazon DynamoDB**
 
 ---
 

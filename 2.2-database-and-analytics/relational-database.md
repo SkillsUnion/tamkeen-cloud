@@ -1,4 +1,4 @@
-# **Comprehensive Guide: Relational Databases**
+# **Relational Databases**
 
 ---
 

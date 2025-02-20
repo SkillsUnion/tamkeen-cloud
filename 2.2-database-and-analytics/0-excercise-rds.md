@@ -1,4 +1,4 @@
-# **Step-by-Step Activity: Working with Relational Databases on Amazon RDS using Terminal**
+# **Working with Relational Databases on Amazon RDS**
 
 ---
 
