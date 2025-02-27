@@ -1,4 +1,4 @@
-# **Lesson 2: Introduction to Serverless Computing on AWS**
+# **Introduction to Serverless Computing on AWS**
 
 ## **1. Overview of Serverless on AWS**
 Amazon Web Services (AWS) provides a comprehensive ecosystem for serverless computing, enabling developers to build and deploy applications without managing infrastructure. AWS serverless services offer **automatic scaling, pay-as-you-go pricing, and event-driven execution**, making cloud development more efficient and cost-effective.
