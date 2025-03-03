@@ -37,6 +37,8 @@ It allows direct messaging to individuals or groups via:
 - **Standard Topics:** Allow high throughput and best-effort ordering with potential message duplication.
 - **FIFO Topics:** Ensure strict ordering and deduplication of messages.
 
+![alt text](image-7.png)
+
 ### 4. **Message Durability**
 Amazon SNS ensures message durability through:
 

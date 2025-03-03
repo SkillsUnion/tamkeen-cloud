@@ -87,6 +87,9 @@ Cognito supports Google, Facebook, Apple, and Amazon authentication.
 ### 4.2 Enterprise Authentication (SAML & OIDC)
 Cognito integrates with Microsoft Active Directory (Azure AD), Okta, Ping Identity, and other enterprise IdPs.
 
+
+![alt text](image-9.png)
+
 ---
 
 ## 5. Advanced Features and Integrations
