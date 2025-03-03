@@ -10,6 +10,9 @@ Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging ser
 - Email
 - Mobile push notifications (SMS)
 
+
+{% include youtube.html id="bktTomENEX8" %}
+
 ---
 
 ## Features and Capabilities

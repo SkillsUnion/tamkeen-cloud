@@ -1,4 +1,4 @@
-# **Lesson 4: AWS Serverless Application Model (AWS SAM)**
+# **AWS Serverless Application Model (AWS SAM)**
 
 ## **1. Introduction to AWS SAM**
 AWS Serverless Application Model (AWS SAM) is an open-source framework designed to build, test, and deploy serverless applications on AWS. AWS SAM simplifies defining and managing serverless resources using a **declarative YAML configuration**.

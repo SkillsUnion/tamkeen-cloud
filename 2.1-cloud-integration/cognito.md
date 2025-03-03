@@ -3,6 +3,9 @@
 ![alt text](image-5.png)
 
 
+{% include youtube.html id="vqAirwfYgrY" %}
+
+
 ## 1. Introduction to Amazon Cognito
 Amazon Cognito is AWS’s fully managed authentication, authorization, and user identity management service. It provides seamless and scalable user authentication for web and mobile applications while offering federated identity management and temporary AWS credentials for accessing AWS resources.
 

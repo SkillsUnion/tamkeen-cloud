@@ -1,4 +1,4 @@
-# **Step-by-Step AWS SAM Tutorial**
+# **Step-by-Step AWS SAM**
 
 ## **1. Prerequisites**
 Before starting with AWS Serverless Application Model (AWS SAM), ensure you have:
