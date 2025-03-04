@@ -3,6 +3,8 @@
 ## **1. Overview of AWS CDK**  
 The **AWS Cloud Development Kit (AWS CDK)** is an **open-source** framework that enables **Infrastructure as Code (IaC)** using modern programming languages. It allows developers to define and provision AWS resources programmatically instead of manually writing AWS CloudFormation templates in YAML or JSON.
 
+{% include youtube.html id="nlb8yo7SZ2I" %}
+
 AWS CDK supports multiple programming languages, including:  
 - TypeScript  
 - Python  
@@ -39,6 +41,8 @@ Once the infrastructure is defined, AWS CDK **synthesizes the code into an AWS C
 
 ## **4. AWS CDK Architecture**
 AWS CDK consists of several **core components** that define and manage AWS infrastructure.
+
+![alt text](image-2.png)
 
 ### **4.1 Constructs**
 **Constructs** are **the fundamental building blocks** of AWS CDK applications.  

@@ -1,5 +1,9 @@
 # **Advanced AWS Cloud Development Kit (AWS CDK)**  
 
+
+{% include youtube.html id="D4Asp5g4fp8" %}
+
+
 ## **1. Understanding AWS CDK Constructs in Depth**  
 AWS CDK provides a hierarchical construct system for managing and deploying AWS resources. These constructs are grouped into three levels:
 

@@ -1,7 +1,12 @@
 # **Advanced Features and Best Practices in AWS CloudFormation**
 
+{% include youtube.html id="2gT1dvbppg8" %}
+
 ### **1. AWS CloudFormation Resources**
 AWS CloudFormation supports provisioning a wide range of AWS services.
+
+![alt text](image.png)
+
 
 #### **1.1 Common AWS Resources in CloudFormation**
 
@@ -12,6 +17,8 @@ AWS CloudFormation supports provisioning a wide range of AWS services.
 | **Storage** | `AWS::S3::Bucket`, `AWS::EBS::Volume` |
 | **Security** | `AWS::IAM::Role`, `AWS::KMS::Key` |
 | **Databases** | `AWS::RDS::DBInstance`, `AWS::DynamoDB::Table` |
+
+![alt text](image-1.png)
 
 ---
 

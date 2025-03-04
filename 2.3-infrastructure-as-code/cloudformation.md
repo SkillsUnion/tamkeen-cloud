@@ -3,6 +3,8 @@
 ### **1. Introduction to AWS CloudFormation**
 AWS CloudFormation is an **Infrastructure as Code (IaC)** service that enables users to define and provision AWS resources using **JSON** or **YAML** templates. It automates **resource creation, configuration, and management**, making it easier to maintain a consistent infrastructure across multiple AWS environments.
 
+{% include youtube.html id="Omppm_YUG2g" %}
+
 ### **2. Key Benefits of AWS CloudFormation**
 - **Infrastructure as Code (IaC)**: Manage AWS resources using declarative code.
 - **Automated Provisioning**: Deploy and update entire environments quickly.
@@ -13,6 +15,10 @@ AWS CloudFormation is an **Infrastructure as Code (IaC)** service that enables u
 ---
 
 ### **3. Core Components of AWS CloudFormation**
+
+![alt text](image.png)
+
+
 #### **3.1 CloudFormation Templates**
 A **template** is the core component of CloudFormation and is a declarative file written in JSON or YAML.
 
