@@ -6,6 +6,9 @@
 
 **Non-relational databases**, commonly referred to as **NoSQL databases**, offer a **flexible approach to data management** that is fundamentally different from traditional **relational databases**. Unlike **SQL databases**, which use **structured tables** and **schemas**, **NoSQL databases** provide the ability to handle **unstructured**, **semi-structured**, and **highly variable data models**, enabling more **scalable**, **agile**, and **high-performance data storage solutions**.
 
+
+{% include youtube.html id="0buKQHokLK8" %}
+
 ---
 
 ## **2. Key Characteristics of Non-Relational Databases**
@@ -39,6 +42,10 @@
 ---
 
 ## **4. Types of Non-Relational Databases**
+
+
+![alt text](image-4.png)
+
 
 **Non-relational databases** can be categorized into **four primary types**, each suited to specific **data storage needs** and **application scenarios**.
 
@@ -118,6 +125,8 @@
 ---
 
 ## **5. Non-Relational Databases on AWS**
+
+![alt text](image-5.png)
 
 ### **5.1 Key AWS NoSQL Database Services**
 

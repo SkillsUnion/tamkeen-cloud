@@ -6,6 +6,8 @@
 
 A **database** is a structured collection of data stored and managed electronically. It serves as a repository for information, allowing for **efficient storage, retrieval, and management** of data. Databases are fundamental components of modern software applications, powering everything from **simple websites to complex enterprise systems**.
 
+{% include youtube.html id="Tk1t3WKK-ZY" %}
+
 ### **1.1 Key Characteristics of Databases**
 - **Data Storage:** Organizes data in structured formats such as tables, documents, or key-value pairs.
 - **Data Retrieval:** Allows quick and efficient access to stored data using query languages like **SQL**.

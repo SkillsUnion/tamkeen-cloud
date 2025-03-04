@@ -6,6 +6,8 @@
 
 A **Relational Database** is a type of **database management system (DBMS)** that organizes data into **tables (relations)** consisting of **rows (records)** and **columns (attributes)**. Developed in the 1970s by **E.F. Codd** at **IBM**, relational databases leverage **Structured Query Language (SQL)** for **data definition**, **manipulation**, and **querying**.
 
+{% include youtube.html id="zsjvFFKOm3c" %}
+
 ---
 
 ## **2. Key Characteristics of Relational Databases**
@@ -19,6 +21,9 @@ A **Relational Database** is a type of **database management system (DBMS)** tha
 | **Data Relationships** | Supports **one-to-one**, **one-to-many**, and **many-to-many** relationships between tables. |
 | **Scalability** | Primarily supports **vertical scaling** (adding more power to a single server). |
 | **Standardized Query Language** | Uses **SQL** for **data operations** and **administrative tasks**. |
+
+
+![alt text](image-6.png)
 
 ---
 
@@ -57,6 +62,8 @@ Constraints enforce **data integrity** and **rules** within the database:
 | **Check** | Defines a **condition** for valid data entries. |
 | **Default** | Sets a **default value** for a column when **none is provided**. |
 
+![alt text](image-8.png)
+
 ---
 
 ## **4. SQL (Structured Query Language)**
@@ -72,6 +79,9 @@ Constraints enforce **data integrity** and **rules** within the database:
 | **Data Query Language (DQL)** | Retrieves **data from databases**. | `SELECT` |
 | **Data Control Language (DCL)** | Manages **permissions and access controls**. | `GRANT`, `REVOKE` |
 | **Transaction Control Language (TCL)** | Manages **transactions**. | `COMMIT`, `ROLLBACK`, `SAVEPOINT` |
+
+
+![alt text](image-7.png)
 
 ---
 

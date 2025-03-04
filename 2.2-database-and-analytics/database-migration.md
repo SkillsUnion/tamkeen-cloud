@@ -14,6 +14,10 @@ AWS Database Migration Service (AWS DMS) helps migrate databases to AWS quickly 
 
 ![alt text](image.png)
 
+
+{% include youtube.html id="ouia1Sc5QGo" %}
+
+
 ### **2.2 Key Features**
 - **Supports Multiple Database Engines**: AWS DMS works with relational databases (e.g., MySQL, PostgreSQL, Oracle, SQL Server) and NoSQL databases (e.g., MongoDB, Amazon DynamoDB).
 - **Minimal Downtime**: AWS DMS ensures continuous data replication with near-zero downtime.
