@@ -169,6 +169,10 @@ Relational databases are best suited for scenarios requiring:
 - **Data-Driven Applications:** Ideal for **ERP systems**, **CRM**, **e-commerce**, and **financial systems**.
 - **Regulatory Compliance:** **Enforces rules** and **audit capabilities**.
 
+
+![alt text](image-10.png)
+
+
 ---
 
 ## **8. Further Exploration**

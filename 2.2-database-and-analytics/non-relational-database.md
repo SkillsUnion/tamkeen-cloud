@@ -161,6 +161,8 @@
 - In scenarios requiring **high-speed read and write operations**.
 - For **social networks**, **IoT platforms**, and **content management systems**.
 
+
+![alt text](image-9.png)
 ---
 
 ## **8. Further Exploration**
