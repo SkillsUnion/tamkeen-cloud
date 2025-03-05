@@ -1,5 +1,7 @@
 # **AWS Lambda**
 
+![alt text](image-2.png)
+
 ## **1. Introduction to AWS Lambda**
 AWS Lambda is a serverless compute service that allows developers to run code in response to events without provisioning or managing servers. Lambda executes code only when needed and automatically scales to handle requests.
 
