@@ -12,6 +12,8 @@ Amazon Elastic Kubernetes Service (EKS) is a fully managed Kubernetes service th
 
 ---
 
+{% include youtube.html id="E956xeOt050" %}
+
 ## **2. Setting Up Amazon EKS**
 
 ### **2.1 Prerequisites**

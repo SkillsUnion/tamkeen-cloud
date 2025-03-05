@@ -3,6 +3,8 @@
 ## **1. Overview of Amazon ECR**
 Amazon Elastic Container Registry (ECR) is a fully managed Docker container registry that allows developers to store, manage, and deploy container images securely. It integrates seamlessly with Amazon Elastic Container Service (ECS), Amazon Elastic Kubernetes Service (EKS), and AWS Lambda.
 
+{% include youtube.html id="H73uX0TOX9g" %}
+
 ### **Key Features of ECR**
 - **Fully Managed** – No need to manage underlying infrastructure.
 - **Private and Public Repositories** – Store container images securely with IAM-based access control.

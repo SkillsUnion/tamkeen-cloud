@@ -3,6 +3,8 @@
 ## **1. Overview of Amazon ECS**
 Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that allows users to run, manage, and scale containerized applications on AWS. ECS supports **EC2 launch type** (running containers on AWS-managed EC2 instances) and **AWS Fargate launch type** (serverless container deployment).
 
+{% include youtube.html id="I9VAMGEjW-Q" %}
+
 ### **Key Features of ECS**
 - **Fully Managed** – AWS manages the control plane, reducing operational overhead.
 - **Flexible Deployment** – Supports both **EC2** and **Fargate** launch types.

@@ -3,6 +3,8 @@
 ## **1. What is Docker Hub?**
 Docker Hub is a cloud-based registry service provided by Docker for storing, managing, and sharing container images. It allows developers to publish and distribute containerized applications easily.
 
+{% include youtube.html id="mAzHELZWE-Y" %}
+
 ### **Key Features of Docker Hub**
 - **Public and Private Repositories** – Store container images either publicly or privately.
 - **Automated Builds** – Automatically build images from a linked GitHub or Bitbucket repository.

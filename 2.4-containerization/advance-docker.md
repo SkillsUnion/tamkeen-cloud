@@ -5,6 +5,9 @@
 #### **1.1 Understanding Dockerfile Instructions**
 A **Dockerfile** is a script that contains instructions for building a Docker image. Understanding each instruction is essential for creating optimized and secure images.
 
+
+{% include youtube.html id="rIrNIzy6U_g" %}
+
 ##### **Key Instructions:**
 
 - `FROM` – Specifies the base image.

@@ -7,6 +7,8 @@
 ### **1.1 What is a Docker Image?**
 A **Docker image** is a read-only template that contains the application code, dependencies, and runtime environment. Images serve as the blueprint for creating containers.
 
+{% include youtube.html id="_dfLOzuIg2o" %}
+
 ### **1.2 What is a Docker Container?**
 A **Docker container** is a running instance of a Docker image. Containers are lightweight and portable, allowing applications to run in isolated environments.
 
@@ -18,6 +20,8 @@ A **Docker container** is a running instance of a Docker image. Containers are l
 | **Persistence** | Cannot change at runtime | Can be modified but changes disappear on restart |
 
 ---
+
+{% include youtube.html id="gAkwW2tuIqE" %}
 
 ## **2. Managing Docker Containers**
 

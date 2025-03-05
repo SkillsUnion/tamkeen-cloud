@@ -3,6 +3,8 @@
 ## **1. Overview of Serverless Computing**
 Serverless computing is a cloud computing execution model where cloud providers manage the infrastructure, automatically handling provisioning, scaling, and maintenance of resources. Developers focus on writing code without managing servers.
 
+![alt text](image.png)
+
 ### **1.1 Key Characteristics of Serverless Computing**
 - **No Server Management** – The cloud provider handles provisioning, scaling, and maintenance.
 - **Automatic Scaling** – Resources scale up or down based on demand.
@@ -101,6 +103,9 @@ Each execution of a serverless function is stateless. If state persistence is re
 ### **5.5 Chatbots & AI/ML Inference**
 - Running serverless AI inference models using AWS Lambda, Google Cloud Functions.
 - Processing chatbot messages using event-driven functions.
+
+
+![alt text](image-1.png)
 
 ---
 
