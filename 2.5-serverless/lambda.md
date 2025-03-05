@@ -3,6 +3,8 @@
 ## **1. Introduction to AWS Lambda**
 AWS Lambda is a serverless compute service that allows developers to run code in response to events without provisioning or managing servers. Lambda executes code only when needed and automatically scales to handle requests.
 
+{% include youtube.html id="seaBeltaKhw" %}
+
 ### **1.1 Key Features of AWS Lambda**
 - **Event-Driven Execution** – Functions run in response to events from AWS services or external sources.
 - **Automatic Scaling** – Lambda scales dynamically based on incoming requests.
