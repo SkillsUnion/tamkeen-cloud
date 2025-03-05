@@ -100,6 +100,12 @@ AWS enables automation of serverless deployments using:
 - Implement **AWS Cost Explorer** to analyze serverless application expenses.
 - Optimize AWS Lambda execution by reducing function size and dependencies.
 
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+
 ---
 
 ## **Summary**
@@ -107,3 +113,4 @@ AWS enables automation of serverless deployments using:
 - **Event-driven execution** allows applications to scale dynamically based on demand.
 - **Security, performance, and cost optimization** should be considered when designing AWS serverless architectures.
 - **AWS tools like AWS SAM, CodePipeline, and CloudFormation** streamline development and deployment.
+
