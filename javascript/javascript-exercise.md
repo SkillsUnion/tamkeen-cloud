@@ -137,7 +137,3 @@ console.log('Deep Copied Task 4:', task4DeepCopy);
 - **Code**: Provide the complete code you wrote for this exercise.
 - **Screenshots**: Include screenshots of your terminal or console output showing the successful execution of each step.
 - **Reflection**: Write a brief reflection on how using ES6 features like classes, destructuring, and async/await improved your development experience.
-
----
-
-This exercise integrates multiple JavaScript concepts and challenges you to apply them in a practical project. Let me know if there’s anything else you need!
