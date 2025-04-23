@@ -166,6 +166,3 @@ AWS SAM is purpose-built to integrate with modern CICD systems, enabling develop
 
 ---
 
-### Next Module
-In the next section, we will walk through building and deploying a full SAM-based CICD pipeline using `sam pipeline init` and integrating with GitHub Actions or AWS CodePipeline.
-

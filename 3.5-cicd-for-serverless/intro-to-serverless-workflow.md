@@ -199,6 +199,3 @@ Following best practices such as IaC, proper monitoring, security controls, and 
 
 ---
 
-### Next Module
-A hands-on activity will guide you through building a complete CICD pipeline for a serverless API using AWS SAM CLI, CodePipeline, and CodeBuild.
-
