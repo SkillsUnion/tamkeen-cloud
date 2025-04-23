@@ -114,7 +114,7 @@ artifacts:
 - Use KMS for encrypting artifacts and logs.
 - Store environment secrets securely using AWS Secrets Manager or SSM Parameter Store.
 
-## 10. CI/CD Integration
+## 10. CICD Integration
 AWS CodeBuild integrates naturally with:
 - **CodePipeline**: As a `Build` or `Test` action.
 - **EventBridge**: For triggering builds on commit events.
@@ -186,4 +186,4 @@ artifacts:
 - Use batch builds for parallel testing or builds.
 
 ## 13. Summary
-AWS CodeBuild offers a scalable, reliable, and integrated solution for building software in the cloud. With support for multiple languages, custom environments, and seamless CI/CD integration, it’s a critical tool for modern DevOps workflows. Whether used standalone or as part of CodePipeline, CodeBuild accelerates software delivery without infrastructure headaches.
+AWS CodeBuild offers a scalable, reliable, and integrated solution for building software in the cloud. With support for multiple languages, custom environments, and seamless CICD integration, it’s a critical tool for modern DevOps workflows. Whether used standalone or as part of CodePipeline, CodeBuild accelerates software delivery without infrastructure headaches.

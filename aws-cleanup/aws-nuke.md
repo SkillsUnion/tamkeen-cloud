@@ -106,7 +106,7 @@
 1. **Whitelist Critical Resources**: Use the `filters` section in the config to protect critical resources.
 2. **Limit Regions**: Specify only the regions you want to clean up.
 3. **Double-Check Configurations**: Mistakes in the config file can lead to unintended deletions.
-4. **Automate with CI/CD**: For sandbox accounts, automate `aws-nuke` execution but restrict it with safeguards.
+4. **Automate with CICD**: For sandbox accounts, automate `aws-nuke` execution but restrict it with safeguards.
 
 ---
 

@@ -1,17 +1,17 @@
-# CI/CD Workflow for Containers on AWS
+# CICD Workflow for Containers on AWS
 
 ## 1. Introduction
-In a modern DevOps environment, container-based applications are the foundation of scalable, maintainable microservices. Implementing a robust CI/CD workflow for containers enables developers to build, test, and deploy changes quickly and reliably. AWS offers a suite of fully managed services that support CI/CD automation for container workloads, ensuring efficiency, security, and scalability across all stages of the software delivery lifecycle.
+In a modern DevOps environment, container-based applications are the foundation of scalable, maintainable microservices. Implementing a robust CICD workflow for containers enables developers to build, test, and deploy changes quickly and reliably. AWS offers a suite of fully managed services that support CICD automation for container workloads, ensuring efficiency, security, and scalability across all stages of the software delivery lifecycle.
 
-This document outlines a comprehensive CI/CD workflow for containerized applications using AWS services including CodeCommit, CodeBuild, Amazon ECR, CodePipeline, ECS, and optionally EKS.
+This document outlines a comprehensive CICD workflow for containerized applications using AWS services including CodeCommit, CodeBuild, Amazon ECR, CodePipeline, ECS, and optionally EKS.
 
 ---
 
-## 2. CI/CD Pipeline Stages for Containers
-A typical AWS container-based CI/CD workflow includes the following sequential stages:
+## 2. CICD Pipeline Stages for Containers
+A typical AWS container-based CICD workflow includes the following sequential stages:
 
 ### 2.1. **Source Control (CodeCommit / GitHub)**
-Code changes are committed to a Git-based source repository. This acts as the trigger for the CI/CD process.
+Code changes are committed to a Git-based source repository. This acts as the trigger for the CICD process.
 
 ### 2.2. **Build and Unit Testing (CodeBuild)**
 AWS CodeBuild is responsible for compiling the application, running tests, building Docker images from the source code, and preparing the application artifacts. This includes creating and pushing Docker images to Amazon Elastic Container Registry (ECR).
@@ -20,14 +20,14 @@ AWS CodeBuild is responsible for compiling the application, running tests, build
 Built images are tagged (often with Git SHAs or semantic versioning) and pushed to a centralized Amazon ECR repository. These images serve as immutable artifacts ready for deployment.
 
 ### 2.4. **Pipeline Orchestration (CodePipeline)**
-AWS CodePipeline orchestrates the entire CI/CD process, linking the source, build, and deployment stages. It ensures each change goes through all necessary steps before reaching production.
+AWS CodePipeline orchestrates the entire CICD process, linking the source, build, and deployment stages. It ensures each change goes through all necessary steps before reaching production.
 
 ### 2.5. **Deployment (Amazon ECS or EKS)**
 The final deployment stage updates the container orchestrator (ECS or EKS) to pull the new Docker image from ECR and deploy it to the desired compute environment (e.g., Fargate or EC2-backed services).
 
 ---
 
-## 3. Step-by-Step CI/CD Flow
+## 3. Step-by-Step CICD Flow
 
 1. **Developer pushes code to CodeCommit**
    - Includes Dockerfile, source code, and buildspec.yml
@@ -144,7 +144,7 @@ artifacts:
 
 ## 6. Monitoring and Rollback
 - **Amazon CloudWatch**: Logs and metrics for builds, deployments, and application runtime
-- **AWS CloudTrail**: Track API events across CI/CD resources
+- **AWS CloudTrail**: Track API events across CICD resources
 - **Amazon SNS**: Notify teams on build/deploy success/failure
 - **Rollback Options**:
   - ECS deployment configuration with minimum healthy percent
@@ -153,4 +153,4 @@ artifacts:
 ---
 
 ## 7. Summary
-This CI/CD workflow enables development teams to automate the build, test, and deployment of containerized applications in AWS. By chaining services such as CodeCommit, CodeBuild, ECR, CodePipeline, and ECS/EKS, teams can achieve high development velocity, maintain application stability, and deliver software faster and more reliably.
+This CICD workflow enables development teams to automate the build, test, and deployment of containerized applications in AWS. By chaining services such as CodeCommit, CodeBuild, ECR, CodePipeline, and ECS/EKS, teams can achieve high development velocity, maintain application stability, and deliver software faster and more reliably.

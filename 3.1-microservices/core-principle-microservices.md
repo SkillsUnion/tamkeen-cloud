@@ -58,7 +58,7 @@ Each microservice should be **deployable and updatable without coordination** wi
 
 **Real-World Practice**:
 - Teams build and deploy services they own.
-- CI/CD pipelines are isolated per service.
+- CICD pipelines are isolated per service.
 - Updates to one service don’t require system-wide redeployments.
 
 ---

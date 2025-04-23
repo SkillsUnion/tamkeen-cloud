@@ -2,9 +2,9 @@
 
 ## **1. What is GitHub Actions?**
 
-GitHub Actions is a **native automation and CI/CD tool** integrated into GitHub. It allows developers to automate tasks within their software development lifecycle—such as building, testing, and deploying code—**directly from their repositories**.
+GitHub Actions is a **native automation and CICD tool** integrated into GitHub. It allows developers to automate tasks within their software development lifecycle—such as building, testing, and deploying code—**directly from their repositories**.
 
-What makes GitHub Actions stand out is its **event-driven architecture**. Instead of relying on external CI/CD platforms, GitHub Actions listens to specific GitHub events—like a `push` or a `pull request`—and reacts by executing workflows defined in the repository.
+What makes GitHub Actions stand out is its **event-driven architecture**. Instead of relying on external CICD platforms, GitHub Actions listens to specific GitHub events—like a `push` or a `pull request`—and reacts by executing workflows defined in the repository.
 
 By combining version control and automation in one place, it offers a seamless development experience and reduces operational complexity.
 
@@ -91,7 +91,7 @@ By using reusable actions, teams can **build consistent pipelines faster** and r
 
 ## **5. Security and Secrets Management**
 
-Security is a central concern in CI/CD. GitHub Actions supports encrypted **secrets** to store sensitive data like API keys, tokens, or credentials. These secrets are accessible inside workflows via environment variables.
+Security is a central concern in CICD. GitHub Actions supports encrypted **secrets** to store sensitive data like API keys, tokens, or credentials. These secrets are accessible inside workflows via environment variables.
 
 Example usage:
 ```yaml
@@ -110,7 +110,7 @@ In addition to secrets, GitHub also allows developers to define **environments**
 
 ## **6. GitHub Actions with AWS**
 
-GitHub Actions can seamlessly integrate with AWS services to enable cloud-native CI/CD pipelines.
+GitHub Actions can seamlessly integrate with AWS services to enable cloud-native CICD pipelines.
 
 Examples include:
 - Deploying apps to **AWS Elastic Beanstalk**
@@ -127,7 +127,7 @@ To interact with AWS, developers commonly use this action:
     aws-region: us-east-1
 ```
 
-This setup makes GitHub Actions a viable CI/CD engine for serverless, container, and infrastructure automation on AWS.
+This setup makes GitHub Actions a viable CICD engine for serverless, container, and infrastructure automation on AWS.
 
 ---
 
@@ -136,7 +136,7 @@ This setup makes GitHub Actions a viable CI/CD engine for serverless, container,
 GitHub Actions is best used when:
 - You are already using GitHub for version control.
 - You want native, tightly integrated automation.
-- You prefer declarative CI/CD pipelines using YAML.
+- You prefer declarative CICD pipelines using YAML.
 - You need fast setup and no extra infrastructure.
 
 It may not be suitable if:
@@ -147,4 +147,4 @@ It may not be suitable if:
 
 ## **8. Summary**
 
-GitHub Actions is a powerful tool for modern development teams aiming to automate, test, and deploy software faster. It supports a wide range of use cases—from building containers and running unit tests to deploying multi-environment infrastructure. It’s highly recommended for teams already invested in GitHub who want to implement scalable CI/CD pipelines with low operational overhead.
+GitHub Actions is a powerful tool for modern development teams aiming to automate, test, and deploy software faster. It supports a wide range of use cases—from building containers and running unit tests to deploying multi-environment infrastructure. It’s highly recommended for teams already invested in GitHub who want to implement scalable CICD pipelines with low operational overhead.

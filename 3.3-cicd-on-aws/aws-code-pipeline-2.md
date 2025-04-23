@@ -1,8 +1,8 @@
-# Visual Diagrams and CI/CD Flow Examples
+# Visual Diagrams and CICD Flow Examples
 
 To visualize the end-to-end delivery process using AWS CodePipeline, consider the following common architectural flow:
 
-### **Diagram: Basic CodePipeline CI/CD Flow**
+### **Diagram: Basic CodePipeline CICD Flow**
 
 ```
 +-----------+       +------------+       +------------+       +-------------+       +------------+

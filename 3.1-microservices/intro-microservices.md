@@ -78,7 +78,7 @@ While microservices solve many problems of monoliths, they also introduce new co
 - **Data Consistency**: No single database; managing distributed transactions is non-trivial.
 - **Deployment Management**: Requires orchestration (ECS, Kubernetes, etc.)
 
-> Adopting microservices requires strong DevOps maturity: CI/CD pipelines, infrastructure as code, centralized logging, and distributed tracing.
+> Adopting microservices requires strong DevOps maturity: CICD pipelines, infrastructure as code, centralized logging, and distributed tracing.
 
 ---
 

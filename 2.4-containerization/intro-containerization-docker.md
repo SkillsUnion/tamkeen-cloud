@@ -54,8 +54,8 @@ Containers use **operating system (OS) virtualization** to share the host OS ker
 - By using namespace and cgroups features in Linux, containers ensure strict resource control and process isolation.
 - This isolation enhances security, preventing one application from affecting another.
 
-### **2.5 Automation & CI/CD Integration**
-- Containers integrate seamlessly with CI/CD pipelines, allowing automated builds, tests, and deployments.
+### **2.5 Automation & CICD Integration**
+- Containers integrate seamlessly with CICD pipelines, allowing automated builds, tests, and deployments.
 - They ensure consistent environments between development, staging, and production, reducing deployment failures.
 - Tools like Jenkins, GitHub Actions, and AWS CodePipeline leverage containers for automated software delivery.
 - Containers allow blue-green and canary deployments, enabling safe application rollouts with minimal risk.

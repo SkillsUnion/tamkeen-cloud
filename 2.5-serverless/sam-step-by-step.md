@@ -189,14 +189,14 @@ aws xray get-service-graph
 
 ---
 
-## **9. Implementing CI/CD for AWS SAM**
+## **9. Implementing CICD for AWS SAM**
 ### **9.1 Using AWS CodePipeline**
 1. Store code in **GitHub** or **CodeCommit**.
 2. Use **AWS CodeBuild** for building and packaging Lambda.
 3. Deploy using **AWS CodeDeploy** with blue/green deployment strategies.
 
 ### **9.2 GitHub Actions Workflow for AWS SAM**
-Example CI/CD pipeline:
+Example CICD pipeline:
 ```yaml
 name: Deploy AWS SAM Application
 on: [push]
@@ -220,4 +220,4 @@ jobs:
 - AWS SAM simplifies **serverless application development, testing, and deployment**.
 - **SAM CLI** enables local execution and debugging of Lambda functions.
 - **Infrastructure as Code (IaC)** using `template.yaml` automates resource provisioning.
-- **CI/CD Pipelines** streamline deployment using AWS CodePipeline or GitHub Actions.
+- **CICD Pipelines** streamline deployment using AWS CodePipeline or GitHub Actions.

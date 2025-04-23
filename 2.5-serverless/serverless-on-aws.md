@@ -72,7 +72,7 @@ AWS provides multiple tools and frameworks to simplify the development, deployme
 - **AWS CloudFormation** – Automates the provisioning of serverless architectures.
 - **Serverless Framework** – Open-source framework for deploying serverless applications across multiple cloud providers.
 
-### **4.2 CI/CD for Serverless Applications**
+### **4.2 CICD for Serverless Applications**
 AWS enables automation of serverless deployments using:
 - **AWS CodePipeline** – Automates serverless application deployment.
 - **AWS CodeBuild** – Builds and tests serverless applications.

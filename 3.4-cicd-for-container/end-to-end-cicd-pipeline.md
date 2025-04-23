@@ -1,14 +1,14 @@
-# Automating End-to-End CI/CD Pipeline for Containers on AWS
+# Automating End-to-End CICD Pipeline for Containers on AWS
 
 ## 1. Introduction
-Automating the end-to-end CI/CD pipeline for containers on AWS significantly improves developer productivity and accelerates release cycles. With the integration of AWS services like CodeCommit, CodeBuild, Amazon ECR, CodePipeline, and Amazon ECS or EKS, development teams can deploy changes continuously and reliably.
+Automating the end-to-end CICD pipeline for containers on AWS significantly improves developer productivity and accelerates release cycles. With the integration of AWS services like CodeCommit, CodeBuild, Amazon ECR, CodePipeline, and Amazon ECS or EKS, development teams can deploy changes continuously and reliably.
 
 This guide provides a complete overview and hands-on strategy to fully automate container-based deployments in AWS, from source code to production deployment.
 
 ---
 
 ## 2. Architecture Overview
-A typical end-to-end CI/CD container pipeline includes:
+A typical end-to-end CICD container pipeline includes:
 
 1. **CodeCommit/GitHub** – Source code version control
 2. **CodeBuild** – Builds the Docker image and pushes to ECR
@@ -136,4 +136,4 @@ Monitor logs via CloudWatch and deployment status in CodePipeline UI.
 ---
 
 ## 6. Summary
-Automating the CI/CD pipeline for containers on AWS reduces manual tasks, standardizes delivery, and accelerates deployments. Leveraging AWS-native tools provides deep integration, security, and operational visibility for containerized applications.
+Automating the CICD pipeline for containers on AWS reduces manual tasks, standardizes delivery, and accelerates deployments. Leveraging AWS-native tools provides deep integration, security, and operational visibility for containerized applications.

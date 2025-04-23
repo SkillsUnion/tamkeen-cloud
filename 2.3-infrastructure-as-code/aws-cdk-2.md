@@ -116,7 +116,7 @@ const myParam = new cdk.CfnParameter(this, 'InstanceType', {
 
 ---
 
-## **4. AWS CDK Pipelines for CI/CD**
+## **4. AWS CDK Pipelines for CICD**
 AWS CDK integrates with AWS CodePipeline to automate infrastructure deployment.
 
 ### **4.1 Defining a CDK Pipeline**
@@ -141,7 +141,7 @@ new codepipeline.Pipeline(this, 'MyPipeline', {
   ],
 });
 ```
-- **Stages:** Define steps in the CI/CD pipeline.
+- **Stages:** Define steps in the CICD pipeline.
 - **Source Action:** Pulls code from GitHub.
 - **Build & Deploy:** Automates AWS infrastructure deployment.
 
@@ -171,7 +171,7 @@ This session covered **advanced AWS CDK concepts**, including:
 - Understanding **Constructs (L1, L2, L3)**
 - Managing **stacks across environments**
 - Using **context variables and parameters**
-- Implementing **CI/CD pipelines with CDK**
+- Implementing **CICD pipelines with CDK**
 - Security best practices for CDK applications
 
 AWS CDK enables **scalable, secure, and automated cloud infrastructure management**. For further reference, visit the [AWS CDK Developer Guide](https://docs.aws.amazon.com/cdk/latest/guide/).

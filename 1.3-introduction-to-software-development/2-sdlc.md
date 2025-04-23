@@ -86,7 +86,7 @@ There are several models of the SDLC, each with its own approach to the software
    - **Cons:** Requires active communication, can be challenging for larger teams or projects.
 
 4. **DevOps Model:**
-   - DevOps is a combination of software development (**Dev**) and IT operations (**Ops**). It focuses on continuous integration, continuous delivery (CI/CD), and automation to improve software quality and speed up deployment.
+   - DevOps is a combination of software development (**Dev**) and IT operations (**Ops**). It focuses on continuous integration, continuous delivery (CICD), and automation to improve software quality and speed up deployment.
    - DevOps promotes collaboration between development and operations teams to streamline software releases and minimize delays.
    - **Pros:** Faster software delivery, improved collaboration, automation reduces manual errors.
    - **Cons:** Requires investment in infrastructure and automation tools, cultural changes may be challenging.

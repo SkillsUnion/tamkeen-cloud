@@ -104,16 +104,16 @@ Understand how to build, manage, and scale containerized applications using Dock
 Learn the principles of DevOps to automate and streamline cloud infrastructure development, testing, and deployment processes.
 
 - **DevOps Concepts**:
-  - **CI/CD Pipelines**: Automate code integration, testing, and deployment.
+  - **CICD Pipelines**: Automate code integration, testing, and deployment.
   - **Collaboration**: Foster better collaboration between development and operations teams through automation and monitoring tools.
 
 - **AWS DevOps Tools**:
-  - **AWS CodePipeline**: Automate the build, test, and deploy processes using AWS's CI/CD service.
+  - **AWS CodePipeline**: Automate the build, test, and deploy processes using AWS's CICD service.
   - **AWS CodeBuild**: Build and test code with a fully managed build service from AWS.
   - **AWS CodeDeploy**: Automate the deployment of applications to EC2, Lambda, and on-premises servers.
 
 - **Hands-on Practice**:
-  - Set up a CI/CD pipeline with the right tools to automatically deploy updates to a cloud environment.
+  - Set up a CICD pipeline with the right tools to automatically deploy updates to a cloud environment.
   - Configure networking components such as load balancers and VPNs for secure, scalable infrastructure.
 
 ---

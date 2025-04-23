@@ -1,7 +1,7 @@
-# CI/CD Pipeline Activity: Node.js App with CodePipeline, CodeBuild, and CodeDeploy
+# CICD Pipeline Activity: Node.js App with CodePipeline, CodeBuild, and CodeDeploy
 
 ## Objective
-Build and deploy a Node.js application using a fully automated CI/CD pipeline with AWS services: CodeCommit, CodeBuild, CodeDeploy, and CodePipeline.
+Build and deploy a Node.js application using a fully automated CICD pipeline with AWS services: CodeCommit, CodeBuild, CodeDeploy, and CodePipeline.
 
 ## Prerequisites
 - AWS CLI configured
@@ -21,7 +21,7 @@ aws s3 mb s3://my-nodejs-artifacts-bucket
 ```bash
 aws codecommit create-repository \
   --repository-name nodejs-ci-app \
-  --repository-description "Node.js CI/CD App"
+  --repository-description "Node.js CICD App"
 ```
 Push your Node.js app:
 ```bash
@@ -228,7 +228,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello from CodePipeline CI/CD!\n');
+  res.end('Hello from CodePipeline CICD!\n');
 });
 
 server.listen(port, hostname, () => {
@@ -241,7 +241,7 @@ server.listen(port, hostname, () => {
 {
   "name": "nodejs-ci-app",
   "version": "1.0.0",
-  "description": "Simple Node.js app for CI/CD",
+  "description": "Simple Node.js app for CICD",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

@@ -1,4 +1,4 @@
-## Part 2: Automating with CodeBuild and CodePipeline
+## Automating Docker Deployment with CodeBuild and CodePipeline
 
 ### Step 1: Create `buildspec.yml` in Project Root
 ```yaml

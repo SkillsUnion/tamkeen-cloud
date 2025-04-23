@@ -11,7 +11,7 @@ Other key benefits include:
 - **Automated Rollbacks**: If a deployment fails or predefined alarms are triggered, CodeDeploy can automatically roll back to the last known good state.
 - **Monitoring & Auditing**: Integration with Amazon CloudWatch, SNS, and CloudTrail enables monitoring, alerting, and auditing of deployment activities.
 - **Scalability**: Whether deploying to one instance or thousands, CodeDeploy scales seamlessly with the infrastructure.
-- **Integration-Friendly**: It works well with CI/CD tools such as AWS CodePipeline, Jenkins, GitHub Actions, and Bitbucket.
+- **Integration-Friendly**: It works well with CICD tools such as AWS CodePipeline, Jenkins, GitHub Actions, and Bitbucket.
 
 ## 3. Compute Platform Support
 AWS CodeDeploy supports three compute platforms:
@@ -119,10 +119,10 @@ Security best practices include:
 - Monitoring role usage via CloudTrail
 - Applying tagging policies for audit tracking
 
-## 8. CI/CD Integration
+## 8. CICD Integration
 CodeDeploy integrates tightly with AWS CodePipeline, enabling complete automation from source to deployment. It also works with third-party tools such as Jenkins, GitHub Actions, and Bitbucket Pipelines.
 
-In a CI/CD workflow, CodeDeploy is typically used in the delivery stage to deploy built and tested artifacts to production or staging environments. Deployment success, failure, or rollback events can trigger additional actions in the pipeline.
+In a CICD workflow, CodeDeploy is typically used in the delivery stage to deploy built and tested artifacts to production or staging environments. Deployment success, failure, or rollback events can trigger additional actions in the pipeline.
 
 ## 9. Best Practices
 - Use blue/green deployments for production to enable safe testing and instant rollback.
@@ -133,5 +133,5 @@ In a CI/CD workflow, CodeDeploy is typically used in the delivery stage to deplo
 - Use code snippets to document and automate frequent deployment tasks.
 
 ## 10. Conclusion
-AWS CodeDeploy provides a robust, flexible solution for automating deployments across AWS compute services. Its support for multiple deployment strategies, integrations with CI/CD pipelines, detailed monitoring, and rollback capabilities makes it a key tool for modern DevOps practices. With the right configurations and best practices, CodeDeploy can significantly enhance the speed, reliability, and safety of application releases.
+AWS CodeDeploy provides a robust, flexible solution for automating deployments across AWS compute services. Its support for multiple deployment strategies, integrations with CICD pipelines, detailed monitoring, and rollback capabilities makes it a key tool for modern DevOps practices. With the right configurations and best practices, CodeDeploy can significantly enhance the speed, reliability, and safety of application releases.
 

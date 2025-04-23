@@ -1,7 +1,7 @@
 # AWS CodePipeline
 
 ## 1. Introduction
-AWS CodePipeline is a fully managed continuous integration and continuous delivery (CI/CD) service that helps automate the steps required to release software changes. It allows developers to model and visualize their software release process as a series of stages, providing both flexibility and control in managing deployments. With CodePipeline, updates to source code automatically trigger pipeline executions, leading to automated builds, tests, and deployments.
+AWS CodePipeline is a fully managed continuous integration and continuous delivery (CICD) service that helps automate the steps required to release software changes. It allows developers to model and visualize their software release process as a series of stages, providing both flexibility and control in managing deployments. With CodePipeline, updates to source code automatically trigger pipeline executions, leading to automated builds, tests, and deployments.
 
 By using CodePipeline, teams can achieve faster, more reliable delivery of features and updates. It supports integrations with a variety of AWS services such as CodeCommit, CodeBuild, CodeDeploy, CloudFormation, and also third-party services like GitHub, GitLab, Bitbucket, and Jenkins.
 
@@ -14,7 +14,7 @@ By using CodePipeline, teams can achieve faster, more reliable delivery of featu
 - **Custom Triggers and Conditions**: Define rules for automatic execution, manual approvals, and conditional logic.
 
 ## 3. Key Concepts
-AWS CodePipeline uses a structured set of concepts to define and execute automated workflows. Understanding these concepts is essential for designing scalable and maintainable CI/CD pipelines.
+AWS CodePipeline uses a structured set of concepts to define and execute automated workflows. Understanding these concepts is essential for designing scalable and maintainable CICD pipelines.
 
 ### 3.1 Pipeline
 A pipeline is the top-level construct that models the complete release process of an application. It consists of a sequence of **stages**, each responsible for a discrete phase of the release cycle. Pipelines are configured to respond to changes in source repositories or manual triggers, enabling continuous delivery.
@@ -100,7 +100,7 @@ Execution modes determine how CodePipeline handles multiple simultaneous trigger
 
 - **QUEUED**: In queued mode, pipeline executions are placed in a queue and processed in order. Only one execution runs at a time, and new ones wait their turn. This mode is useful when deploying to shared environments or resources that require sequential updates.
 
-- **PARALLEL**: Available with V2 pipelines, this mode allows multiple pipeline executions to run concurrently. It’s useful for teams that require high throughput CI/CD pipelines or that support multiple independent releases.
+- **PARALLEL**: Available with V2 pipelines, this mode allows multiple pipeline executions to run concurrently. It’s useful for teams that require high throughput CICD pipelines or that support multiple independent releases.
 
 Understanding and configuring execution modes correctly helps teams balance throughput with stability and resource usage.
 
@@ -111,7 +111,7 @@ CodePipeline integrates with a wide range of deployment targets, making it versa
 - **AWS Elastic Beanstalk**: Simplifies the deployment of web applications and services with automatic scaling and monitoring.
 - **AWS CloudFormation**: Manages infrastructure as code, enabling the deployment of entire stacks along with application updates.
 - **Amazon S3**: Ideal for deploying static websites by uploading built artifacts directly to S3 buckets configured for website hosting.
-- **Jenkins or Other Tools**: You can integrate external deployment tools like Jenkins by configuring custom or invoke actions that trigger jobs in your preferred CI/CD environment.
+- **Jenkins or Other Tools**: You can integrate external deployment tools like Jenkins by configuring custom or invoke actions that trigger jobs in your preferred CICD environment.
 
 Each of these deployment options can be integrated into the final stage of your pipeline, enabling end-to-end delivery from code to live production.
 
@@ -137,7 +137,7 @@ Example configuration (YAML):
         NotificationArn: arn:aws:sns:us-east-1:123456789012:Approvals
 ```
 
-This feature helps enforce governance, prevents unauthorized deployments, and ensures quality assurance checkpoints are part of your CI/CD lifecycle.
+This feature helps enforce governance, prevents unauthorized deployments, and ensures quality assurance checkpoints are part of your CICD lifecycle.
 
 ## 8. Advanced Features
 - **Conditional Stage Execution**: Use variables, alarms, or custom conditions to control flow.

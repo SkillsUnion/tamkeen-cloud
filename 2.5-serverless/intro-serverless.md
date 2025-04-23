@@ -59,7 +59,7 @@ Each execution of a serverless function is stateless. If state persistence is re
 
 ### **3.4 Faster Time to Market**
 - Developers focus on writing code, reducing the time spent on infrastructure management.
-- Deployment of new features is faster due to simplified CI/CD processes.
+- Deployment of new features is faster due to simplified CICD processes.
 
 ### **3.5 High Availability**
 - Serverless providers ensure built-in fault tolerance and high availability across multiple regions.

@@ -33,7 +33,7 @@ As a managed service, AWS CodeCommit:
 CodeCommit integrates seamlessly with:
 - **AWS CodeBuild** for building applications.
 - **AWS CodeDeploy** for deployments.
-- **AWS CodePipeline** for full CI/CD pipelines.
+- **AWS CodePipeline** for full CICD pipelines.
 
 ---
 
@@ -45,7 +45,7 @@ A typical workflow with CodeCommit looks like this:
 2. **Clone** the repository to your local development environment.
 3. **Commit and push changes** using standard Git commands.
 4. **Collaborate** through Git features like pull requests and branches.
-5. **Trigger CI/CD pipelines** using AWS CodePipeline or Git hooks.
+5. **Trigger CICD pipelines** using AWS CodePipeline or Git hooks.
 
 ---
 
@@ -78,7 +78,7 @@ IAM policies define access at a granular level, such as per repository or per br
 | Git Support                | ✅               | ✅               | ✅                | ✅               |
 | IAM Integration            | ✅               | ❌               | ❌                | ❌               |
 | AWS-native Integration     | ✅               | ❌               | ❌                | ❌               |
-| Built-in CI/CD             | ❌ (via CodePipeline) | ✅           | ✅                | ✅               |
+| Built-in CICD             | ❌ (via CodePipeline) | ✅           | ✅                | ✅               |
 | Cost (for small teams)     | Free for 5 users | Free plans       | Free plans        | Free plans       |
 
 CodeCommit is ideal for teams already using AWS services and requiring strong IAM-based access controls.
@@ -120,5 +120,5 @@ More info: [AWS CodeCommit Pricing](https://aws.amazon.com/codecommit/pricing/)
 - Structure repositories logically: one per service or app module.
 - Use pull requests and code reviews.
 - Tag releases using Git tags.
-- Combine with CI/CD for automation.
+- Combine with CICD for automation.
 - Monitor access logs and enable alerts.

@@ -22,7 +22,7 @@ What makes a good cloud engineer? These are both hard and soft skills one needs 
 3. **DevOps Practices**
    - Understanding Infrastructure as Code (IaC)
    - Writing and managing scripts using AWS CloudFormation
-   - Setting up and managing CI/CD pipelines with tools like AWS CodePipeline, AWS CodeBuild and AWS CodeDeploy
+   - Setting up and managing CICD pipelines with tools like AWS CodePipeline, AWS CodeBuild and AWS CodeDeploy
 
 4. **Cloud Native Applications**
    - Understanding and implementing containerization using Docker
@@ -77,10 +77,10 @@ Cloud Engineering Bootcamp contains few modules and courses days each, each of w
 
 **3. DevOps, Logging & Monitoring**
 - Microservices: Transition from monolithic to microservices, challenges in implementation.  
-- CI/CD Basics: SDLC models (Waterfall, Agile, DevOps).  
-- CI/CD on AWS: AWS CodeBuild, CodeDeploy, CodePipeline.  
-- CI/CD for Containers: CI/CD with Docker and GitHub Actions or AWS CI/CD tools.  
-- CI/CD for Serverless: CI/CD for serverless applications with GitHub Actions or AWS CI/CD tools.  
+- CICD Basics: SDLC models (Waterfall, Agile, DevOps).  
+- CICD on AWS: AWS CodeBuild, CodeDeploy, CodePipeline.  
+- CICD for Containers: CICD with Docker and GitHub Actions or AWS CICD tools.  
+- CICD for Serverless: CICD for serverless applications with GitHub Actions or AWS CICD tools.  
 - Logging & Monitoring: AWS XRay, CloudWatch, CloudTrail, App Mesh, centralized logs, metrics, alarms, dashboards.
 
 **4. Capstone Project  **

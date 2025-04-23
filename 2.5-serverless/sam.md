@@ -12,7 +12,7 @@ AWS Serverless Application Model (AWS SAM) is an open-source framework designed 
 - **Built-in Best Practices** – Supports security, monitoring, and deployment best practices.
 - **Local Development & Testing** – AWS SAM CLI allows local debugging of AWS Lambda functions.
 - **Seamless Deployment** – Direct integration with AWS CloudFormation.
-- **Supports CI/CD Pipelines** – Works with AWS CodePipeline, GitHub Actions, and Jenkins.
+- **Supports CICD Pipelines** – Works with AWS CodePipeline, GitHub Actions, and Jenkins.
 
 ---
 
@@ -141,10 +141,10 @@ aws cloudformation delete-stack --stack-name my-sam-app
 
 ---
 
-## **7. AWS SAM & CI/CD Integration**
+## **7. AWS SAM & CICD Integration**
 AWS SAM supports continuous integration and deployment using AWS services.
 
-### **7.1 Using AWS CodePipeline for CI/CD**
+### **7.1 Using AWS CodePipeline for CICD**
 1. Store AWS SAM templates in a **GitHub or CodeCommit** repository.
 2. Configure **AWS CodeBuild** to build and package Lambda functions.
 3. Deploy using **AWS CodeDeploy** with blue/green deployment strategies.
@@ -204,4 +204,4 @@ jobs:
 - The **template.yaml** file defines AWS serverless resources using YAML.
 - **AWS SAM CLI** provides local development, debugging, and testing capabilities.
 - **Seamless deployment** is achieved via **AWS CloudFormation**.
-- Supports **CI/CD pipelines** with AWS CodePipeline and GitHub Actions.
+- Supports **CICD pipelines** with AWS CodePipeline and GitHub Actions.

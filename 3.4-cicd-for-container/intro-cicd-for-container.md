@@ -1,18 +1,18 @@
-# Introduction to CI/CD for Containers in AWS
+# Introduction to CICD for Containers in AWS
 
 ## 1. Overview
-Continuous Integration and Continuous Delivery (CI/CD) is a modern software development practice that focuses on automating the integration, testing, and deployment of applications. When applied to containers, CI/CD enables the rapid and reliable delivery of microservices and containerized workloads.
+Continuous Integration and Continuous Delivery (CICD) is a modern software development practice that focuses on automating the integration, testing, and deployment of applications. When applied to containers, CICD enables the rapid and reliable delivery of microservices and containerized workloads.
 
-AWS provides a suite of managed services that support containerized CI/CD pipelines. These services include AWS CodeCommit (source control), AWS CodeBuild (build automation), Amazon ECR (container image registry), AWS CodePipeline (workflow orchestration), and Amazon ECS or Amazon EKS (for container deployment). By leveraging these tools, developers can create robust and scalable CI/CD systems that facilitate consistent and repeatable software releases.
+AWS provides a suite of managed services that support containerized CICD pipelines. These services include AWS CodeCommit (source control), AWS CodeBuild (build automation), Amazon ECR (container image registry), AWS CodePipeline (workflow orchestration), and Amazon ECS or Amazon EKS (for container deployment). By leveraging these tools, developers can create robust and scalable CICD systems that facilitate consistent and repeatable software releases.
 
-In a container-based environment, the CI/CD pipeline not only builds and tests the application but also packages it into a container image, stores it in a registry, and deploys it to container orchestration platforms like ECS or EKS. This end-to-end automation drastically reduces manual errors, improves release velocity, and ensures a high degree of standardization across environments.
+In a container-based environment, the CICD pipeline not only builds and tests the application but also packages it into a container image, stores it in a registry, and deploys it to container orchestration platforms like ECS or EKS. This end-to-end automation drastically reduces manual errors, improves release velocity, and ensures a high degree of standardization across environments.
 
 ---
 
-## 2. Benefits of Container-Based CI/CD on AWS
+## 2. Benefits of Container-Based CICD on AWS
 - **Consistency Across Environments**: Containers bundle all dependencies, ensuring that applications run the same across development, testing, and production.
 - **Faster Time-to-Market**: Automated pipelines reduce deployment time and allow teams to release new features and fixes rapidly.
-- **Microservice Support**: Containers enable modular architectures, and CI/CD pipelines can be configured per microservice for independent delivery.
+- **Microservice Support**: Containers enable modular architectures, and CICD pipelines can be configured per microservice for independent delivery.
 - **High Scalability**: By integrating with ECS, EKS, and Fargate, container workloads can scale automatically to meet demand.
 - **Security and Governance**: Fine-grained IAM policies and KMS integration provide secure access and audit capabilities across the pipeline.
 - **Observability**: Native integrations with CloudWatch and CloudTrail enable logging, metrics, and event tracing for each pipeline stage.
@@ -20,7 +20,7 @@ In a container-based environment, the CI/CD pipeline not only builds and tests t
 ---
 
 ## 3. Typical Workflow
-The standard CI/CD workflow for containers on AWS typically involves the following steps:
+The standard CICD workflow for containers on AWS typically involves the following steps:
 
 1. A developer pushes code changes to a source repository (e.g., AWS CodeCommit or GitHub).
 2. AWS CodePipeline detects the change and initiates the pipeline.
@@ -105,11 +105,11 @@ This pattern can be replicated across multiple microservices, each with its own 
 - **Multiple Environments**: Set up pipelines for dev, staging, and production to isolate risks.
 - **Rollback Strategies**: Use ECS service deployment configurations to enable automated rollback on failure.
 - **Secure IAM Roles**: Grant least-privilege access for CodeBuild, CodePipeline, and ECS task roles.
-- **Observability**: Enable CloudWatch metrics and alarms for each stage of the CI/CD pipeline.
+- **Observability**: Enable CloudWatch metrics and alarms for each stage of the CICD pipeline.
 
 ---
 
 ## 8. Summary
-CI/CD for containers in AWS provides a flexible and scalable approach for modern application delivery. By combining CodeCommit, CodeBuild, CodePipeline, ECR, and ECS/EKS, developers can create highly automated workflows that support microservice deployment, continuous improvement, and faster innovation.
+CICD for containers in AWS provides a flexible and scalable approach for modern application delivery. By combining CodeCommit, CodeBuild, CodePipeline, ECR, and ECS/EKS, developers can create highly automated workflows that support microservice deployment, continuous improvement, and faster innovation.
 
 This architecture reduces manual interventions, minimizes downtime, and supports DevOps best practices for container-based development. Whether you're modernizing a monolith into microservices or launching a greenfield containerized application, AWS provides the tools to do it efficiently and securely.
