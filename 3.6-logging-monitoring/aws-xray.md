@@ -1,4 +1,4 @@
-## AWS X-Ray: Deep Dive into Distributed Tracing
+## AWS X-Ray
 
 ### Introduction
 AWS X-Ray is a powerful service that enables developers to trace, visualize, and analyze the behavior of applications, especially in microservices and distributed system architectures. X-Ray helps identify performance bottlenecks, error patterns, and service dependencies by capturing trace data from incoming requests and the application's interactions with downstream services.
