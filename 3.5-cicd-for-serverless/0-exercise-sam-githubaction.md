@@ -1,7 +1,7 @@
-## Activity: CI/CD Pipeline for Serverless Applications Using AWS SAM and GitHub Actions
+## Activity: CICD Pipeline for Serverless Applications Using AWS SAM and GitHub Actions
 
 ### Objective
-This activity guides you in setting up a complete CI/CD pipeline for deploying a serverless Node.js application using AWS SAM, GitHub, and GitHub Actions.
+This activity guides you in setting up a complete CICD pipeline for deploying a serverless Node.js application using AWS SAM, GitHub, and GitHub Actions.
 
 ---
 
@@ -118,7 +118,7 @@ aws s3 rb s3://<your-unique-s3-bucket> --force
 By completing this activity, you have:
 - Initialized and pushed a serverless application to GitHub
 - Created a secure GitHub Actions workflow to automate deployment using AWS SAM
-- Successfully deployed a Lambda function using CI/CD
+- Successfully deployed a Lambda function using CICD
 
 This setup can be extended with stages for testing, linting, and security scanning.
 

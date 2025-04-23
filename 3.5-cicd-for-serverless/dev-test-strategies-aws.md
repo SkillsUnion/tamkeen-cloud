@@ -1,4 +1,4 @@
-## Development and Test on AWS: Best Practices and Architectures
+## Development and Test on AWS
 
 ### Introduction
 Development and testing are integral components of the software delivery lifecycle. Traditionally, these stages required upfront hardware investment, ongoing infrastructure management, and rigid resource allocation. AWS revolutionizes these practices by providing on-demand, scalable, and pay-as-you-go cloud resources. This guide synthesizes AWS whitepaper and prescriptive guidance insights to explore key tools, services, and patterns that enhance the development and testing lifecycle in the cloud.
@@ -10,7 +10,7 @@ Development and testing are integral components of the software delivery lifecyc
 #### 1.1 Source Code Repository
 AWS CodeCommit is a fully managed source control service that hosts secure Git-based repositories. It eliminates the operational overhead of managing version control infrastructure and provides:
 - High availability and durability for code repositories
-- Seamless integration with Git tools and third-party CI/CD platforms
+- Seamless integration with Git tools and third-party CICD platforms
 - Fine-grained access control using IAM
 
 #### 1.2 Project Management Tools
