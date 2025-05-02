@@ -1,5 +1,8 @@
 ## AWS Serverless End-to-End Pipeline with CodePipeline
 
+
+{% include youtube.html id="GEWrpZuBEkQ" %}
+
 ### Overview
 This topic guides you through designing and implementing a complete end-to-end CICD pipeline for AWS serverless applications using AWS CodePipeline. It leverages AWS-native tools—CodeCommit, CodeBuild, CodeDeploy (via SAM), and CloudFormation—to fully automate deployments of Lambda-based applications.
 

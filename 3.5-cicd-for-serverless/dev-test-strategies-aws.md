@@ -3,6 +3,9 @@
 ### Introduction
 Development and testing are integral components of the software delivery lifecycle. Traditionally, these stages required upfront hardware investment, ongoing infrastructure management, and rigid resource allocation. AWS revolutionizes these practices by providing on-demand, scalable, and pay-as-you-go cloud resources. This guide synthesizes AWS whitepaper and prescriptive guidance insights to explore key tools, services, and patterns that enhance the development and testing lifecycle in the cloud.
 
+
+{% include youtube.html id="YaXJeUkBe4Y" %}
+
 ---
 
 ### 1. Development Phase

@@ -5,6 +5,8 @@ Continuous Integration and Continuous Deployment (CICD) for serverless applicati
 
 This module provides a comprehensive deep dive into building, managing, and optimizing CICD workflows specifically designed for serverless applications on AWS. It draws extensively from the AWS *Serverless Developer Guide* and *AWS Serverless Application Model Developer Guide* (2025).
 
+{% include youtube.html id="hjg2mYeknDA" %}
+
 ---
 
 ### Learning Objectives

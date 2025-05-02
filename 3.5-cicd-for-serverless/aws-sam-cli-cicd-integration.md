@@ -5,6 +5,9 @@ The AWS Serverless Application Model (AWS SAM) is an open-source framework that 
 
 This module explores how AWS SAM integrates seamlessly into CICD pipelines, helping developers automate the entire serverless development lifecycle—from initialization and packaging to testing and deploying. It references both the *AWS Serverless Application Model Developer Guide (2025)* and the *AWS Serverless Developer Guide (2025)*.
 
+
+{% include youtube.html id="D63ScnL2-7w" %}
+
 ---
 
 ### Learning Objectives

@@ -5,6 +5,8 @@ Amazon CloudWatch is a native AWS observability and monitoring service that prov
 
 Through its extensive integration with other AWS services, CloudWatch offers seamless data ingestion and automation capabilities that enhance both operational visibility and infrastructure performance. Whether you are managing a serverless application, a fleet of EC2 instances, or a hybrid architecture, CloudWatch can serve as your central hub for telemetry data collection, analysis, and action.
 
+{% include youtube.html id="k7wuIrHU4UY" %}
+
 ---
 
 ### Key Features

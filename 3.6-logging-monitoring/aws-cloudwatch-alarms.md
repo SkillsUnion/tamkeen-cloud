@@ -5,6 +5,8 @@ CloudWatch Alarms in AWS are a powerful mechanism to continuously monitor metric
 
 In cloud-native and microservices architectures, system health is defined by a complex interplay of distributed resources. CloudWatch Alarms offer a consistent and scalable way to manage this complexity by enabling smart alerting and automated incident response.
 
+{% include youtube.html id="lHWrAAzoxJA" %}
+
 ---
 
 ### What Are CloudWatch Alarms?
@@ -178,6 +180,8 @@ These integrations support real-time operational response and enable closed-loop
 ```
 
 ---
+
+{% include youtube.html id="UjE32GhsRZw" %}
 
 ### Summary
 CloudWatch Alarms offer a robust framework for intelligent monitoring and proactive automation within AWS. By integrating with metrics, anomaly detection, dashboards, and downstream services, alarms play a pivotal role in ensuring availability, reliability, and agility. When thoughtfully designed, alarms become more than alerts—they become the foundation for self-healing systems.

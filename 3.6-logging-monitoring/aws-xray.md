@@ -5,6 +5,9 @@ AWS X-Ray is a powerful service that enables developers to trace, visualize, and
 
 This guide explores how AWS X-Ray works, its key components, instrumentation options, and integration across various AWS services. It also includes visualization tools like the trace map and response time histograms.
 
+
+{% include youtube.html id="Td7ZSS8p6DA" %}
+
 ---
 
 ### What is AWS X-Ray?

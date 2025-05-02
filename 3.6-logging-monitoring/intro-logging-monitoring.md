@@ -3,6 +3,9 @@
 ### Overview
 Logging and monitoring are essential practices for maintaining operational excellence, performance, and security in cloud environments. AWS provides a wide range of services and tools that enable visibility into resource usage, user activity, application performance, and network traffic. These capabilities empower teams to troubleshoot issues, optimize systems, meet compliance requirements, and manage operational costs effectively.
 
+
+{% include youtube.html id="74HPaoFTqIM" %}
+
 ---
 
 ### Learning Objectives
