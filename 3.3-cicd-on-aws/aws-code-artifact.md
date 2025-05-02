@@ -5,6 +5,9 @@ AWS CodeArtifact is a fully managed artifact repository service that helps organ
 
 CodeArtifact reduces the operational overhead of maintaining self-hosted artifact repositories, automatically scaling to meet demand and integrating securely with AWS IAM, VPCs, and KMS for fine-grained access control and encryption.
 
+
+{% include youtube.html id="-CA7NjSvSj0" %}
+
 ## 2. Key Features and Benefits
 - **Fully Managed**: No servers to manage or scale.
 - **Multi-Format Support**: Single repository can host multiple package formats.

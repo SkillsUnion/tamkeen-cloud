@@ -5,6 +5,9 @@ AWS CodeBuild is a fully managed continuous integration service that compiles so
 
 CodeBuild is designed to integrate seamlessly with other AWS developer tools such as CodeCommit, CodePipeline, CodeDeploy, and third-party tools like GitHub and Bitbucket. As a serverless service, it scales automatically based on the number of concurrent builds, helping reduce build wait times.
 
+
+{% include youtube.html id="iEhKcDaNYrs" %}
+
 ## 2. Key Features and Benefits
 - **Fully Managed**: No servers to manage. AWS handles provisioning, scaling, and patching.
 - **Pay-As-You-Go**: Charges based on build minutes used.

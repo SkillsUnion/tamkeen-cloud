@@ -5,6 +5,8 @@ AWS CodePipeline is a fully managed continuous integration and continuous delive
 
 By using CodePipeline, teams can achieve faster, more reliable delivery of features and updates. It supports integrations with a variety of AWS services such as CodeCommit, CodeBuild, CodeDeploy, CloudFormation, and also third-party services like GitHub, GitLab, Bitbucket, and Jenkins.
 
+{% include youtube.html id="YxcIj_SLflw" %}
+
 ## 2. Benefits
 - **End-to-End Automation**: Automates the entire release process from code commit to deployment.
 - **Modular and Flexible**: Build your pipeline using pre-built or custom actions.
@@ -162,6 +164,8 @@ This feature helps enforce governance, prevents unauthorized deployments, and en
 - Use notifications for failed stages.
 - Use variables and conditions for flexible flows.
 - Prefer event-based triggers (via EventBridge) over polling.
+
+{% include youtube.html id="E-YanBx38Cs" %}
 
 ## 12. Summary
 AWS CodePipeline is a powerful service for building fully automated software delivery workflows. It supports multiple stages, various integrations, and advanced features such as approvals and conditions. Combined with other AWS services, it forms a robust DevOps pipeline to accelerate the release of high-quality software.
