@@ -12,6 +12,8 @@ CICD is a set of practices and automated processes that modern development teams
 
 These practices help organizations reduce manual steps, increase code quality, and deliver value to users more frequently and reliably.
 
+{% include youtube.html id="scEDHsr3APg" %}
+
 ---
 
 ## **2. Why CICD Matters in Modern Workflows**

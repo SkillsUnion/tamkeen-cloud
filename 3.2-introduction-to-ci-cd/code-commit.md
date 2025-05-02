@@ -6,6 +6,9 @@ AWS CodeCommit is a **fully managed, secure, and scalable source control service
 
 It is tightly integrated with other AWS services and supports standard Git tools, making it a strong choice for teams building applications on AWS infrastructure.
 
+
+{% include youtube.html id="46PRLMW8otg" %}
+
 ---
 
 ## 2. Key Concepts and Benefits

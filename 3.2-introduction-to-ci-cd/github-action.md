@@ -8,6 +8,10 @@ What makes GitHub Actions stand out is its **event-driven architecture**. Instea
 
 By combining version control and automation in one place, it offers a seamless development experience and reduces operational complexity.
 
+
+{% include youtube.html id="URmeTqglS58" %}
+
+
 ---
 
 ## **2. Understanding the Structure of a Workflow**
