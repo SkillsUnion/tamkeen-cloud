@@ -116,14 +116,12 @@ These companies embraced microservices to scale teams, codebases, and customer e
 1. [Martin Fowler – Microservices](https://martinfowler.com/articles/microservices.html)
 2. [AWS – Microservices Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/microservices-on-aws/microservices-on-aws.pdf)
 3. [12 Factor App – Building Cloud-Native Microservices](https://12factor.net/)
-4. [ThoughtWorks – Microservices Architecture Guide](https://www.thoughtworks.com/en-us/insights/blog/microservices-architecture-guide)
 
 ### **Case Studies**
 6. [Netflix Technology Blog – Evolution of Microservices](https://netflixtechblog.com/tagged/microservices)
 7. [Amazon Builders’ Library – Decomposing Services](https://aws.amazon.com/builders-library/)
 
 ### **Optional Videos**
-- [GOTO Conference – The Evolution of Microservices at Netflix](https://www.youtube.com/watch?v=Jrjgk1Z9ZVw)
-- [AWS re:Invent – Microservices Best Practices](https://www.youtube.com/watch?v=1RvYP_rP95E)
+- [GOTO Conference – The Evolution of Microservices at Netflix](https://www.youtube.com/watch?v=57UK46qfBLY)
 
 ---
