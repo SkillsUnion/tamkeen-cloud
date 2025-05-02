@@ -4,6 +4,8 @@
 
 **Microservices** are an architectural style where an application is structured as a collection of small, loosely coupled, and independently deployable services. Each service is aligned with a specific business function (e.g., user service, order service, payment service) and communicates over lightweight protocols like HTTP REST, gRPC, or asynchronous message queues (e.g., SQS, Kafka).
 
+{% include youtube.html id="IwT_pBcDmSI" %}
+
 This approach contrasts with traditional monolithic applications, where all features are combined into a single codebase and deployment unit.
 
 **Core Characteristics of Microservices**:
@@ -54,6 +56,9 @@ However, as complexity grows, monoliths often face challenges with team scaling,
 - *Monolith*: All logic in one unit (UI, business logic, data access).
 - *Microservices*: Independent services connected over APIs.
 
+
+{% include youtube.html id="NdeTGlZ__Do" %}
+
 ---
 
 ## **Benefits of Microservices**
@@ -65,6 +70,9 @@ However, as complexity grows, monoliths often face challenges with team scaling,
 - **Tech Diversity**: Teams can experiment or optimize using different technologies.
 
 This modularity helps large organizations evolve faster without being bottlenecked by centralized teams or large legacy codebases.
+
+
+{% include youtube.html id="lTAcCNbJ7KE" %}
 
 ---
 

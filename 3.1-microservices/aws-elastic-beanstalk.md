@@ -6,6 +6,8 @@
 
 Rather than provisioning compute, network, storage, load balancers, or monitoring individually, Elastic Beanstalk automates these tasks. This makes it suitable for developers who want to focus on application logic and deployment speed rather than infrastructure complexity.
 
+{% include youtube.html id="SrwxAScdyT0" %}
+
 Common use cases include:
 - Hosting web applications and APIs.
 - Running background worker processes.

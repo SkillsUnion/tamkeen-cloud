@@ -11,6 +11,8 @@ By the end of this module, learners will be able to:
 
 ---
 
+{% include youtube.html id="E_XOIHeHkB4" %}
+
 ## **Single Responsibility and Bounded Context**
 
 Each microservice should **focus on a single business capability**—no more, no less. This aligns with the **Single Responsibility Principle** (SRP) from software design, ensuring that each service does one thing well.

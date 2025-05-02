@@ -4,6 +4,9 @@
 
 In a microservices architecture, applications are decomposed into independently deployable services. These services must communicate with each other to fulfill business requirements. The design and implementation of this communication layer are critical to building reliable, scalable, and maintainable systems.
 
+
+{% include youtube.html id="mBNDxpJTg8U" %}
+
 ---
 
 ## 2. Types of Communication
