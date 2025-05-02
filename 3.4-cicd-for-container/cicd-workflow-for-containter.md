@@ -5,6 +5,8 @@ In a modern DevOps environment, container-based applications are the foundation 
 
 This document outlines a comprehensive CICD workflow for containerized applications using AWS services including CodeCommit, CodeBuild, Amazon ECR, CodePipeline, ECS, and optionally EKS.
 
+{% include youtube.html id="XXjB-JZviAw" %}
+
 ---
 
 ## 2. CICD Pipeline Stages for Containers

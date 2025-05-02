@@ -7,6 +7,9 @@ AWS provides a suite of managed services that support containerized CICD pipelin
 
 In a container-based environment, the CICD pipeline not only builds and tests the application but also packages it into a container image, stores it in a registry, and deploys it to container orchestration platforms like ECS or EKS. This end-to-end automation drastically reduces manual errors, improves release velocity, and ensures a high degree of standardization across environments.
 
+
+{% include youtube.html id="scEDHsr3APg" %}
+
 ---
 
 ## 2. Benefits of Container-Based CICD on AWS
