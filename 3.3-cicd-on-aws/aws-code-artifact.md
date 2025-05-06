@@ -1,5 +1,7 @@
 # AWS CodeArtifact
 
+![alt text](image-2.png)
+
 ## 1. Introduction
 AWS CodeArtifact is a fully managed artifact repository service that helps organizations securely store, publish, and share software packages used in application development. It supports a wide range of package managers and formats including npm, PyPI, Maven, NuGet, RubyGems, Cargo, and more.
 

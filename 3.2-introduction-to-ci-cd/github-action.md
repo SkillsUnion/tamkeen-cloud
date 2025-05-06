@@ -34,6 +34,9 @@ Each job is composed of **sequential steps**, which may be shell commands or reu
 ### d. Runners
 Runners are the compute environments where jobs are executed. GitHub provides hosted runners (Linux, Windows, macOS), but developers can also use self-hosted runners if needed.
 
+
+![alt text](image.png)
+
 ---
 
 ## **3. Writing Your First Workflow (Conceptually)**

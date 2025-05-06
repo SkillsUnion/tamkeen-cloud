@@ -1,5 +1,7 @@
 ## AWS CloudWatch Metrics
 
+![alt text](image-1.png)
+
 ### Introduction
 Amazon CloudWatch Metrics provide critical observability into the performance and health of your AWS infrastructure and applications. Metrics are the backbone of monitoring, allowing you to track changes over time, analyze trends, and respond to incidents. CloudWatch collects both default metrics from AWS services and custom metrics from your own applications, delivering high-resolution, real-time insights.
 

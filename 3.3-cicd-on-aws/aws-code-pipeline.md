@@ -1,5 +1,7 @@
 # AWS CodePipeline
 
+![alt text](image-1.png)
+
 ## 1. Introduction
 AWS CodePipeline is a fully managed continuous integration and continuous delivery (CICD) service that helps automate the steps required to release software changes. It allows developers to model and visualize their software release process as a series of stages, providing both flexibility and control in managing deployments. With CodePipeline, updates to source code automatically trigger pipeline executions, leading to automated builds, tests, and deployments.
 

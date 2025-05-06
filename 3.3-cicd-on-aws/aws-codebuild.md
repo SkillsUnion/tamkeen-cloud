@@ -1,5 +1,7 @@
 # AWS CodeBuild
 
+![alt text](image-3.png)
+
 ## 1. Introduction
 AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages ready for deployment. Unlike traditional build servers, CodeBuild eliminates the need to provision, scale, and manage your own infrastructure. It supports a variety of programming languages and build tools out of the box, and can be customized to suit specific build environments through Docker images.
 

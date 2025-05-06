@@ -1,5 +1,7 @@
 ## AWS CloudWatch Alarms
 
+![alt text](image-3.png)
+
 ### Introduction
 CloudWatch Alarms in AWS are a powerful mechanism to continuously monitor metrics and initiate automated workflows when thresholds are crossed. These alarms form the foundation of proactive system observability and operational automation. Designed to work seamlessly with CloudWatch Metrics, CloudWatch Alarms can track performance indicators, detect anomalies, trigger actions like scaling or notifications, and help maintain service-level objectives (SLOs).
 
