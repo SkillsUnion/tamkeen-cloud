@@ -4,6 +4,8 @@
 
 **Microservices** are an architectural style where an application is structured as a collection of small, loosely coupled, and independently deployable services. Each service is aligned with a specific business function (e.g., user service, order service, payment service) and communicates over lightweight protocols like HTTP REST, gRPC, or asynchronous message queues (e.g., SQS, Kafka).
 
+![alt text](image.png)
+
 
 This approach contrasts with traditional monolithic applications, where all features are combined into a single codebase and deployment unit.
 
@@ -52,6 +54,10 @@ However, as complexity grows, monoliths often face challenges with team scaling,
 | Technology Choice    | Typically homogenous                  | Polyglot allowed per service                   |
 | Fault Isolation      | Single point of failure               | Failure isolated to specific services          |
 | Onboarding Time      | Long (entire codebase)                | Short (specific service only)                  |
+
+
+![alt text](image-1.png)
+
 
 **Illustration**:
 - *Monolith*: All logic in one unit (UI, business logic, data access).
