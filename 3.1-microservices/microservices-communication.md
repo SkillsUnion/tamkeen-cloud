@@ -11,6 +11,8 @@ In a microservices architecture, applications are decomposed into independently 
 
 ## 2. Types of Communication
 
+![alt text](image-5.png)
+
 ### 2.1 Synchronous Communication
 In synchronous communication, the client waits for the response from the service. It's typically implemented using HTTP-based protocols.
 
@@ -47,6 +49,8 @@ In asynchronous communication, services exchange messages through an intermediar
 - Potential for eventual consistency issues
 
 ---
+
+![alt text](image-4.png)
 
 ## 3. Communication Patterns
 

@@ -31,7 +31,12 @@ This is a specific bundle of deployable code (ZIP, WAR, etc.) uploaded to Elasti
 ### **Configuration Template**
 Elastic Beanstalk uses templates to define environment parameters, such as instance types, platform versions, and scaling settings. These templates help standardize deployments.
 
+
+![alt text](image-6.png)
+
+
 ---
+
 
 ## **3. Supported Platforms and Application Models**
 
