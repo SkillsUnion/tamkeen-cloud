@@ -33,7 +33,7 @@ You can choose to complete the project **individually** or in **groups**. Collab
 **Recommended Services:**
 
 - Amazon S3, CloudFront  
-- GitHub Actions or AWS CodePipeline  
+- AWS CodePipeline or GitHub Actions 
 - Amazon Route 53 (optional), IAM, CloudWatch
 
 ---
@@ -51,7 +51,7 @@ You can choose to complete the project **individually** or in **groups**. Collab
 
 - Docker, Amazon ECR, Amazon ECS (Fargate)  
 - AWS CodePipeline, IAM, CloudWatch Logs  
-- Source control via GitHub or AWS CodeCommit
+- Source control via AWS CodeCommit or GitHub
 
 ---
 
@@ -60,15 +60,14 @@ You can choose to complete the project **individually** or in **groups**. Collab
 **Specifications:**
 
 - Build a serverless RESTful API using **AWS Lambda**, **API Gateway**, and **DynamoDB**
-- Deploy infrastructure using **AWS SAM CLI** or **Terraform**
+- Deploy infrastructure using **AWS SAM CLI** or **Terraform** or **Serverless.com framework**
 - Implement input validation, error handling, and logging
-- Optionally, integrate authentication using **Amazon Cognito**
 
 **Recommended Services:**
 
 - AWS Lambda, API Gateway, DynamoDB  
-- AWS SAM / Terraform, CloudWatch  
-- IAM, Amazon Cognito (optional)
+- AWS SAM, CloudWatch
+- IAM
 
 ---
 
@@ -86,7 +85,7 @@ You can choose to complete the project **individually** or in **groups**. Collab
 
 - CodeCommit / GitHub, CodeBuild, CodePipeline  
 - Amazon ECS / Lambda, API Gateway / ALB  
-- CloudWatch, IAM, Terraform / CloudFormation (optional)
+- CloudWatch, IAM, CloudFormation or Terraform (optional)
 
 ---
 
