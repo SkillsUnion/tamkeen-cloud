@@ -3,7 +3,7 @@
 
 This capstone project is designed to help you apply and demonstrate the knowledge and skills you have acquired throughout the Cloud Engineering (AWS) program. It reflects real-world practices in cloud infrastructure deployment, automation, and operations using AWS services.
 
-You may choose from two levels of difficulty—**Basic** or **Advanced**—based on your comfort level and experience. The project will span **two weeks**, during which instructors will be available to support you. There will be regular check-ins and a final presentation at the end of the project period.
+You may choose from the options below based on your comfort level and experience. The project will span **two weeks**, during which instructors will be available to support you. There will be regular check-ins and a final presentation at the end of the project period.
 
 You can choose to complete the project **individually** or in **groups**. Collaboration is encouraged through the Disco platform or other communication tools to simulate teamwork in a professional cloud engineering environment.
 
